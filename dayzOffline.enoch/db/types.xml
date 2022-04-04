@@ -403,10 +403,10 @@
         <usage name="ContaminatedArea"/>
     </type>
     <type name="AgaricusMushroom">
-        <nominal>0</nominal>
+        <nominal>10</nominal>
         <lifetime>900</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>7</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1403,10 +1403,10 @@
         <category name="tools"/>
     </type>
     <type name="Apple">
-        <nominal>0</nominal>
+        <nominal>16</nominal>
         <lifetime>900</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>7</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1725,10 +1725,10 @@
         <value name="Tier2"/>
     </type>
     <type name="BakedBeansCan_Opened">
-        <nominal>0</nominal>
+        <nominal>17</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2631,10 +2631,10 @@
         <usage name="Town"/>
     </type>
     <type name="BoarSteakMeat">
-        <nominal>0</nominal>
+        <nominal>12</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2642,10 +2642,10 @@
         <category name="food"/>
     </type>
     <type name="BoletusMushroom">
-        <nominal>0</nominal>
+        <nominal>17</nominal>
         <lifetime>900</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3098,10 +3098,10 @@
         <value name="Tier1"/>
     </type>
     <type name="BrisketSpread_Opened">
-        <nominal>0</nominal>
+        <nominal>4</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3508,10 +3508,10 @@
         <value name="Tier2"/>
     </type>
     <type name="Carp">
-        <nominal>0</nominal>
+        <nominal>17</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3519,10 +3519,10 @@
         <category name="food"/>
     </type>
     <type name="CarpFilletMeat">
-        <nominal>0</nominal>
+        <nominal>14</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3546,10 +3546,10 @@
         <value name="Tier2"/>
     </type>
     <type name="CatFoodCan_Opened">
-        <nominal>0</nominal>
+        <nominal>14</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3690,10 +3690,10 @@
         <usage name="Hunting"/>
     </type>
     <type name="ChickenBreastMeat">
-        <nominal>0</nominal>
+        <nominal>16</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>7</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3737,7 +3737,7 @@
         <usage name="Village"/>
     </type>
     <type name="Chips">
-        <nominal>15</nominal>
+        <nominal>30</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>10</min>
@@ -4540,10 +4540,10 @@
         <category name="tools"/>
     </type>
     <type name="CowSteakMeat">
-        <nominal>0</nominal>
+        <nominal>16</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -4798,10 +4798,10 @@
         <category name="food"/>
     </type>
     <type name="DeadChicken_Spotted">
-        <nominal>0</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -4820,10 +4820,10 @@
         <category name="food"/>
     </type>
     <type name="DeadRabbit">
-        <nominal>0</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -4831,10 +4831,10 @@
         <category name="food"/>
     </type>
     <type name="DeadRooster">
-        <nominal>0</nominal>
+        <nominal>12</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -4877,10 +4877,10 @@
         <category name="tools"/>
     </type>
     <type name="DeerSteakMeat">
-        <nominal>0</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -5063,10 +5063,10 @@
         <value name="Tier2"/>
     </type>
     <type name="DogFoodCan_Opened">
-        <nominal>0</nominal>
+        <nominal>12</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -6619,10 +6619,10 @@
         <category name="tools"/>
     </type>
     <type name="GoatSteakMeat">
-        <nominal>0</nominal>
+        <nominal>12</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -8150,7 +8150,7 @@
         <usage name="Coast"/>
     </type>
     <type name="HumanSteakMeat">
-        <nominal>0</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>0</min>
@@ -8860,10 +8860,10 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Lard">
-        <nominal>0</nominal>
+        <nominal>4</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -9346,10 +9346,10 @@
         <value name="Tier1"/>
     </type>
     <type name="Lunchmeat_Opened">
-        <nominal>0</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -9772,10 +9772,10 @@
         <usage name="Farm"/>
     </type>
     <type name="Mackerel">
-        <nominal>0</nominal>
+        <nominal>12</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -9783,10 +9783,10 @@
         <category name="food"/>
     </type>
     <type name="MackerelFilletMeat">
-        <nominal>0</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -9794,10 +9794,10 @@
         <category name="food"/>
     </type>
     <type name="MacrolepiotaMushroom">
-        <nominal>0</nominal>
+        <nominal>10</nominal>
         <lifetime>900</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11463,8 +11463,8 @@
         <usage name="Military"/>
     </type>
     <type name="OffroadHatchback">
-        <nominal>0</nominal>
-        <lifetime>3</lifetime>
+        <nominal>1</nominal>
+        <lifetime>304200</lifetime>
         <restock>1800</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
@@ -11473,8 +11473,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="OffroadHatchback_Blue">
-        <nominal>0</nominal>
-        <lifetime>3</lifetime>
+        <nominal>1</nominal>
+        <lifetime>304200</lifetime>
         <restock>1800</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
@@ -11483,8 +11483,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="OffroadHatchback_White">
-        <nominal>0</nominal>
-        <lifetime>3</lifetime>
+        <nominal>1</nominal>
+        <lifetime>304200</lifetime>
         <restock>1800</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
@@ -11622,10 +11622,10 @@
         <value name="Tier1"/>
     </type>
     <type name="Pajka_Opened">
-        <nominal>0</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11781,10 +11781,10 @@
         <value name="Tier1"/>
     </type>
     <type name="Pate_Opened">
-        <nominal>0</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11809,10 +11809,10 @@
         <value name="Tier2"/>
     </type>
     <type name="PeachesCan_Opened">
-        <nominal>0</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11820,10 +11820,10 @@
         <category name="food"/>
     </type>
     <type name="Pear">
-        <nominal>0</nominal>
+        <nominal>7</nominal>
         <lifetime>900</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11957,10 +11957,10 @@
         <category name="tools"/>
     </type>
     <type name="PigSteakMeat">
-        <nominal>0</nominal>
+        <nominal>12</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12057,10 +12057,10 @@
         <category name="food"/>
     </type>
     <type name="Plant_Pepper">
-        <nominal>0</nominal>
+        <nominal>3</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12079,10 +12079,10 @@
         <category name="food"/>
     </type>
     <type name="Plant_Pumpkin">
-        <nominal>0</nominal>
+        <nominal>4</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12101,10 +12101,10 @@
         <category name="food"/>
     </type>
     <type name="Plant_Zucchini">
-        <nominal>0</nominal>
+        <nominal>5</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12324,10 +12324,10 @@
         <usage name="Village"/>
     </type>
     <type name="Potato">
-        <nominal>0</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12641,10 +12641,10 @@
         <value name="Tier3"/>
     </type>
     <type name="RabbitLegMeat">
-        <nominal>0</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -13107,10 +13107,10 @@
         <usage name="Town"/>
     </type>
     <type name="Sardines">
-        <nominal>0</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -13133,7 +13133,7 @@
         <value name="Tier1"/>
     </type>
     <type name="SardinesCan_Opened">
-        <nominal>0</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>0</min>
@@ -13841,10 +13841,10 @@
         <category name="tools"/>
     </type>
     <type name="SheepSteakMeat">
-        <nominal>0</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -14301,10 +14301,10 @@
         <usage name="Industrial"/>
     </type>
     <type name="SlicedPumpkin">
-        <nominal>0</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -14539,10 +14539,10 @@
         <value name="Tier2"/>
     </type>
     <type name="SpaghettiCan_Opened">
-        <nominal>0</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -15014,10 +15014,10 @@
         <usage name="Military"/>
     </type>
     <type name="TacticalBaconCan_Opened">
-        <nominal>0</nominal>
+        <nominal>4</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -15306,10 +15306,10 @@
         <value name="Tier2"/>
     </type>
     <type name="TomatoSeeds">
-        <nominal>0</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -15508,8 +15508,8 @@
         <usage name="Industrial"/>
     </type>
     <type name="Truck_01_Covered">
-        <nominal>0</nominal>
-        <lifetime>3</lifetime>
+        <nominal>1</nominal>
+        <lifetime>302400</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
@@ -15840,10 +15840,10 @@
         <value name="Tier1"/>
     </type>
     <type name="TunaCan_Opened">
-        <nominal>0</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -16002,10 +16002,10 @@
         <usage name="Prison"/>
     </type>
     <type name="UnknownFoodCan_Opened">
-        <nominal>0</nominal>
+        <nominal>20</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>7</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -16317,7 +16317,7 @@
         <category name="tools"/>
     </type>
     <type name="WolfSteakMeat">
-        <nominal>0</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>0</min>
@@ -18577,7 +18577,7 @@
         <value name="Tier2"/>
     </type>
     <type name="ZucchiniSeeds">
-        <nominal>0</nominal>
+        <nominal>4</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>0</min>
