@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <messages>
+
+    <message>
+        <onconnect>1</onconnect>
+        <text>Willkommen auf dem Server #name. Bitte nicht die Basis der anderen raiden. Mehr Regeln folgen.</text>
+    </message>
 <!--
 See https://community.bistudio.com/wiki/DayZ:Server_Messages for more information
 
