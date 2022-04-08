@@ -860,9 +860,9 @@
         </children>
     </event>
     <event name="VehicleCivilianSedan">
-        <nominal>8</nominal>
-        <min>5</min>
-        <max>11</max>
+        <nominal>25</nominal>
+        <min>25</min>
+        <max>25</max>
         <lifetime>300</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
@@ -873,15 +873,15 @@
         <limit>mixed</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="CivilianSedan"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="CivilianSedan_Black"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="CivilianSedan_Wine"/>
+            <child lootmax="0" lootmin="0" max="25" min="25" type="CivilianSedan"/>
+            <child lootmax="0" lootmin="0" max="25" min="25" type="CivilianSedan_Black"/>
+            <child lootmax="0" lootmin="0" max="25" min="25" type="CivilianSedan_Wine"/>
         </children>
     </event>
     <event name="VehicleHatchback02">
-        <nominal>8</nominal>
-        <min>5</min>
-        <max>11</max>
+        <nominal>25</nominal>
+        <min>25</min>
+        <max>25</max>
         <lifetime>300</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
@@ -892,15 +892,15 @@
         <limit>mixed</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="Hatchback_02"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="Hatchback_02_Black"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="Hatchback_02_Blue"/>
+            <child lootmax="0" lootmin="0" max="25" min="25" type="Hatchback_02"/>
+            <child lootmax="0" lootmin="0" max="25" min="25" type="Hatchback_02_Black"/>
+            <child lootmax="0" lootmin="0" max="25" min="25" type="Hatchback_02_Blue"/>
         </children>
     </event>
     <event name="VehicleOffroadHatchback">
-        <nominal>8</nominal>
-        <min>5</min>
-        <max>11</max>
+        <nominal>25</nominal>
+        <min>25</min>
+        <max>25</max>
         <lifetime>300</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
@@ -911,15 +911,15 @@
         <limit>mixed</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="OffroadHatchback"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="OffroadHatchback_Blue"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="OffroadHatchback_White"/>
+            <child lootmax="0" lootmin="0" max="25" min="25" type="OffroadHatchback"/>
+            <child lootmax="0" lootmin="0" max="25" min="25" type="OffroadHatchback_Blue"/>
+            <child lootmax="0" lootmin="0" max="25" min="25" type="OffroadHatchback_White"/>
         </children>
     </event>
     <event name="VehicleSedan02">
-        <nominal>8</nominal>
-        <min>5</min>
-        <max>11</max>
+        <nominal>25</nominal>
+        <min>25</min>
+        <max>25</max>
         <lifetime>300</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
@@ -930,15 +930,15 @@
         <limit>mixed</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="Sedan_02"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="Sedan_02_Grey"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="Sedan_02_Red"/>
+            <child lootmax="0" lootmin="0" max="25" min="25" type="Sedan_02"/>
+            <child lootmax="0" lootmin="0" max="25" min="25" type="Sedan_02_Grey"/>
+            <child lootmax="0" lootmin="0" max="25" min="25" type="Sedan_02_Red"/>
         </children>
     </event>
     <event name="VehicleTruck01">
-        <nominal>8</nominal>
-        <min>5</min>
-        <max>11</max>
+        <nominal>25</nominal>
+        <min>25</min>
+        <max>25</max>
         <lifetime>300</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
@@ -949,9 +949,9 @@
         <limit>mixed</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="Truck_01_Covered"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="Truck_01_Covered_Blue"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="Truck_01_Covered_Orange"/>
+            <child lootmax="0" lootmin="0" max="25" min="25" type="Truck_01_Covered"/>
+            <child lootmax="0" lootmin="0" max="25" min="25" type="Truck_01_Covered_Blue"/>
+            <child lootmax="0" lootmin="0" max="25" min="25" type="Truck_01_Covered_Orange"/>
         </children>
     </event>
 </events>
