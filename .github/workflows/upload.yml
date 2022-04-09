@@ -1,9 +1,9 @@
-name: Push to FTP-Server
+name: Server configuration changes
 on:
   push:
     branches: [ master ]
-    paths-ignore:
-      - ".github/workflows/*"
+    paths:
+      - "dayzps_missions/*"
   workflow_dispatch:
 jobs:
   deploy:
