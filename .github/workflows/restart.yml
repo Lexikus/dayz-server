@@ -8,7 +8,7 @@ jobs:
     container:
       image: alexanderbifulco/dayz-restart
       env:
-        AUTH_TOKEN: ""
-        SERVICE_ID: ""
+        AUTH_TOKEN: ${{ secrets.AUTH_TOKEN }}
+        SERVICE_ID: ${{ secrets.SERVICE_ID }}
     steps:
-      - run: echo done
+      - run: ""
