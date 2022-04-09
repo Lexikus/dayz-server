@@ -1,0 +1,4 @@
+# Dayz Server - Deutsch/Schweiz Day'Z Horde
+
+Welcome to the private server of Deutsch/Schweiz Day'Z Horde. Here you find the current configuration of the server.
+If you want to donate some money to the server, you can use the Nitrado donation link - [Donation Link](https://server.nitrado.net/donations/donate/7417222).
