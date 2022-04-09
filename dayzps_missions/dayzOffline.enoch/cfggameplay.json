@@ -34,22 +34,22 @@
 	{
 		"HologramData":
 		{
-			"disableIsCollidingBBoxCheck": 0,
-			"disableIsCollidingPlayerCheck": 0,
-			"disableIsClippingRoofCheck": 0,
-			"disableIsBaseViableCheck": 0,
-			"disableIsCollidingGPlotCheck": 0,
-			"disableIsCollidingAngleCheck": 0,
-			"disableIsPlacementPermittedCheck": 0,
-			"disableHeightPlacementCheck": 0,
-			"disableIsUnderwaterCheck": 0,
-			"disableIsInTerrainCheck": 0
+			"disableIsCollidingBBoxCheck": 1,
+			"disableIsCollidingPlayerCheck": 1,
+			"disableIsClippingRoofCheck": 1,
+			"disableIsBaseViableCheck": 1,
+			"disableIsCollidingGPlotCheck": 1,
+			"disableIsCollidingAngleCheck": 1,
+			"disableIsPlacementPermittedCheck": 1,
+			"disableHeightPlacementCheck": 1,
+			"disableIsUnderwaterCheck": 1,
+			"disableIsInTerrainCheck": 1
 		},
 		"ConstructionData":
 		{
-			"disablePerformRoofCheck": 0,
-			"disableIsCollidingCheck": 0,
-			"disableDistanceCheck": 0
+			"disablePerformRoofCheck": 1,
+			"disableIsCollidingCheck": 1,
+			"disableDistanceCheck": 1
 		}
 	},
 	"UIData":
