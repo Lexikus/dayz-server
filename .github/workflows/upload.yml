@@ -3,7 +3,7 @@ on:
   push:
     branches: [ master ]
     paths:
-      - "dayzps_missions/*"
+      - "dayzps_missions/**"
   workflow_dispatch:
 jobs:
   deploy:

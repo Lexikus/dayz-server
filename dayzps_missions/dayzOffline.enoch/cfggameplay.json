@@ -1,16 +1,13 @@
 {
 	"version": 115,
-	"GeneralData":
-	{
+	"GeneralData": {
 		"disableBaseDamage": 0,
 		"disableContainerDamage": 0,
 		"disableRespawnDialog": 0
 	},
-    "PlayerData":
-	{
+	"PlayerData": {
 		"disablePersonalLight": 0,
-		"StaminaData":
-		{
+		"StaminaData": {
 			"sprintStaminaModifierErc": 1.0,
 			"sprintStaminaModifierCro": 1.0,
 			"staminaWeightLimitThreshold": 6000.0,
@@ -18,22 +15,18 @@
 			"staminaKgToStaminaPercentPenalty": 1.75,
 			"staminaMinCap": 5.0
 		},
-		"ShockHandlingData":
-		{
+		"ShockHandlingData": {
 			"shockRefillSpeedConscious": 5.0,
 			"shockRefillSpeedUnconscious": 1.0,
 			"allowRefillSpeedModifier": true
 		}
 	},
-	"WorldsData":
-	{
+	"WorldsData": {
 		"lightingConfig": 1,
 		"objectSpawnersArr": []
 	},
-	"BaseBuildingData":
-	{
-		"HologramData":
-		{
+	"BaseBuildingData": {
+		"HologramData": {
 			"disableIsCollidingBBoxCheck": 1,
 			"disableIsCollidingPlayerCheck": 1,
 			"disableIsClippingRoofCheck": 1,
@@ -45,18 +38,15 @@
 			"disableIsUnderwaterCheck": 1,
 			"disableIsInTerrainCheck": 1
 		},
-		"ConstructionData":
-		{
+		"ConstructionData": {
 			"disablePerformRoofCheck": 1,
 			"disableIsCollidingCheck": 1,
 			"disableDistanceCheck": 1
 		}
 	},
-	"UIData":
-	{
+	"UIData": {
 		"use3DMap": 0,
-		"HitIndicationData":
-		{
+		"HitIndicationData": {
 			"hitDirectionOverrideEnabled": 0,
 			"hitDirectionBehaviour": 1,
 			"hitDirectionStyle": 0,
