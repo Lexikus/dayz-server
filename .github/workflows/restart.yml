@@ -1,0 +1,14 @@
+name: Restarts the server
+on:
+  workflow_dispatch:
+jobs:
+  restart:
+    name: Restart
+    runs-on: ubuntu-latest
+    container:
+      image: alexanderbifulco/dayz-restart
+      env:
+        AUTH_TOKEN: ""
+        SERVICE_ID: ""
+    steps:
+      - run: echo done
