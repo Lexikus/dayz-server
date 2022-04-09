@@ -21,4 +21,13 @@ jobs:
             **/.git*
             **/.git*/**
   restart:
-    uses: ./.github/workflows/restart.yml
+    needs: deploy
+    name: 🔨 Restart
+    runs-on: ubuntu-latest
+    container:
+      image: alexanderbifulco/dayz-restart
+      env:
+        AUTH_TOKEN: ${{ secrets.AUTH_TOKEN }}
+        SERVICE_ID: ${{ secrets.SERVICE_ID }}
+    steps:
+      - run: "restart"

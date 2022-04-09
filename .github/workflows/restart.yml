@@ -1,6 +1,5 @@
 name: Restarts the server
 on:
-  workflow_call:
   workflow_dispatch:
 jobs:
   restart:
