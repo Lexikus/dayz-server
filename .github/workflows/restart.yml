@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
 jobs:
   restart:
-    name: Restart
+    name: 🔨 Restart
     runs-on: ubuntu-latest
     container:
       image: alexanderbifulco/dayz-restart

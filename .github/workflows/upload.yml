@@ -20,3 +20,8 @@ jobs:
           exclude: |
             **/.git*
             **/.git*/**
+  restart:
+    name: 🔨 Restart
+    runs-on: ubuntu-latest
+    steps:
+     - uses: ./.github/workflows/restart.yml
