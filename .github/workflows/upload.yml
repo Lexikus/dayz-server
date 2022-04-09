@@ -20,6 +20,7 @@ jobs:
           exclude: |
             **/.git*
             **/.git*/**
+            README.md
   restart:
     needs: deploy
     name: 🔨 Restart
