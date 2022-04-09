@@ -11,4 +11,4 @@ jobs:
         AUTH_TOKEN: ${{ secrets.AUTH_TOKEN }}
         SERVICE_ID: ${{ secrets.SERVICE_ID }}
     steps:
-      - run: "/usr/local/bin/dayz-restart"
+      - run: "restart"
