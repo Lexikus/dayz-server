@@ -11337,10 +11337,10 @@
         <category name="tools" />
     </type>
     <type name="NailBox">
-        <nominal>200</nominal>
+        <nominal></nominal>
         <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>80</min>
+        <restock>600</restock>
+        <min>400</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
