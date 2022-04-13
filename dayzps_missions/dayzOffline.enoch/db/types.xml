@@ -11326,9 +11326,9 @@
         <usage name="Military" />
     </type>
     <type name="Nail">
-        <nominal>0</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
-        <restock>5</restock>
+        <restock>0</restock>
         <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
