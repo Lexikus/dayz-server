@@ -3429,10 +3429,10 @@
         <usage name="Industrial" />
     </type>
     <type name="CarTent">
-        <nominal>800</nominal>
+        <nominal>50</nominal>
         <lifetime>388800</lifetime>
-        <restock>0</restock>
-        <min>700</min>
+        <restock>43200</restock>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
