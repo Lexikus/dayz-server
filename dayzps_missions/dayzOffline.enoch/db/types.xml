@@ -3431,8 +3431,8 @@
     <type name="CarTent">
         <nominal>800</nominal>
         <lifetime>388800</lifetime>
-        <restock>1</restock>
-        <min>400</min>
+        <restock>0</restock>
+        <min>700</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
