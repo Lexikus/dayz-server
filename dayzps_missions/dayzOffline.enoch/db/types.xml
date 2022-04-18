@@ -3430,7 +3430,7 @@
     </type>
     <type name="CarTent">
         <nominal>50</nominal>
-        <lifetime>388800</lifetime>
+        <lifetime>600</lifetime>
         <restock>43200</restock>
         <min>10</min>
         <quantmin>-1</quantmin>
@@ -11339,8 +11339,8 @@
     <type name="NailBox">
         <nominal>150</nominal>
         <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>50</min>
+        <restock>60</restock>
+        <min>100</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
