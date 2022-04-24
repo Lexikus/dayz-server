@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <eventposdef>
+	<event name="SantasHat">
+		<pos x="11385.68" z="9583.00" a="0" />
+	</event>
     <event name="StaticHeliCrash">
 		<zone smin="1" smax="3" dmin="3" dmax="5" r="45" />
 		<pos x="11844.371094" z="6020.828613" a="357.697601" />
