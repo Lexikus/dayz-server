@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <eventposdef>
-	<event name="Truck">
+	<event name="StaticTruckCustom">
 		<pos x="11385.680000" z="9583.000000" a="0.000000" />
 	</event>
     <event name="StaticHeliCrash">
