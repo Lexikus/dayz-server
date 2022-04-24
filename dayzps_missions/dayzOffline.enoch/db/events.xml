@@ -973,4 +973,23 @@
             <child lootmax="0" lootmin="0" max="1" min="1" type="Truck_01_Covered" />
         </children>
     </event>
+
+    <!-- Item Customs -->
+    <event name="ItemCustomSpawnBags">
+        <nominal>135</nominal>
+        <min>135</min>
+        <max>135</max>
+        <lifetime>2500</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>200</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1" />
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="135" min="135" type="DryBag_Yellow" />
+        </children>
+    </event>
 </events>

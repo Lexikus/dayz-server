@@ -74,9 +74,33 @@
 		<cargo preset="mixHunter" />
 	</type>
 	<type name="DryBag_Yellow">
-		<cargo preset="foodVillage" />
-		<cargo preset="toolsIndustrial" />
-		<cargo preset="mixHunter" />
+		<cargo chance="1">
+			<item name="HuntingKnife" />
+		</cargo>
+		<cargo chance="1">
+			<item name="BandageDressing" />
+		</cargo>
+		<cargo chance="1">
+			<item name="Canteen" />
+		</cargo>
+		<cargo chance="1">
+			<item name="Rice" />
+		</cargo>
+		<cargo chance="1">
+			<item name="TetracyclineAntibiotics" />
+		</cargo>
+		<cargo chance="1">
+			<item name="VitaminBottle" />
+		</cargo>
+		<cargo chance="1">
+			<item name="MilitaryBelt" />
+		</cargo>
+		<cargo chance="1">
+			<item name="NylonKnifeSheath" />
+		</cargo>
+		<cargo chance="1">
+			<item name="BloodTestKit" />
+		</cargo>
 	</type>
 	<type name="DryBag_Blue">
 		<cargo preset="foodVillage" />
