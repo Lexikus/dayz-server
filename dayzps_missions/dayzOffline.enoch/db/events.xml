@@ -1010,4 +1010,21 @@
             <child lootmax="0" lootmin="0" max="135" min="135" type="DryBag_Yellow" />
         </children>
     </event>
+    <event name="ItemCustomSpawnPlanksSitnik">
+        <nominal>3</nominal>
+        <min>3</min>
+        <max>3</max>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <saferadius>1</saferadius>
+        <distanceradius>1</distanceradius>
+        <cleanupradius>1</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="3" min="3" type="PileOfWoodenPlanks"/>
+        </children>
+    </event>
 </events>
