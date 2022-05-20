@@ -686,7 +686,7 @@
 
 	<!-- Static Custom Spawns -->
 	<event name="StaticCustomTruckCoveredSitnik">
-		<pos x="11456.790000" z="9463.840000" a="0.000000" />
+		<pos x="11190.720000" z="9422.040000" a="0.000000" />
 	</event>
 	<event name="StaticCustomTruckCoveredOrangeSitnik">
 		<pos x="11378.650000" z="9339.600000" a="0.000000" />
