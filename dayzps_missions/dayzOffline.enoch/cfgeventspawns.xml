@@ -685,12 +685,12 @@
 	</event>
 
 	<!-- Static Custom Spawns -->
-	<event name="StaticCustomTruckCoveredSitnik">
+	<!-- <event name="StaticCustomTruckCoveredSitnik">
 		<pos x="11340.750000" z="9323.190000" a="0.000000" />
 	</event>
 	<event name="StaticCustomTruckCoveredOrangeSitnik">
-		<pos x="11398.180000" z="9344.680000" a="0.000000" />
-	</event>
+		<pos x="11378.650000" z="9339.600000" a="0.000000" />
+	</event> -->
 
 	<!-- Item Custom Spawns -->
 	<event name="ItemCustomSpawnBags">
