@@ -29,12 +29,7 @@
 	{
 		"lightingConfig": 1,
 		"objectSpawnersArr": [
-			"custom/sitnikBunker.json",
-			"custom/sitnikBunker2.json",
-			"custom/sitnikBunker3.json",
-			"custom/sitnikBunker4.json",
-			"custom/sitnikBunker5.json",
-			"custom/sitnikBunker5-1.json",
+
 			"custom/secludedCastleV2.json",
 			"custom/secludedCastleV2PT2.json"
 		],
