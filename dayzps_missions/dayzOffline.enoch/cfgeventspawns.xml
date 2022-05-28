@@ -691,6 +691,9 @@
 	<event name="StaticCustomTruckCoveredOrangeSitnik">
 		<pos x="11378.650000" z="9339.600000" a="0.000000" />
 	</event>
+	<event name="StaticCustomTruckCoveredBlueSitnik">
+		<pos x="11370.190000" z="9079.490000" a="0.000000" />
+	</event>
 	<event name="StaticCustomRefridgeratorSitnik">
 		<pos x="11000.840000" z="9223.170000" a="0.000000" />
 	</event>
