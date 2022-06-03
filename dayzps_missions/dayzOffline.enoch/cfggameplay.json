@@ -64,7 +64,7 @@
 	},
 	"UIData":
 	{
-		"use3DMap": 0,
+		"use3DMap": 1,
 		"HitIndicationData":
 		{
 			"hitDirectionOverrideEnabled": 0,
