@@ -685,16 +685,16 @@
 	</event>
 
 	<!-- Static Custom Spawns -->
-	<event name="StaticCustomTruckCoveredSitnik">
+	<event name="VehicleCustomTruckCoveredSitnik">
 		<pos x="11190.720000" z="9422.040000" a="0.000000" />
 	</event>
-	<event name="StaticCustomTruckCoveredOrangeSitnik">
+	<event name="VehicleCustomTruckCoveredOrangeSitnik">
 		<pos x="11378.650000" z="9339.600000" a="0.000000" />
 	</event>
-	<event name="StaticCustomTruckCoveredBlueSitnik">
+	<event name="VehicleCustomTruckCoveredBlueSitnik">
 		<pos x="11370.190000" z="9079.490000" a="0.000000" />
 	</event>
-	<event name="StaticCustomRefridgeratorSitnik">
+	<event name="ItemCustomRefridgeratorSitnik">
 		<pos x="11000.840000" z="9223.170000" a="0.000000" />
 	</event>
 
