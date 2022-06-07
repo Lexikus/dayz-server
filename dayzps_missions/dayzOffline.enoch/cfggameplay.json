@@ -2,7 +2,7 @@
 	"version": 116,
 	"GeneralData":
 	{
-		"disableBaseDamage": 0,
+		"disableBaseDamage": 1,
 		"disableContainerDamage": 0,
 		"disableRespawnDialog": 0
 	},
