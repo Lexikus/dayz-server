@@ -8,14 +8,14 @@
 	},
     "PlayerData":
 	{
-		"disablePersonalLight": 0,
+		"disablePersonalLight": 1,
 		"StaminaData":
 		{
 			"sprintStaminaModifierErc": 1.0,
 			"sprintStaminaModifierCro": 1.0,
 			"staminaWeightLimitThreshold": 6000.0,
 			"staminaMax": 100.0,
-			"staminaKgToStaminaPercentPenalty": 1.70,
+			"staminaKgToStaminaPercentPenalty": 0,
 			"staminaMinCap": 5.0
 		},
 		"ShockHandlingData":
