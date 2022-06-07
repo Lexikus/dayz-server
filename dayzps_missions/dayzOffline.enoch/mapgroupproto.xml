@@ -16,6 +16,7 @@
 				<usage name="Police" />
 				<usage name="Military" />
 				<usage name="Medic" />
+				<usage name="Roadblock" />
 				<container name="loot" lootmax="1">
 						<category name="tools" />
 						<category name="clothes" />
@@ -33,6 +34,7 @@
 				<usage name="Police" />
 				<usage name="Military" />
 				<usage name="Medic" />
+				<usage name="Roadblock" />
 				<container name="loot" lootmax="1">
 						<category name="tools" />
 						<category name="clothes" />
