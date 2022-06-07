@@ -33,6 +33,7 @@
         <usage name="SeasonalEvent"/>
         <usage name="ContaminatedArea"/>
         <usage name="Special"/>
+        <usage name="Roadblock" />
     </usageflags>
     <valueflags>
         <value name="Tier1"/>
