@@ -29,10 +29,10 @@
 	{
 		"lightingConfig": 1,
 		"objectSpawnersArr": [
-			custom/sitnik/"moddedsitnik.json",
-			custom/sitnik/"explosivelootdrop.json",		
-			custom/sitnik/"staticloot.json",
-			custom/sitnik/"jbmodsitnikbackground.json"
+			"custom/moddedsitnik.json",
+			"custom/explosivelootdrop.json",
+			"custom/staticloot.json",
+			"custom/jbmodsitnikbackground.json"
 		],
 		"environmentMinTemps": [18.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9],
 		"environmentMaxTemps": [22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9]
