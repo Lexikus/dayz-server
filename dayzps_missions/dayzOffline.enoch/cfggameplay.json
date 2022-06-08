@@ -30,7 +30,6 @@
 		"lightingConfig": 1,
 		"objectSpawnersArr": [
 			"custom/moddedsitnik.json",
-			"custom/explosivelootdrop.json",
 			"custom/staticloot.json",
 			"custom/jbmodsitnikbackground.json"
 		],
