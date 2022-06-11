@@ -32,7 +32,7 @@
 			"custom/moddedsitnik.json",
 			"custom/staticloot.json",
 			"custom/jbmodsitnikbackground.json",
-			"custom/bkoernshaeusele.json"
+			"custom/junkyardlootdrop.json"
 		],
 		"environmentMinTemps": [18.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9],
 		"environmentMaxTemps": [22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9]
