@@ -33,7 +33,7 @@
 			"custom/staticloot.json",
 			"custom/jbmodsitnikbackground.json",
 			"custom/junkyardlootdrop.json",
-			"custom/BASEBOMB.json",
+			"custom/BASEBOMB.json"
 		],
 		"environmentMinTemps": [18.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9],
 		"environmentMaxTemps": [22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9]
