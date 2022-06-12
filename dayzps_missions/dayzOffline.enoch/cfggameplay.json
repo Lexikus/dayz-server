@@ -31,9 +31,7 @@
 		"objectSpawnersArr": [
 			"custom/moddedsitnik.json",
 			"custom/staticloot.json",
-			"custom/jbmodsitnikbackground.json",
-			"custom/junkyardlootdrop.json",
-			"custom/BASEBOMB.json"
+			"custom/jbmodsitnikbackground.json"
 		],
 		"environmentMinTemps": [18.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9],
 		"environmentMaxTemps": [22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9]
