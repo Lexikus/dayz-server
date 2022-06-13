@@ -16,7 +16,6 @@
 				<usage name="Police" />
 				<usage name="Military" />
 				<usage name="Medic" />
-				<usage name="Roadblock" />
 				<container name="loot" lootmax="1">
 						<category name="tools" />
 						<category name="clothes" />
@@ -34,7 +33,6 @@
 				<usage name="Police" />
 				<usage name="Military" />
 				<usage name="Medic" />
-				<usage name="Roadblock" />
 				<container name="loot" lootmax="1">
 						<category name="tools" />
 						<category name="clothes" />
@@ -10833,7 +10831,6 @@
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
-						<category name="hunting" />
 						<tag name="floor" />
 						<point pos="1.953997 -1.664986 2.611613" range="0.505742" height="1.264355" />
 						<point pos="3.933293 -1.667915 -1.875851" range="0.576731" height="1.439720" />
@@ -10877,11 +10874,9 @@
 		<group name="Land_Camp_House_white">
 				<usage name="Hunting" />
 				<container name="lootFloor">
-				<container name="lootFloor">
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
-						<category name="hunting" />
 						<tag name="floor" />
 						<point pos="-0.007056 -1.665977 1.792774" range="0.824463" height="2.000008" />
 						<point pos="1.301101 -1.665977 -2.469510" range="0.896729" height="2.000008" />
@@ -10918,11 +10913,9 @@
 		<group name="Land_Camp_House_brown">
 				<usage name="Hunting" />
 				<container name="lootFloor">
-				<container name="lootFloor">
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
-						<category name="hunting" />
 						<tag name="floor" />
 						<point pos="1.611450 -1.666359 -2.732262" range="0.635010" height="1.585175" />
 						<point pos="3.879438 -1.665192 -0.231004" range="0.726563" height="1.812683" />
@@ -10937,7 +10930,6 @@
 						<category name="clothes" />
 						<category name="food" />
 						<category name="books" />
-						<category name="hunting" />
 						<tag name="shelves" />
 						<point pos="3.926902 -1.023117 0.975685" range="0.100000" height="0.250000" />
 						<point pos="4.318610 -0.652992 2.195926" range="0.134375" height="0.167168" />
