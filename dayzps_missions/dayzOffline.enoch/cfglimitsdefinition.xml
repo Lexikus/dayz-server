@@ -9,7 +9,6 @@
         <category name="weapons"/>
         <category name="books"/>
         <category name="explosives"/>
-        <category name="hunting" />
     </categories>
     <tags>
         <tag name="floor"/>
@@ -33,7 +32,6 @@
         <usage name="SeasonalEvent"/>
         <usage name="ContaminatedArea"/>
         <usage name="Special"/>
-        <usage name="Roadblock" />
     </usageflags>
     <valueflags>
         <value name="Tier1"/>
