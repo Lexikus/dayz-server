@@ -30,7 +30,7 @@
 		"lightingConfig": 1,
 		"objectSpawnersArr": [
 			"custom/moddedsitnik.json",
-                        "custom/junkyardlootdrop.json",
+			"custom/junkyardlootdrop.json",
 			"custom/jbmodsitnikbackground.json"
 		],
 		"environmentMinTemps": [18.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9],

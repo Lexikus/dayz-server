@@ -231,7 +231,7 @@
 				<item name="RDG2SmokeGrenade_White" chance="0.25" />
 				<item name="FlashGrenade" chance="0.25" />
 				<item name="RDG2SmokeGrenade_Black" chance="0.25" />
-				<item name="RDG5Grenade" chance="0.25" />
+				<item name="RGD5Grenade" chance="0.25" />
 		</cargo>
 		<attachments chance="0.10" name="optics">
 				<item name="M4_T3NRDSOptic" chance="0.20" />
@@ -240,14 +240,13 @@
 				<item name="BUISOptic" chance="0.20" />
 				<item name="ReflexOptic" chance="0.20" />
 		</attachments>
-		<!-- -------------------------------------------------------------------------------------------- -->
-		
-		<!-- -------------------------  NBC Cargo  -------------------------------- -->
+
+		<!--  NBC Cargo -->
 		<cargo chance="0.2" name="ContaminatedCargo">
 				<item name="GasMask_Filter" chance="1.00" />
 		</cargo>
 
-		<!-- -------------------------  FARM ATTACHMENTS  ------------------------- -->
+		<!--  FARM ATTACHMENTS  -->
 		<attachments chance="0.20" name="hatsFarm">
 				<item name="Ushanka_Black" chance="0.10" />
 				<item name="Ushanka_Blue" chance="0.10" />
@@ -266,7 +265,7 @@
 			<item name="HuntingVest" chance="0.50" />
 			<item name="ChestHolster" chance="0.50" />
 		</attachments>
-		<!-- -------------------------  VILLAGE ATTACHMENTS  ------------------------- -->
+		<!--  VILLAGE ATTACHMENTS  -->
 		<attachments chance="0.20" name="hatsVillage">
 				<item name="FlatCap_Black" chance="0.10" />
 				<item name="FlatCap_Blue" chance="0.10" />
@@ -299,7 +298,7 @@
 			<item name="DesignerGlasses" chance="0.20" />
 		</attachments>
 
-	<!-- -------------------------  CITY ATTACHMENTS  ------------------------- -->
+	<!--  CITY ATTACHMENTS  -->
 		<attachments chance="0.20" name="hatsCity">
 				<item name="FlatCap_BrownCheck" chance="0.10" />
 				<item name="FlatCap_GreyCheck" chance="0.10" />
@@ -341,7 +340,7 @@
 				<item name="SkateHelmet_Red" chance="0.20" />
 				<item name="SkateHelmet_Black" chance="0.20" />
 		</attachments>
-		<!-- -------------------------  INDUSTRIAL ATTACHMENTS  ------------------------- -->
+		<!--  INDUSTRIAL ATTACHMENTS  -->
 		<attachments chance="0.30" name="hatsIndustrial">
 				<item name="ConstructionHelmet_Blue" chance="0.10" />
 				<item name="ConstructionHelmet_Lime" chance="0.10" />
@@ -367,22 +366,22 @@
 			<item name="DryBag_Black" chance="0.1" />
 			<item name="DryBag_Red" chance="0.20" />
 		</attachments>
-		
-		<!-- -------------------------  FIREFIGHTER ATTACHMENTS  ------------------------- -->
+
+		<!--  FIREFIGHTER ATTACHMENTS  -->
 		<attachments chance="1.00" name="hatsFirefighter">
 				<item name="FirefightersHelmet_White" chance="0.33" />
 				<item name="FirefightersHelmet_Red" chance="0.66" />
 				<item name="FirefightersHelmet_Yellow" chance="1.00" />
 		</attachments>
 
-		<!-- -------------------------  MEDIC ATTACHMENTS  ------------------------- -->
+		<!--  MEDIC ATTACHMENTS  -->
 		<attachments chance="0.80" name="hatsMedic">
 				<item name="MedicalScrubsHat_Blue" chance="0.35" />
 				<item name="MedicalScrubsHat_Green" chance="0.35" />
 				<item name="MedicalScrubsHat_White" chance="0.35" />
 		</attachments>
 
-		<!-- -------------------------  ARMY ATTACHMENTS  ------------------------- -->
+		<!--  ARMY ATTACHMENTS  -->
 		<attachments chance="0.60" name="hatsArmy">
 			<item name="TankerHelmet" chance="0.10" />
 			<!-- <item name="GorkaHelmet" chance="0.10" /> Problem with animation of chin cover -->
@@ -429,20 +428,20 @@
 		</attachments>
 
 
-		<!-- -------------------------  POLICE ATTACHMENTS  ------------------------- -->
+		<!--  POLICE ATTACHMENTS  -->
 		<attachments chance="0.20" name="hatsPolice">
 				<item name="PoliceCap" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00" name="vestsPolice">
 				<item name="PoliceVest" chance="1.00" />
 		</attachments>
-		
-		<!-- -------------------------  PRISONER ATTACHMENTS  ------------------------- -->
+
+		<!--  PRISONER ATTACHMENTS  -->
 		<attachments chance="0.20" name="hatsPrisoner">
 				<item name="PrisonerCap" chance="1.00" />
 		</attachments>
 
-		<!-- -------------------------  UNIVERSAL ATTACHMENTS  ------------------------- -->
+		<!--  UNIVERSAL ATTACHMENTS  -->
 		<attachments chance="0.20" name="hatsMotorbike">
 				<item name="MotoHelmet_Black" chance="0.10" />
 				<item name="MotoHelmet_Blue" chance="0.10" />
@@ -463,8 +462,8 @@
 				<item name="PressVest_Blue" chance="0.25" />
 				<item name="PressVest_LightBlue" chance="0.25" />
 		</attachments>
-		
-		<!-- ------------------------- Xmas Clothing  ------------------------- -->
+
+		<!-- Xmas Clothing  -->
 		<attachments chance="1.00" name="SantaHat">
 			<item name="SantasHat" chance="1.00" />
 		</attachments>
@@ -475,8 +474,8 @@
 			<item name="GiftBox_Small_4" chance="0.20" />
 			<item name="SantasBeard" chance="0.80" />
 		</cargo>
-		
-		<!-- ------------------------- Xmas GiftBoxes  ------------------------- -->
+
+		<!-- Xmas GiftBoxes  -->
 		<cargo chance="1.0" name="Xmas_Clothes_Small">
 			<item name="TacticalGoggles" chance="0.05" />
 			<item name="WorkingGloves_Black" chance="0.05" />
@@ -630,7 +629,7 @@
 			<item name="TireRepairKit" chance="0.05" />
 			<item name="WeaponCleaningKit" chance="0.05" />
 			<item name="ElectronicRepairKit" chance="0.05" />
-		</cargo>	
+		</cargo>
 		<cargo chance="1.0" name="Xmas_Food_Medium">
 			<item name="CarpFilletMeat" chance="0.10" />
 		</cargo>
