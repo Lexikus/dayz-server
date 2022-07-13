@@ -152,7 +152,7 @@
             ],
             "ypr": [
                 -118.6209945678711,
-                0.9976990222930908,
+                0.9976987838745117,
                 -1.999977946281433
             ]
         },
@@ -166,7 +166,7 @@
             "ypr": [
                 60.9276008605957,
                 -1.5,
-                -0.899995744228363
+                -0.8999956250190735
             ]
         },
         {
@@ -179,7 +179,7 @@
             "ypr": [
                 50.81439971923828,
                 0.4999998211860657,
-                0.999993085861206
+                0.9999930262565613
             ]
         },
         {
@@ -250,9 +250,9 @@
         {
             "name": "Land_Misc_DogHouse",
             "pos": [
-                11287.169921875,
-                184.1230010986328,
-                9380.541015625
+                11294.1806640625,
+                183.82521057128907,
+                9360.115234375
             ],
             "ypr": [
                 -132.37298583984376,
@@ -263,9 +263,9 @@
         {
             "name": "Land_Misc_DogHouse",
             "pos": [
-                11287.505859375,
-                182.2790069580078,
-                9380.9296875
+                11294.5166015625,
+                181.98121643066407,
+                9360.50390625
             ],
             "ypr": [
                 47.336700439453128,
@@ -295,8 +295,8 @@
             ],
             "ypr": [
                 -24.051300048828126,
-                0.9999999403953552,
-                -3.499999523162842
+                0.9999998211860657,
+                -3.4999992847442629
             ]
         },
         {
@@ -307,9 +307,9 @@
                 9618.3515625
             ],
             "ypr": [
-                179.99989318847657,
+                -0.00010427406232338399,
                 90.0,
-                179.99989318847657
+                -0.00010427406232338399
             ]
         },
         {
@@ -320,22 +320,22 @@
                 9365.9853515625
             ],
             "ypr": [
-                179.99989318847657,
+                -0.00010427406232338399,
                 90.0,
-                179.99989318847657
+                -0.00010427406232338399
             ]
         },
         {
             "name": "Animal_CanisLupus_Grey",
             "pos": [
-                11340.65625,
-                183.2954559326172,
-                9449.0087890625
+                11293.8896484375,
+                182.3982696533203,
+                9362.0
             ],
             "ypr": [
-                -118.71569061279297,
-                -2.9992525577545168,
-                0.07068353146314621
+                156.5923309326172,
+                0.0,
+                -0.0
             ]
         },
         {
@@ -724,7 +724,7 @@
             ],
             "ypr": [
                 -123.11100006103516,
-                6.500000953674316,
+                6.500001430511475,
                 0.0
             ]
         },
@@ -736,7 +736,7 @@
                 9483.8798828125
             ],
             "ypr": [
-                -19.64056968688965,
+                -19.640565872192384,
                 0.9999996423721314,
                 0.0
             ]
@@ -931,9 +931,9 @@
                 9374.646484375
             ],
             "ypr": [
-                -0.0000632929295534268,
+                179.9999237060547,
                 -90.0,
-                -0.0000632929295534268
+                179.9999237060547
             ]
         },
         {
@@ -997,7 +997,7 @@
             ],
             "ypr": [
                 136.5,
-                -4.499997138977051,
+                -4.499996662139893,
                 174.99989318847657
             ]
         },
@@ -1009,9 +1009,9 @@
                 9388.8046875
             ],
             "ypr": [
-                -6.500012397766113,
+                173.49998474121095,
                 90.0,
-                179.9999237060547
+                -0.00007695332169532776
             ]
         },
         {
@@ -1022,9 +1022,9 @@
                 9374.7373046875
             ],
             "ypr": [
-                133.4999542236328,
+                -46.50004196166992,
                 90.0,
-                179.9999237060547
+                -0.00007695332169532776
             ]
         },
         {
@@ -1119,7 +1119,7 @@
             ]
         },
         {
-            "name": "Static_Mil_HBarrier_4m",
+            "name": "StaticObj_Mil_HBarrier_4m",
             "pos": [
                 11226.0,
                 183.84793090820313,
@@ -1132,7 +1132,7 @@
             ]
         },
         {
-            "name": "Static_Misc_Range_Line",
+            "name": "StaticObj_Misc_Range_Line",
             "pos": [
                 11264.099609375,
                 183.2417449951172,
@@ -1141,11 +1141,11 @@
             "ypr": [
                 137.71200561523438,
                 -0.4999998211860657,
-                0.9999989867210388
+                0.9999988675117493
             ]
         },
         {
-            "name": "Static_Misc_Range_Pistol",
+            "name": "StaticObj_Misc_Range_Pistol",
             "pos": [
                 11238.6318359375,
                 183.31430053710938,
@@ -1158,7 +1158,7 @@
             ]
         },
         {
-            "name": "Static_Furniture_box_c_multi",
+            "name": "StaticObj_Furniture_box_c_multi",
             "pos": [
                 11214.5302734375,
                 184.0869903564453,
@@ -1171,7 +1171,7 @@
             ]
         },
         {
-            "name": "Static_Panel_Concrete_1",
+            "name": "StaticObj_Panel_Concrete_1",
             "pos": [
                 11228.3837890625,
                 184.40835571289063,
@@ -1184,7 +1184,7 @@
             ]
         },
         {
-            "name": "Static_Rubble_DirtPile_Large",
+            "name": "StaticObj_Rubble_DirtPile_Large",
             "pos": [
                 11212.099609375,
                 184.3363800048828,
@@ -1197,7 +1197,7 @@
             ]
         },
         {
-            "name": "Static_Misc_Pallets3",
+            "name": "StaticObj_Misc_Pallets3",
             "pos": [
                 11350.958984375,
                 183.52967834472657,
@@ -1210,7 +1210,7 @@
             ]
         },
         {
-            "name": "Static_CementWorks_ConveyorTowerB",
+            "name": "StaticObj_CementWorks_ConveyorTowerB",
             "pos": [
                 11421.599609375,
                 183.35299682617188,
@@ -1223,7 +1223,7 @@
             ]
         },
         {
-            "name": "Static_CoalPlant_LoadingHouse",
+            "name": "StaticObj_CoalPlant_LoadingHouse",
             "pos": [
                 11430.0263671875,
                 183.49417114257813,
@@ -1236,7 +1236,7 @@
             ]
         },
         {
-            "name": "Static_Container_2D",
+            "name": "StaticObj_Container_2D",
             "pos": [
                 11439.7861328125,
                 184.1278076171875,
@@ -1249,7 +1249,7 @@
             ]
         },
         {
-            "name": "Static_Container_1D",
+            "name": "StaticObj_Container_1D",
             "pos": [
                 11443.03125,
                 182.8068389892578,
@@ -1262,7 +1262,7 @@
             ]
         },
         {
-            "name": "Static_Furniture_rack_DZ",
+            "name": "StaticObj_Furniture_rack_DZ",
             "pos": [
                 11423.12890625,
                 181.66676330566407,
@@ -1275,7 +1275,7 @@
             ]
         },
         {
-            "name": "Static_Furniture_lab_bench",
+            "name": "StaticObj_Furniture_lab_bench",
             "pos": [
                 11358.5458984375,
                 182.33465576171876,
@@ -1285,19 +1285,6 @@
                 149.9730987548828,
                 -0.0,
                 -0.0
-            ]
-        },
-        {
-            "name": "Static_Furniture_basketball_korb",
-            "pos": [
-                11320.3642578125,
-                186.6174774169922,
-                9382.271484375
-            ],
-            "ypr": [
-                -119.44910430908203,
-                0.0,
-                1.5000001192092896
             ]
         },
         {
@@ -1314,7 +1301,7 @@
             ]
         },
         {
-            "name": "Static_Misc_Bench3",
+            "name": "StaticObj_Misc_Bench3",
             "pos": [
                 11284.2275390625,
                 183.15237426757813,
@@ -1327,20 +1314,20 @@
             ]
         },
         {
-            "name": "Static_Airfield_Light_PAPI3",
+            "name": "StaticObj_Airfield_Light_PAPI3",
             "pos": [
                 11236.46484375,
                 184.9759979248047,
                 9407.7177734375
             ],
             "ypr": [
-                -130.34898376464845,
+                -130.34896850585938,
                 0.0,
                 0.0
             ]
         },
         {
-            "name": "Static_Monument_War1",
+            "name": "StaticObj_Monument_War1",
             "pos": [
                 11246.400390625,
                 188.2519989013672,
@@ -1353,7 +1340,7 @@
             ]
         },
         {
-            "name": "Static_Hanged_doctor",
+            "name": "StaticObj_Hanged_doctor",
             "pos": [
                 11305.6162109375,
                 189.6611785888672,
@@ -1366,20 +1353,20 @@
             ]
         },
         {
-            "name": "Static_FueldStation_Sign",
+            "name": "StaticObj_FueldStation_Sign",
             "pos": [
                 11287.390625,
                 184.7910614013672,
                 9418.7509765625
             ],
             "ypr": [
-                -23.14536476135254,
+                -23.145362854003908,
                 -0.0,
                 -0.0
             ]
         },
         {
-            "name": "Static_Wall_IndFnc_9",
+            "name": "StaticObj_Wall_IndFnc_9",
             "pos": [
                 11312.091796875,
                 183.06100463867188,
@@ -1392,7 +1379,7 @@
             ]
         },
         {
-            "name": "Static_Misc_Tire",
+            "name": "StaticObj_Misc_Tire",
             "pos": [
                 11341.1376953125,
                 182.5535430908203,
@@ -1405,7 +1392,7 @@
             ]
         },
         {
-            "name": "Static_Garbage_Bin2",
+            "name": "StaticObj_Garbage_Bin2",
             "pos": [
                 11319.3056640625,
                 183.30584716796876,
@@ -1418,7 +1405,7 @@
             ]
         },
         {
-            "name": "Static_Garbage_Pile7",
+            "name": "StaticObj_Garbage_Pile7",
             "pos": [
                 11424.98046875,
                 182.2504119873047,
@@ -1431,7 +1418,7 @@
             ]
         },
         {
-            "name": "Static_Slum_Roof1",
+            "name": "StaticObj_Slum_Roof1",
             "pos": [
                 11416.326171875,
                 182.89459228515626,
@@ -1444,7 +1431,7 @@
             ]
         },
         {
-            "name": "Static_Wall_Tin7_8",
+            "name": "StaticObj_Wall_Tin7_8",
             "pos": [
                 11398.0,
                 183.17599487304688,
@@ -1457,7 +1444,7 @@
             ]
         },
         {
-            "name": "Static_Wall_Barricade1_10",
+            "name": "StaticObj_Wall_Barricade1_10",
             "pos": [
                 11320.8203125,
                 182.95703125,
@@ -1470,7 +1457,7 @@
             ]
         },
         {
-            "name": "Static_Wall_Barricade1_10",
+            "name": "StaticObj_Wall_Barricade1_10",
             "pos": [
                 11321.6533203125,
                 184.0623779296875,
@@ -1483,7 +1470,7 @@
             ]
         },
         {
-            "name": "Static_Furniture_tools_racking",
+            "name": "StaticObj_Furniture_tools_racking",
             "pos": [
                 11291.23828125,
                 183.37875366210938,
@@ -1496,7 +1483,7 @@
             ]
         },
         {
-            "name": "Static_Misc_RoadBarrier_2",
+            "name": "StaticObj_Misc_RoadBarrier_2",
             "pos": [
                 11220.064453125,
                 187.88735961914063,
@@ -1509,7 +1496,7 @@
             ]
         },
         {
-            "name": "Static_Misc_BoxWooden",
+            "name": "StaticObj_Misc_BoxWooden",
             "pos": [
                 11304.2763671875,
                 183.22976684570313,
@@ -1522,7 +1509,7 @@
             ]
         },
         {
-            "name": "Static_Misc_BoundaryStone_Plastic",
+            "name": "StaticObj_Misc_BoundaryStone_Plastic",
             "pos": [
                 11317.3544921875,
                 182.87669372558595,
@@ -1535,7 +1522,7 @@
             ]
         },
         {
-            "name": "Static_Misc_BoundaryStone_Plastic",
+            "name": "StaticObj_Misc_BoundaryStone_Plastic",
             "pos": [
                 11297.91796875,
                 183.4841766357422,
@@ -1548,7 +1535,7 @@
             ]
         },
         {
-            "name": "Static_Misc_BoundaryStone_Plastic",
+            "name": "StaticObj_Misc_BoundaryStone_Plastic",
             "pos": [
                 11265.0302734375,
                 183.40164184570313,
@@ -1561,7 +1548,7 @@
             ]
         },
         {
-            "name": "Static_Misc_PostBox1",
+            "name": "StaticObj_Misc_PostBox1",
             "pos": [
                 11344.3388671875,
                 182.80191040039063,
@@ -1574,7 +1561,7 @@
             ]
         },
         {
-            "name": "Static_Misc_AdvertColumn",
+            "name": "StaticObj_Misc_AdvertColumn",
             "pos": [
                 11383.4990234375,
                 182.81210327148438,
@@ -1587,7 +1574,7 @@
             ]
         },
         {
-            "name": "Static_Platform2_Wall",
+            "name": "StaticObj_Platform2_Wall",
             "pos": [
                 11292.66796875,
                 183.8573760986328,
@@ -1600,7 +1587,7 @@
             ]
         },
         {
-            "name": "Static_Platform2_Wall",
+            "name": "StaticObj_Platform2_Wall",
             "pos": [
                 11292.6396484375,
                 184.75840759277345,
@@ -1613,7 +1600,7 @@
             ]
         },
         {
-            "name": "Static_Platform1_Stairs_Block",
+            "name": "StaticObj_Platform1_Stairs_Block",
             "pos": [
                 11340.9267578125,
                 183.6501007080078,
@@ -1626,7 +1613,7 @@
             ]
         },
         {
-            "name": "Static_Platform2_Block",
+            "name": "StaticObj_Platform2_Block",
             "pos": [
                 11344.9169921875,
                 183.75155639648438,
@@ -1639,7 +1626,7 @@
             ]
         },
         {
-            "name": "Static_Misc_WoodPile2",
+            "name": "StaticObj_Misc_WoodPile2",
             "pos": [
                 11347.279296875,
                 183.13250732421876,
@@ -1652,7 +1639,7 @@
             ]
         },
         {
-            "name": "Static_Misc_WoodBlock",
+            "name": "StaticObj_Misc_WoodBlock",
             "pos": [
                 11345.875,
                 183.1529083251953,
@@ -1665,7 +1652,7 @@
             ]
         },
         {
-            "name": "Static_Furniture_sofa_leather_new",
+            "name": "StaticObj_Furniture_sofa_leather_new",
             "pos": [
                 11293.1728515625,
                 183.73599243164063,
@@ -1678,7 +1665,7 @@
             ]
         },
         {
-            "name": "Static_Furniture_box_c_multi",
+            "name": "StaticObj_Furniture_box_c_multi",
             "pos": [
                 11334.6064453125,
                 182.42620849609376,
@@ -1691,7 +1678,7 @@
             ]
         },
         {
-            "name": "Static_Misc_BoundaryStone_Plastic",
+            "name": "StaticObj_Misc_BoundaryStone_Plastic",
             "pos": [
                 11345.171875,
                 183.03439331054688,
@@ -1704,7 +1691,7 @@
             ]
         },
         {
-            "name": "Static_Misc_BoundaryStone_Plastic",
+            "name": "StaticObj_Misc_BoundaryStone_Plastic",
             "pos": [
                 11384.595703125,
                 182.64999389648438,
@@ -1717,46 +1704,33 @@
             ]
         },
         {
-            "name": "Static_Furniture_carpet_big",
+            "name": "StaticObj_Furniture_carpet_big",
             "pos": [
                 11351.099609375,
                 184.37600708007813,
                 9405.099609375
             ],
             "ypr": [
-                58.24400329589844,
+                -121.7559814453125,
                 -90.0,
-                0.000005008955668017734
+                -179.99998474121095
             ]
         },
         {
-            "name": "Static_Furniture_flowers_01",
+            "name": "StaticObj_Furniture_flowers_02",
             "pos": [
-                11377.5478515625,
-                182.23313903808595,
-                9464.619140625
+                11281.3681640625,
+                188.52894592285157,
+                9539.9267578125
             ],
             "ypr": [
-                0.0,
+                143.1916961669922,
                 -0.0,
                 -0.0
             ]
         },
         {
-            "name": "Static_Furniture_flowers_02",
-            "pos": [
-                11378.12890625,
-                182.23121643066407,
-                9465.873046875
-            ],
-            "ypr": [
-                0.0,
-                -0.0,
-                -0.0
-            ]
-        },
-        {
-            "name": "Static_Furniture_lekarnicka",
+            "name": "StaticObj_Furniture_lekarnicka",
             "pos": [
                 11283.6494140625,
                 189.78500366210938,
@@ -1769,7 +1743,7 @@
             ]
         },
         {
-            "name": "Static_Furniture_vending_machine",
+            "name": "StaticObj_Furniture_vending_machine",
             "pos": [
                 11420.6708984375,
                 182.54197692871095,
@@ -1789,13 +1763,13 @@
                 9368.349609375
             ],
             "ypr": [
-                179.9999542236328,
+                -0.000049632551963441077,
                 90.0,
-                179.9999542236328
+                -0.000049632551963441077
             ]
         },
         {
-            "name": "Static_Furniture_canister_DZ",
+            "name": "StaticObj_Furniture_canister_DZ",
             "pos": [
                 11420.25390625,
                 181.83660888671876,
@@ -1808,7 +1782,7 @@
             ]
         },
         {
-            "name": "Static_Furniture_lab_bench",
+            "name": "StaticObj_Furniture_lab_bench",
             "pos": [
                 11427.56640625,
                 181.41444396972657,
@@ -1821,7 +1795,7 @@
             ]
         },
         {
-            "name": "Static_Furniture_Workbench",
+            "name": "StaticObj_Furniture_Workbench",
             "pos": [
                 11423.9560546875,
                 181.51002502441407,
@@ -1834,7 +1808,7 @@
             ]
         },
         {
-            "name": "Static_Furniture_case_d",
+            "name": "StaticObj_Furniture_case_d",
             "pos": [
                 11415.58984375,
                 181.4034423828125,
@@ -1847,7 +1821,7 @@
             ]
         },
         {
-            "name": "Static_Furniture_case_d",
+            "name": "StaticObj_Furniture_case_d",
             "pos": [
                 11415.267578125,
                 181.40652465820313,
@@ -1860,7 +1834,7 @@
             ]
         },
         {
-            "name": "Static_Furniture_cashier",
+            "name": "StaticObj_Furniture_cashier",
             "pos": [
                 11422.7861328125,
                 183.26231384277345,
@@ -1880,13 +1854,13 @@
                 9375.0703125
             ],
             "ypr": [
-                -4.999998092651367,
+                -4.999997615814209,
                 -87.50032043457031,
-                179.99990844726563
+                179.99989318847657
             ]
         },
         {
-            "name": "Static_Furniture_bucket",
+            "name": "StaticObj_Furniture_bucket",
             "pos": [
                 11423.3994140625,
                 182.46240234375,
@@ -1899,7 +1873,7 @@
             ]
         },
         {
-            "name": "Static_Furniture_office_table_a",
+            "name": "StaticObj_Furniture_office_table_a",
             "pos": [
                 11420.0810546875,
                 182.56100463867188,
@@ -1912,7 +1886,7 @@
             ]
         },
         {
-            "name": "Static_Furniture_bag_DZ",
+            "name": "StaticObj_Furniture_bag_DZ",
             "pos": [
                 11419.884765625,
                 181.90260314941407,
@@ -1925,7 +1899,7 @@
             ]
         },
         {
-            "name": "Static_Furniture_case_d",
+            "name": "StaticObj_Furniture_case_d",
             "pos": [
                 11419.5302734375,
                 181.40553283691407,
@@ -1938,7 +1912,7 @@
             ]
         },
         {
-            "name": "Static_Furniture_case_d",
+            "name": "StaticObj_Furniture_case_d",
             "pos": [
                 11420.1982421875,
                 181.4086151123047,
@@ -1977,7 +1951,7 @@
             ]
         },
         {
-            "name": "Static_Furniture_couch_DZ",
+            "name": "StaticObj_Furniture_couch_DZ",
             "pos": [
                 11419.408203125,
                 181.48818969726563,
@@ -1990,7 +1964,7 @@
             ]
         },
         {
-            "name": "Static_Furniture_radar_panel_flat",
+            "name": "StaticObj_Furniture_radar_panel_flat",
             "pos": [
                 11289.666015625,
                 183.36599731445313,
@@ -2003,7 +1977,7 @@
             ]
         },
         {
-            "name": "Static_Furniture_luxury_lamp",
+            "name": "StaticObj_Furniture_luxury_lamp",
             "pos": [
                 11291.7939453125,
                 185.65199279785157,
@@ -2016,20 +1990,7 @@
             ]
         },
         {
-            "name": "Static_Furniture_pc",
-            "pos": [
-                11285.2001953125,
-                182.61599731445313,
-                9364.349609375
-            ],
-            "ypr": [
-                0.0,
-                0.0,
-                0.0
-            ]
-        },
-        {
-            "name": "Static_Furniture_flowers_02",
+            "name": "StaticObj_Furniture_flowers_02",
             "pos": [
                 11290.7001953125,
                 183.40199279785157,
@@ -2042,7 +2003,7 @@
             ]
         },
         {
-            "name": "Static_Furniture_lobby_chair",
+            "name": "StaticObj_Furniture_lobby_chair",
             "pos": [
                 11293.9521484375,
                 183.35629272460938,
@@ -2055,7 +2016,7 @@
             ]
         },
         {
-            "name": "Static_Furniture_picture_b",
+            "name": "StaticObj_Furniture_picture_b",
             "pos": [
                 11291.900390625,
                 183.75999450683595,
@@ -2068,7 +2029,7 @@
             ]
         },
         {
-            "name": "Static_Furniture_flowers_01",
+            "name": "StaticObj_Furniture_flowers_01",
             "pos": [
                 11296.29296875,
                 183.36810302734376,
@@ -2081,7 +2042,7 @@
             ]
         },
         {
-            "name": "Static_Furniture_case_d",
+            "name": "StaticObj_Furniture_case_d",
             "pos": [
                 11292.1025390625,
                 186.19802856445313,
@@ -2094,7 +2055,7 @@
             ]
         },
         {
-            "name": "Static_Furniture_carpet_big",
+            "name": "StaticObj_Furniture_carpet_big",
             "pos": [
                 11293.748046875,
                 183.38595581054688,
@@ -2107,7 +2068,7 @@
             ]
         },
         {
-            "name": "Static_Furniture_Couch_Beige84x213x75_DZ",
+            "name": "StaticObj_Furniture_Couch_Beige84x213x75_DZ",
             "pos": [
                 11276.06640625,
                 192.23541259765626,
@@ -2120,7 +2081,7 @@
             ]
         },
         {
-            "name": "Static_Furniture_chest_DZ",
+            "name": "StaticObj_Furniture_chest_DZ",
             "pos": [
                 11295.576171875,
                 183.3896026611328,
@@ -2133,7 +2094,7 @@
             ]
         },
         {
-            "name": "Static_Furniture_tac_board_posters_level2",
+            "name": "StaticObj_Furniture_tac_board_posters_level2",
             "pos": [
                 11267.6572265625,
                 185.54925537109376,
@@ -2146,7 +2107,7 @@
             ]
         },
         {
-            "name": "Static_Furniture_vending_machine",
+            "name": "StaticObj_Furniture_vending_machine",
             "pos": [
                 11289.34765625,
                 184.4772186279297,
@@ -2159,7 +2120,7 @@
             ]
         },
         {
-            "name": "Static_Furniture_tv_a",
+            "name": "StaticObj_Furniture_tv_a",
             "pos": [
                 11293.8818359375,
                 185.51304626464845,
@@ -2168,11 +2129,11 @@
             "ypr": [
                 120.2349853515625,
                 6.499993801116943,
-                0.49999991059303286
+                0.49999985098838808
             ]
         },
         {
-            "name": "Static_Furniture_matress_white",
+            "name": "StaticObj_Furniture_matress_white",
             "pos": [
                 11290.8017578125,
                 183.47300720214845,
@@ -2185,7 +2146,7 @@
             ]
         },
         {
-            "name": "Static_Furniture_flag_chernarus_pole",
+            "name": "StaticObj_Furniture_flag_chernarus_pole",
             "pos": [
                 11286.7880859375,
                 186.34950256347657,
@@ -2198,7 +2159,7 @@
             ]
         },
         {
-            "name": "Static_Furniture_flag_chernarus_pole",
+            "name": "StaticObj_Furniture_flag_chernarus_pole",
             "pos": [
                 11265.875,
                 187.56919860839845,
@@ -2211,7 +2172,7 @@
             ]
         },
         {
-            "name": "Static_Furniture_flag_chernarus_pole",
+            "name": "StaticObj_Furniture_flag_chernarus_pole",
             "pos": [
                 11264.302734375,
                 187.5815887451172,
@@ -2224,7 +2185,7 @@
             ]
         },
         {
-            "name": "Static_Mil_HBarrier_6m",
+            "name": "StaticObj_Mil_HBarrier_6m",
             "pos": [
                 11236.087890625,
                 184.01568603515626,
@@ -2237,7 +2198,7 @@
             ]
         },
         {
-            "name": "Static_Mil_HBarrier_6m",
+            "name": "StaticObj_Mil_HBarrier_6m",
             "pos": [
                 11225.6015625,
                 184.27191162109376,
@@ -2250,7 +2211,7 @@
             ]
         },
         {
-            "name": "Static_Mil_HBarrier_6m",
+            "name": "StaticObj_Mil_HBarrier_6m",
             "pos": [
                 11229.099609375,
                 184.23899841308595,
@@ -2276,7 +2237,7 @@
             ]
         },
         {
-            "name": "Static_Mil_HBarrier_6m",
+            "name": "StaticObj_Mil_HBarrier_6m",
             "pos": [
                 11222.962890625,
                 184.31509399414063,
@@ -2289,7 +2250,7 @@
             ]
         },
         {
-            "name": "Static_Wall_Barricade1_10",
+            "name": "StaticObj_Wall_Barricade1_10",
             "pos": [
                 11236.2998046875,
                 183.01300048828126,
@@ -2302,7 +2263,7 @@
             ]
         },
         {
-            "name": "Static_Mil_HBarrier_Big",
+            "name": "StaticObj_Mil_HBarrier_Big",
             "pos": [
                 11250.7451171875,
                 184.08953857421876,
@@ -2315,7 +2276,7 @@
             ]
         },
         {
-            "name": "Static_Wall_Barricade1_4",
+            "name": "StaticObj_Wall_Barricade1_4",
             "pos": [
                 11254.60546875,
                 183.0580596923828,
@@ -2328,7 +2289,7 @@
             ]
         },
         {
-            "name": "Static_Mil_HBarrier_4m",
+            "name": "StaticObj_Mil_HBarrier_4m",
             "pos": [
                 11234.1328125,
                 183.82940673828126,
@@ -2341,7 +2302,7 @@
             ]
         },
         {
-            "name": "Static_Mil_HBarrier_Big",
+            "name": "StaticObj_Mil_HBarrier_Big",
             "pos": [
                 11233.353515625,
                 184.51889038085938,
@@ -2354,7 +2315,7 @@
             ]
         },
         {
-            "name": "Static_Mil_HBarrier_4m",
+            "name": "StaticObj_Mil_HBarrier_4m",
             "pos": [
                 11235.94921875,
                 183.75296020507813,
@@ -2389,7 +2350,7 @@
             "ypr": [
                 44.99980163574219,
                 -1.5,
-                0.9999989867210388
+                0.9999988675117493
             ]
         },
         {
@@ -2432,7 +2393,7 @@
             ]
         },
         {
-            "name": "Static_Mil_Artilery_Rampart",
+            "name": "StaticObj_Mil_Artilery_Rampart",
             "pos": [
                 11195.400390625,
                 184.81300354003907,
@@ -2440,12 +2401,12 @@
             ],
             "ypr": [
                 -135.71499633789063,
-                11.499996185302735,
+                11.49999713897705,
                 0.0
             ]
         },
         {
-            "name": "Static_Furniture_ch_mod_h",
+            "name": "StaticObj_Furniture_ch_mod_h",
             "pos": [
                 11244.5244140625,
                 182.906005859375,
@@ -2458,7 +2419,7 @@
             ]
         },
         {
-            "name": "Static_Slum_Roof6",
+            "name": "StaticObj_Slum_Roof6",
             "pos": [
                 11243.0107421875,
                 184.37924194335938,
@@ -2471,7 +2432,7 @@
             ]
         },
         {
-            "name": "Static_Slum_Roof4",
+            "name": "StaticObj_Slum_Roof4",
             "pos": [
                 11353.4765625,
                 184.49745178222657,
@@ -2497,7 +2458,7 @@
             ]
         },
         {
-            "name": "Static_Workshop_Box",
+            "name": "StaticObj_Workshop_Box",
             "pos": [
                 11348.3603515625,
                 184.44374084472657,
@@ -2510,7 +2471,7 @@
             ]
         },
         {
-            "name": "Static_Furniture_box_c_multi",
+            "name": "StaticObj_Furniture_box_c_multi",
             "pos": [
                 11303.8369140625,
                 182.76722717285157,
@@ -2523,7 +2484,7 @@
             ]
         },
         {
-            "name": "Static_Misc_Tire",
+            "name": "StaticObj_Misc_Tire",
             "pos": [
                 11341.1826171875,
                 182.7562713623047,
@@ -2536,7 +2497,7 @@
             ]
         },
         {
-            "name": "Static_Misc_Tire",
+            "name": "StaticObj_Misc_Tire",
             "pos": [
                 11341.2626953125,
                 182.9425048828125,
@@ -2549,7 +2510,7 @@
             ]
         },
         {
-            "name": "Static_Misc_Tire",
+            "name": "StaticObj_Misc_Tire",
             "pos": [
                 11341.1640625,
                 183.0835418701172,
@@ -2562,7 +2523,7 @@
             ]
         },
         {
-            "name": "Static_Furniture_box_c",
+            "name": "StaticObj_Furniture_box_c",
             "pos": [
                 11342.318359375,
                 182.78121948242188,
@@ -2575,7 +2536,7 @@
             ]
         },
         {
-            "name": "Static_Furniture_box_c",
+            "name": "StaticObj_Furniture_box_c",
             "pos": [
                 11342.5703125,
                 182.7969512939453,
@@ -2588,7 +2549,7 @@
             ]
         },
         {
-            "name": "Static_Furniture_box_c",
+            "name": "StaticObj_Furniture_box_c",
             "pos": [
                 11342.4873046875,
                 183.380615234375,
@@ -2608,13 +2569,13 @@
                 9455.76953125
             ],
             "ypr": [
-                152.99993896484376,
+                152.9999237060547,
                 0.0,
                 0.0
             ]
         },
         {
-            "name": "Static_Container_2C",
+            "name": "StaticObj_Container_2C",
             "pos": [
                 11412.0693359375,
                 184.22857666015626,
@@ -2627,7 +2588,7 @@
             ]
         },
         {
-            "name": "Static_Container_1C",
+            "name": "StaticObj_Container_1C",
             "pos": [
                 11409.322265625,
                 182.93504333496095,
@@ -2640,7 +2601,7 @@
             ]
         },
         {
-            "name": "Static_Container_1C",
+            "name": "StaticObj_Container_1C",
             "pos": [
                 11409.4775390625,
                 185.47068786621095,
@@ -2653,7 +2614,7 @@
             ]
         },
         {
-            "name": "Static_Misc_ConcretePanels",
+            "name": "StaticObj_Misc_ConcretePanels",
             "pos": [
                 11403.1630859375,
                 182.479248046875,
@@ -2666,7 +2627,7 @@
             ]
         },
         {
-            "name": "Static_Furniture_student_chair",
+            "name": "StaticObj_Furniture_student_chair",
             "pos": [
                 11351.7216796875,
                 182.78660583496095,
@@ -2679,7 +2640,7 @@
             ]
         },
         {
-            "name": "Static_Furniture_vaulting_box_large",
+            "name": "StaticObj_Furniture_vaulting_box_large",
             "pos": [
                 11270.517578125,
                 183.86451721191407,
@@ -2692,33 +2653,33 @@
             ]
         },
         {
-            "name": "Static_Furniture_teacher_desk",
+            "name": "StaticObj_Furniture_teacher_desk",
             "pos": [
                 11269.818359375,
                 184.7847442626953,
                 9431.7685546875
             ],
             "ypr": [
-                53.99991226196289,
+                -126.00006866455078,
                 90.0,
-                -0.000022311800421448426
+                179.99996948242188
             ]
         },
         {
-            "name": "Static_Furniture_teacher_desk",
+            "name": "StaticObj_Furniture_teacher_desk",
             "pos": [
                 11270.099609375,
                 185.06300354003907,
                 9431.080078125
             ],
             "ypr": [
-                -40.999996185302737,
+                -40.99999237060547,
                 0.0,
                 -91.5
             ]
         },
         {
-            "name": "Static_Misc_RoadBarrier",
+            "name": "StaticObj_Misc_RoadBarrier",
             "pos": [
                 11241.5,
                 183.9454803466797,
@@ -2731,7 +2692,7 @@
             ]
         },
         {
-            "name": "Static_Roadblock_CncBlock",
+            "name": "StaticObj_Roadblock_CncBlock",
             "pos": [
                 11265.09375,
                 183.67539978027345,
@@ -2744,7 +2705,7 @@
             ]
         },
         {
-            "name": "Static_Roadblock_Bags_Curve",
+            "name": "StaticObj_Roadblock_Bags_Curve",
             "pos": [
                 11264.9970703125,
                 193.36795043945313,
@@ -2757,7 +2718,7 @@
             ]
         },
         {
-            "name": "Static_Roadblock_CncBlocks_short",
+            "name": "StaticObj_Roadblock_CncBlocks_short",
             "pos": [
                 11265.6845703125,
                 192.90245056152345,
@@ -2770,20 +2731,20 @@
             ]
         },
         {
-            "name": "Static_Roadblock_CncBlocks_short",
+            "name": "StaticObj_Roadblock_CncBlocks_short",
             "pos": [
-                11270.689453125,
-                192.83078002929688,
-                9431.73828125
+                11271.0107421875,
+                192.83099365234376,
+                9431.7490234375
             ],
             "ypr": [
-                67.1359634399414,
-                -0.0,
-                -0.0
+                67.13599395751953,
+                0.0,
+                0.0
             ]
         },
         {
-            "name": "Static_Roadblock_Bags_EndR",
+            "name": "StaticObj_Roadblock_Bags_EndR",
             "pos": [
                 11267.021484375,
                 193.2762908935547,
@@ -2796,7 +2757,7 @@
             ]
         },
         {
-            "name": "Static_Roadblock_Bags_EndL",
+            "name": "StaticObj_Roadblock_Bags_EndL",
             "pos": [
                 11265.53125,
                 184.48033142089845,
@@ -2804,25 +2765,25 @@
             ],
             "ypr": [
                 -36.432395935058597,
-                6.000019550323486,
-                6.000129222869873
+                6.000019073486328,
+                6.000128269195557
             ]
         },
         {
-            "name": "Static_Roadblock_Bags_EndL",
+            "name": "StaticObj_Roadblock_Bags_EndL",
             "pos": [
                 11272.0029296875,
                 183.9969940185547,
                 9439.798828125
             ],
             "ypr": [
-                -16.033498764038087,
-                4.500699520111084,
+                -16.033496856689454,
+                4.500699043273926,
                 -3.0
             ]
         },
         {
-            "name": "Static_Roadblock_Pillbox",
+            "name": "StaticObj_Roadblock_Pillbox",
             "pos": [
                 11228.9248046875,
                 185.2071075439453,
@@ -2835,7 +2796,7 @@
             ]
         },
         {
-            "name": "Static_Roadblock_Bags_Curve",
+            "name": "StaticObj_Roadblock_Bags_Curve",
             "pos": [
                 11269.7001953125,
                 193.57899475097657,
@@ -2848,20 +2809,20 @@
             ]
         },
         {
-            "name": "Static_Road_Sidewalk4_Border_4m",
+            "name": "StaticObj_Road_Sidewalk4_Border_4m",
             "pos": [
                 11269.513671875,
                 194.24044799804688,
                 9439.0703125
             ],
             "ypr": [
-                -20.30000114440918,
+                -20.300003051757814,
                 88.50001525878906,
                 -0.000005008955668017734
             ]
         },
         {
-            "name": "Static_Furniture_picture_g_02",
+            "name": "StaticObj_Furniture_picture_g_02",
             "pos": [
                 11268.400390625,
                 185.54100036621095,
@@ -2874,7 +2835,7 @@
             ]
         },
         {
-            "name": "Static_Misc_Chair_Plastic",
+            "name": "StaticObj_Misc_Chair_Plastic",
             "pos": [
                 11271.353515625,
                 192.808349609375,
@@ -2887,7 +2848,7 @@
             ]
         },
         {
-            "name": "Static_Misc_Chair_Camp1",
+            "name": "StaticObj_Misc_Chair_Camp1",
             "pos": [
                 11270.7216796875,
                 192.73910522460938,
@@ -2900,7 +2861,7 @@
             ]
         },
         {
-            "name": "Static_Decal_damage_long5",
+            "name": "StaticObj_Decal_damage_long5",
             "pos": [
                 11270.7998046875,
                 199.0950469970703,
@@ -2913,7 +2874,7 @@
             ]
         },
         {
-            "name": "Static_Sidewalk1_5m",
+            "name": "StaticObj_Sidewalk1_5m",
             "pos": [
                 11267.634765625,
                 183.20199584960938,
@@ -2926,7 +2887,7 @@
             ]
         },
         {
-            "name": "Static_Panel_Concrete_Dam",
+            "name": "StaticObj_Panel_Concrete_Dam",
             "pos": [
                 11271.0,
                 195.82400512695313,
@@ -2939,7 +2900,7 @@
             ]
         },
         {
-            "name": "Static_Decal_Heli_Army",
+            "name": "StaticObj_Decal_Heli_Army",
             "pos": [
                 11217.6669921875,
                 190.89125061035157,
@@ -2952,7 +2913,7 @@
             ]
         },
         {
-            "name": "Static_Decal_damage_medium1",
+            "name": "StaticObj_Decal_damage_medium1",
             "pos": [
                 11235.0732421875,
                 187.38763427734376,
@@ -2965,7 +2926,7 @@
             ]
         },
         {
-            "name": "Static_Path_Panels",
+            "name": "StaticObj_Path_Panels",
             "pos": [
                 11268.2001953125,
                 194.7790069580078,
@@ -2973,38 +2934,38 @@
             ],
             "ypr": [
                 -22.0,
-                -0.9999999403953552,
+                -0.9999998211860657,
                 0.0
             ]
         },
         {
-            "name": "Static_Road_Sidewalk4_Border_4m",
+            "name": "StaticObj_Road_Sidewalk4_Border_4m",
             "pos": [
                 11269.4462890625,
                 194.4503173828125,
                 9439.1689453125
             ],
             "ypr": [
-                -20.299999237060548,
+                -20.299997329711915,
                 88.50001525878906,
                 0.0
             ]
         },
         {
-            "name": "Static_Panel_Concrete_2",
+            "name": "StaticObj_Panel_Concrete_2",
             "pos": [
                 11269.5,
                 195.5970001220703,
                 9437.6767578125
             ],
             "ypr": [
-                70.59999084472656,
+                70.59998321533203,
                 0.0,
                 0.0
             ]
         },
         {
-            "name": "Static_Misc_PostBox2",
+            "name": "StaticObj_Misc_PostBox2",
             "pos": [
                 11267.96484375,
                 185.6772918701172,
@@ -3017,20 +2978,20 @@
             ]
         },
         {
-            "name": "Static_Misc_WoodBlock",
+            "name": "StaticObj_Misc_WoodBlock",
             "pos": [
                 11264.7001953125,
                 183.6790008544922,
                 9430.48046875
             ],
             "ypr": [
-                -15.999970436096192,
+                -15.999971389770508,
                 -58.49985122680664,
                 -1.9999676942825318
             ]
         },
         {
-            "name": "Static_Misc_StadiumBenches",
+            "name": "StaticObj_Misc_StadiumBenches",
             "pos": [
                 11263.515625,
                 185.6650848388672,
@@ -3043,7 +3004,7 @@
             ]
         },
         {
-            "name": "Static_Misc_Bench2",
+            "name": "StaticObj_Misc_Bench2",
             "pos": [
                 11244.306640625,
                 184.09776306152345,
@@ -3056,7 +3017,7 @@
             ]
         },
         {
-            "name": "Static_Misc_BoundaryStone",
+            "name": "StaticObj_Misc_BoundaryStone",
             "pos": [
                 11245.8701171875,
                 183.55055236816407,
@@ -3069,7 +3030,7 @@
             ]
         },
         {
-            "name": "Static_Misc_Range_Roof",
+            "name": "StaticObj_Misc_Range_Roof",
             "pos": [
                 11378.865234375,
                 183.56024169921876,
@@ -3082,7 +3043,7 @@
             ]
         },
         {
-            "name": "Static_Platform1_Stairs_Block",
+            "name": "StaticObj_Platform1_Stairs_Block",
             "pos": [
                 11342.107421875,
                 183.67434692382813,
@@ -3095,7 +3056,7 @@
             ]
         },
         {
-            "name": "Static_Platform2_Block",
+            "name": "StaticObj_Platform2_Block",
             "pos": [
                 11349.865234375,
                 183.7533416748047,
@@ -3108,7 +3069,7 @@
             ]
         },
         {
-            "name": "Static_Rail_Bridge_15_End",
+            "name": "StaticObj_Rail_Bridge_15_End",
             "pos": [
                 11357.595703125,
                 180.7667236328125,
@@ -3121,7 +3082,7 @@
             ]
         },
         {
-            "name": "Static_Roadblock_Bags_EndL",
+            "name": "StaticObj_Roadblock_Bags_EndL",
             "pos": [
                 11349.7939453125,
                 184.45965576171876,
@@ -3134,20 +3095,20 @@
             ]
         },
         {
-            "name": "Static_Roadblock_Bags_Long",
+            "name": "StaticObj_Roadblock_Bags_Long",
             "pos": [
                 11350.1474609375,
                 182.76800537109376,
                 9407.83984375
             ],
             "ypr": [
-                -22.554698944091798,
+                -22.554697036743165,
                 -1.197700023651123,
                 -10.0
             ]
         },
         {
-            "name": "Static_Misc_BagFence_Corner",
+            "name": "StaticObj_Misc_BagFence_Corner",
             "pos": [
                 11415.517578125,
                 182.61834716796876,
@@ -3160,7 +3121,7 @@
             ]
         },
         {
-            "name": "Static_Misc_BagFence_Round",
+            "name": "StaticObj_Misc_BagFence_Round",
             "pos": [
                 11218.3984375,
                 184.3260040283203,
@@ -3173,7 +3134,7 @@
             ]
         },
         {
-            "name": "Static_Misc_ConcreteBlock2_Damaged",
+            "name": "StaticObj_Misc_ConcreteBlock2_Damaged",
             "pos": [
                 11215.15625,
                 184.47740173339845,
@@ -3186,7 +3147,7 @@
             ]
         },
         {
-            "name": "Static_Misc_Flagpole",
+            "name": "StaticObj_Misc_Flagpole",
             "pos": [
                 11212.35546875,
                 187.25790405273438,
@@ -3199,7 +3160,7 @@
             ]
         },
         {
-            "name": "Static_Mil_AircraftShelter_Door_R",
+            "name": "StaticObj_Mil_AircraftShelter_Door_R",
             "pos": [
                 11431.7958984375,
                 185.38677978515626,
@@ -3212,7 +3173,7 @@
             ]
         },
         {
-            "name": "Static_Misc_Timbers2",
+            "name": "StaticObj_Misc_Timbers2",
             "pos": [
                 11357.72265625,
                 183.82752990722657,
@@ -3225,7 +3186,7 @@
             ]
         },
         {
-            "name": "Static_Misc_Timbers2",
+            "name": "StaticObj_Misc_Timbers2",
             "pos": [
                 11357.7724609375,
                 185.2276611328125,
@@ -3238,7 +3199,7 @@
             ]
         },
         {
-            "name": "Static_Misc_Timbers2",
+            "name": "StaticObj_Misc_Timbers2",
             "pos": [
                 11357.1220703125,
                 183.82754516601563,
@@ -3251,7 +3212,7 @@
             ]
         },
         {
-            "name": "Static_Airfield_Light_Edge",
+            "name": "StaticObj_Airfield_Light_Edge",
             "pos": [
                 11358.8525390625,
                 182.9918670654297,
@@ -3264,7 +3225,7 @@
             ]
         },
         {
-            "name": "Static_Misc_Razorwire",
+            "name": "StaticObj_Misc_Razorwire",
             "pos": [
                 11449.392578125,
                 181.81407165527345,
@@ -3277,7 +3238,7 @@
             ]
         },
         {
-            "name": "Static_Misc_Range_Roof",
+            "name": "StaticObj_Misc_Range_Roof",
             "pos": [
                 11355.0478515625,
                 185.12161254882813,
@@ -3290,7 +3251,7 @@
             ]
         },
         {
-            "name": "Static_Platform2_Block",
+            "name": "StaticObj_Platform2_Block",
             "pos": [
                 11361.5009765625,
                 183.84521484375,
@@ -3303,33 +3264,33 @@
             ]
         },
         {
-            "name": "Static_Misc_Pallets2",
+            "name": "StaticObj_Misc_Pallets2",
             "pos": [
                 11274.978515625,
                 185.02456665039063,
                 9431.986328125
             ],
             "ypr": [
-                -19.216976165771486,
+                160.78302001953126,
                 90.0,
-                -45.00012969970703
+                134.99986267089845
             ]
         },
         {
-            "name": "Static_Misc_ConcretePanels",
+            "name": "StaticObj_Misc_ConcretePanels",
             "pos": [
                 11264.5439453125,
                 184.10487365722657,
                 9420.9033203125
             ],
             "ypr": [
-                -24.52014923095703,
+                -24.5201473236084,
                 -0.0,
                 -0.0
             ]
         },
         {
-            "name": "Static_Misc_Pallets3",
+            "name": "StaticObj_Misc_Pallets3",
             "pos": [
                 11263.236328125,
                 184.10391235351563,
@@ -3342,7 +3303,7 @@
             ]
         },
         {
-            "name": "Static_Misc_Pallets1",
+            "name": "StaticObj_Misc_Pallets1",
             "pos": [
                 11264.3271484375,
                 183.77297973632813,
@@ -3355,7 +3316,7 @@
             ]
         },
         {
-            "name": "Static_Misc_Timbers_Log2",
+            "name": "StaticObj_Misc_Timbers_Log2",
             "pos": [
                 11262.85546875,
                 183.45689392089845,
@@ -3368,7 +3329,7 @@
             ]
         },
         {
-            "name": "Static_Misc_Timbers_Log2",
+            "name": "StaticObj_Misc_Timbers_Log2",
             "pos": [
                 11257.0068359375,
                 183.4559783935547,
@@ -3381,7 +3342,7 @@
             ]
         },
         {
-            "name": "Static_Decal_Concrete_Panels_End2",
+            "name": "StaticObj_Decal_Concrete_Panels_End2",
             "pos": [
                 11271.0283203125,
                 183.77037048339845,
@@ -3394,7 +3355,7 @@
             ]
         },
         {
-            "name": "Static_Workshop_Box",
+            "name": "StaticObj_Workshop_Box",
             "pos": [
                 11421.9521484375,
                 182.92945861816407,
@@ -3407,20 +3368,7 @@
             ]
         },
         {
-            "name": "Static_Furniture_bar_tap_DZ",
-            "pos": [
-                11191.8994140625,
-                184.83668518066407,
-                9350.2373046875
-            ],
-            "ypr": [
-                0.0,
-                0.0,
-                0.0
-            ]
-        },
-        {
-            "name": "Static_CoalPlant_LoadingHouse",
+            "name": "StaticObj_CoalPlant_LoadingHouse",
             "pos": [
                 11362.83203125,
                 187.00650024414063,
@@ -3433,7 +3381,7 @@
             ]
         },
         {
-            "name": "Static_Dam_Concrete_40",
+            "name": "StaticObj_Dam_Concrete_40",
             "pos": [
                 11357.365234375,
                 183.15846252441407,
@@ -3446,7 +3394,7 @@
             ]
         },
         {
-            "name": "Static_Rail_Bridge_15_End",
+            "name": "StaticObj_Rail_Bridge_15_End",
             "pos": [
                 11367.0625,
                 180.75563049316407,
@@ -3459,20 +3407,20 @@
             ]
         },
         {
-            "name": "Static_Platform2_Block",
+            "name": "StaticObj_Platform2_Block",
             "pos": [
                 15213848.0,
                 24800.578125,
                 53856504.0
             ],
             "ypr": [
-                -154.7036895751953,
+                -154.70367431640626,
                 0.0,
                 0.0
             ]
         },
         {
-            "name": "Static_Platform2_Block",
+            "name": "StaticObj_Platform2_Block",
             "pos": [
                 11356.9736328125,
                 182.2222900390625,
@@ -3485,7 +3433,7 @@
             ]
         },
         {
-            "name": "Static_Container_1C",
+            "name": "StaticObj_Container_1C",
             "pos": [
                 11352.80078125,
                 183.84799194335938,
@@ -3493,12 +3441,12 @@
             ],
             "ypr": [
                 -34.27530288696289,
-                0.9999999403953552,
-                0.9999999403953552
+                0.9999998211860657,
+                0.9999998211860657
             ]
         },
         {
-            "name": "Static_Container_1C",
+            "name": "StaticObj_Container_1C",
             "pos": [
                 11352.9013671875,
                 186.36097717285157,
@@ -3511,7 +3459,7 @@
             ]
         },
         {
-            "name": "Static_Shed_Open_Small_end",
+            "name": "StaticObj_Shed_Open_Small_end",
             "pos": [
                 11338.630859375,
                 186.1598663330078,
@@ -3524,7 +3472,7 @@
             ]
         },
         {
-            "name": "Static_Shed_Open_Small_end",
+            "name": "StaticObj_Shed_Open_Small_end",
             "pos": [
                 11352.19140625,
                 185.78671264648438,
@@ -3537,7 +3485,7 @@
             ]
         },
         {
-            "name": "Static_Misc_NoticeBoard2",
+            "name": "StaticObj_Misc_NoticeBoard2",
             "pos": [
                 11404.515625,
                 182.17848205566407,
@@ -3550,7 +3498,7 @@
             ]
         },
         {
-            "name": "Static_Wall_IndFnc_Pole",
+            "name": "StaticObj_Wall_IndFnc_Pole",
             "pos": [
                 11356.927734375,
                 184.48703002929688,
@@ -3563,7 +3511,7 @@
             ]
         },
         {
-            "name": "Static_Wall_IndCnc2_3",
+            "name": "StaticObj_Wall_IndCnc2_3",
             "pos": [
                 11361.078125,
                 184.2354278564453,
@@ -3576,7 +3524,7 @@
             ]
         },
         {
-            "name": "Static_Wall_GarbCont_Corner",
+            "name": "StaticObj_Wall_GarbCont_Corner",
             "pos": [
                 11352.8486328125,
                 183.03997802734376,
@@ -3589,7 +3537,7 @@
             ]
         },
         {
-            "name": "Static_Wall_CGry_5_D",
+            "name": "StaticObj_Wall_CGry_5_D",
             "pos": [
                 11368.380859375,
                 185.2947235107422,
@@ -3602,7 +3550,7 @@
             ]
         },
         {
-            "name": "Static_Wall_CYel_5",
+            "name": "StaticObj_Wall_CYel_5",
             "pos": [
                 11283.2021484375,
                 184.26211547851563,
@@ -3615,20 +3563,7 @@
             ]
         },
         {
-            "name": "Static_Wall_CncSmall_4",
-            "pos": [
-                11287.2998046875,
-                184.0489959716797,
-                9394.919921875
-            ],
-            "ypr": [
-                62.999900817871097,
-                0.0,
-                0.0
-            ]
-        },
-        {
-            "name": "Static_Wall_PipeFence_4_nolc",
+            "name": "StaticObj_Wall_PipeFence_4_nolc",
             "pos": [
                 11268.2294921875,
                 183.9348602294922,
@@ -3654,7 +3589,7 @@
             ]
         },
         {
-            "name": "Static_Platform1_Stairs_20",
+            "name": "StaticObj_Platform1_Stairs_20",
             "pos": [
                 11286.2158203125,
                 184.96681213378907,
@@ -3667,46 +3602,7 @@
             ]
         },
         {
-            "name": "Static_Wall_Fen2_6",
-            "pos": [
-                11289.400390625,
-                184.04100036621095,
-                9393.1298828125
-            ],
-            "ypr": [
-                -132.54698181152345,
-                0.0,
-                0.0
-            ]
-        },
-        {
-            "name": "Static_Wall_Fen3_4",
-            "pos": [
-                11279.0,
-                184.17100524902345,
-                9401.1103515625
-            ],
-            "ypr": [
-                -29.09979820251465,
-                0.0,
-                0.0
-            ]
-        },
-        {
-            "name": "Static_Wall_Fen3_4",
-            "pos": [
-                11275.3681640625,
-                184.27813720703126,
-                9399.677734375
-            ],
-            "ypr": [
-                -15.988900184631348,
-                0.0,
-                0.0
-            ]
-        },
-        {
-            "name": "Static_Wall_Fen3_4",
+            "name": "StaticObj_Wall_Fen3_4",
             "pos": [
                 11268.8134765625,
                 184.23548889160157,
@@ -3719,7 +3615,7 @@
             ]
         },
         {
-            "name": "Static_Wall_Fen3_4",
+            "name": "StaticObj_Wall_Fen3_4",
             "pos": [
                 11265.7626953125,
                 184.25228881835938,
@@ -3732,7 +3628,7 @@
             ]
         },
         {
-            "name": "Static_Wall_Fen3_4",
+            "name": "StaticObj_Wall_Fen3_4",
             "pos": [
                 11262.328125,
                 184.25379943847657,
@@ -3745,7 +3641,7 @@
             ]
         },
         {
-            "name": "Static_Wall_Fen1_5_Pole",
+            "name": "StaticObj_Wall_Fen1_5_Pole",
             "pos": [
                 11260.5712890625,
                 184.12515258789063,
@@ -3758,7 +3654,7 @@
             ]
         },
         {
-            "name": "Static_Wall_FenG_Pole",
+            "name": "StaticObj_Wall_FenG_Pole",
             "pos": [
                 11270.2568359375,
                 184.34487915039063,
@@ -3771,33 +3667,7 @@
             ]
         },
         {
-            "name": "Static_Wall_FenG_Pole",
-            "pos": [
-                11273.33203125,
-                184.36996459960938,
-                9399.107421875
-            ],
-            "ypr": [
-                35.99998092651367,
-                -0.0,
-                -0.0
-            ]
-        },
-        {
-            "name": "Static_Wall_FenW_7",
-            "pos": [
-                11283.6923828125,
-                183.93673706054688,
-                9399.8408203125
-            ],
-            "ypr": [
-                35.999996185302737,
-                0.0,
-                0.0
-            ]
-        },
-        {
-            "name": "Static_Misc_BagFence_3m",
+            "name": "StaticObj_Misc_BagFence_3m",
             "pos": [
                 11265.400390625,
                 183.3199462890625,
@@ -3810,7 +3680,7 @@
             ]
         },
         {
-            "name": "Static_Misc_BagFence_3m",
+            "name": "StaticObj_Misc_BagFence_3m",
             "pos": [
                 11268.94140625,
                 183.1556396484375,
@@ -3823,7 +3693,7 @@
             ]
         },
         {
-            "name": "Static_Wall_FenR_Pole",
+            "name": "StaticObj_Wall_FenR_Pole",
             "pos": [
                 11285.720703125,
                 184.30799865722657,
@@ -3836,33 +3706,7 @@
             ]
         },
         {
-            "name": "Static_Wall_FenG_Pole",
-            "pos": [
-                11286.5,
-                184.05299377441407,
-                9396.7001953125
-            ],
-            "ypr": [
-                65.49998474121094,
-                0.0,
-                0.0
-            ]
-        },
-        {
-            "name": "Static_Wall_FenForest_Pole",
-            "pos": [
-                11286.08203125,
-                183.80482482910157,
-                9400.2294921875
-            ],
-            "ypr": [
-                132.52581787109376,
-                0.0,
-                0.0
-            ]
-        },
-        {
-            "name": "Static_Wall_PipeFenceWall_8",
+            "name": "StaticObj_Wall_PipeFenceWall_8",
             "pos": [
                 11299.935546875,
                 184.75148010253907,
@@ -3875,7 +3719,7 @@
             ]
         },
         {
-            "name": "Static_Wall_PipeFenceWall_8",
+            "name": "StaticObj_Wall_PipeFenceWall_8",
             "pos": [
                 11305.697265625,
                 184.79917907714845,
@@ -3888,7 +3732,7 @@
             ]
         },
         {
-            "name": "Static_Wall_Fen6_8",
+            "name": "StaticObj_Wall_Fen6_8",
             "pos": [
                 11240.7705078125,
                 185.8286590576172,
@@ -3901,7 +3745,7 @@
             ]
         },
         {
-            "name": "Static_Wall_FenForest_5_D",
+            "name": "StaticObj_Wall_FenForest_5_D",
             "pos": [
                 11267.623046875,
                 185.8751220703125,
@@ -3914,7 +3758,7 @@
             ]
         },
         {
-            "name": "Static_Wall_FenForest_Pole",
+            "name": "StaticObj_Wall_FenForest_Pole",
             "pos": [
                 11265.5,
                 185.99600219726563,
@@ -3923,11 +3767,11 @@
             "ypr": [
                 66.52501678466797,
                 8.871199607849121,
-                174.49998474121095
+                174.49996948242188
             ]
         },
         {
-            "name": "Static_Misc_Transformer",
+            "name": "StaticObj_Misc_Transformer",
             "pos": [
                 11297.98828125,
                 183.8730010986328,
@@ -3940,7 +3784,7 @@
             ]
         },
         {
-            "name": "Static_Misc_Transformer",
+            "name": "StaticObj_Misc_Transformer",
             "pos": [
                 11300.98828125,
                 183.8769989013672,
@@ -3953,7 +3797,7 @@
             ]
         },
         {
-            "name": "Static_Furniture_wheel_cart_DZ",
+            "name": "StaticObj_Furniture_wheel_cart_DZ",
             "pos": [
                 11268.2451171875,
                 185.43499755859376,
@@ -3966,7 +3810,7 @@
             ]
         },
         {
-            "name": "Static_Furniture_carpet_2_DZ",
+            "name": "StaticObj_Furniture_carpet_2_DZ",
             "pos": [
                 11269.740234375,
                 184.2830047607422,
@@ -3979,7 +3823,7 @@
             ]
         },
         {
-            "name": "Static_Furniture_bag_DZ",
+            "name": "StaticObj_Furniture_bag_DZ",
             "pos": [
                 11269.712890625,
                 184.3574676513672,
@@ -3992,7 +3836,7 @@
             ]
         },
         {
-            "name": "Static_Garbage_Pile3",
+            "name": "StaticObj_Garbage_Pile3",
             "pos": [
                 11268.87890625,
                 184.67872619628907,
@@ -4005,7 +3849,7 @@
             ]
         },
         {
-            "name": "Static_Furniture_bag_DZ",
+            "name": "StaticObj_Furniture_bag_DZ",
             "pos": [
                 11269.4658203125,
                 184.7548065185547,
@@ -4018,7 +3862,7 @@
             ]
         },
         {
-            "name": "Static_Slum_Roof3",
+            "name": "StaticObj_Slum_Roof3",
             "pos": [
                 11366.0,
                 184.51319885253907,
@@ -4026,19 +3870,19 @@
             ],
             "ypr": [
                 63.0,
-                7.999999523162842,
-                0.4999999701976776
+                7.999998569488525,
+                0.49999991059303286
             ]
         },
         {
-            "name": "Static_Slum_Roof1",
+            "name": "StaticObj_Slum_Roof1",
             "pos": [
                 11359.1015625,
                 183.36216735839845,
                 9462.3173828125
             ],
             "ypr": [
-                152.99996948242188,
+                152.9999542236328,
                 0.0,
                 -0.0
             ]
@@ -4051,13 +3895,13 @@
                 9421.1298828125
             ],
             "ypr": [
-                -121.94799041748047,
+                -121.94798278808594,
                 4.799999713897705,
-                -40.999996185302737
+                -40.99999237060547
             ]
         },
         {
-            "name": "Static_Ruin_HouseBig1_Half_Proxy_01",
+            "name": "StaticObj_Ruin_HouseBig1_Half_Proxy_01",
             "pos": [
                 11434.822265625,
                 179.9978790283203,
@@ -4070,20 +3914,20 @@
             ]
         },
         {
-            "name": "Static_Ruin_HouseBig2_Half_Proxy_overgrowth",
+            "name": "StaticObj_Ruin_HouseBig2_Half_Proxy_overgrowth",
             "pos": [
                 11352.267578125,
                 181.71780395507813,
                 9425.3935546875
             ],
             "ypr": [
-                -123.99998474121094,
+                -123.9999771118164,
                 0.0,
                 90.0
             ]
         },
         {
-            "name": "Static_Ruin_HouseBig1_Proxy_overgrowth_02",
+            "name": "StaticObj_Ruin_HouseBig1_Proxy_overgrowth_02",
             "pos": [
                 11302.4091796875,
                 178.60720825195313,
@@ -4092,11 +3936,11 @@
             "ypr": [
                 -25.0,
                 -89.00004577636719,
-                -180.0
+                179.99998474121095
             ]
         },
         {
-            "name": "Static_Ruin_HouseBig1_Proxy_overgrowth_02",
+            "name": "StaticObj_Ruin_HouseBig1_Proxy_overgrowth_02",
             "pos": [
                 11347.3876953125,
                 185.96397399902345,
@@ -4109,7 +3953,7 @@
             ]
         },
         {
-            "name": "Static_carpet_big_dirty",
+            "name": "StaticObj_carpet_big_dirty",
             "pos": [
                 11274.609375,
                 192.24183654785157,
@@ -4122,7 +3966,7 @@
             ]
         },
         {
-            "name": "Static_carpet_big_dirty2",
+            "name": "StaticObj_carpet_big_dirty2",
             "pos": [
                 11271.603515625,
                 192.2550048828125,
@@ -4135,7 +3979,7 @@
             ]
         },
         {
-            "name": "Static_Furniture_carpet_big",
+            "name": "StaticObj_Furniture_carpet_big",
             "pos": [
                 11275.2978515625,
                 192.2444610595703,
@@ -4148,23 +3992,23 @@
             ]
         },
         {
-            "name": "Static_Furniture_ch_mod_h",
+            "name": "StaticObj_Furniture_ch_mod_h",
             "pos": [
                 11272.2998046875,
-                194.75100708007813,
+                195.00375366210938,
                 9437.1103515625
             ],
             "ypr": [
-                129.79998779296876,
+                129.7999725341797,
                 0.0,
                 0.0
             ]
         },
         {
-            "name": "Static_Furniture_locker_closed_blue_v2",
+            "name": "StaticObj_Furniture_locker_closed_blue_v2",
             "pos": [
                 11273.7998046875,
-                192.4199981689453,
+                192.23231506347657,
                 9435.9501953125
             ],
             "ypr": [
@@ -4174,10 +4018,10 @@
             ]
         },
         {
-            "name": "Static_Furniture_flowers_02",
+            "name": "StaticObj_Furniture_flowers_02",
             "pos": [
                 11274.392578125,
-                192.08526611328126,
+                192.23040771484376,
                 9436.056640625
             ],
             "ypr": [
@@ -4187,7 +4031,7 @@
             ]
         },
         {
-            "name": "Static_Furniture_flowers_02",
+            "name": "StaticObj_Furniture_flowers_02",
             "pos": [
                 11269.822265625,
                 192.0669403076172,
@@ -4200,7 +4044,7 @@
             ]
         },
         {
-            "name": "Static_Furniture_flowers_01",
+            "name": "StaticObj_Furniture_flowers_01",
             "pos": [
                 11271.5771484375,
                 193.4634552001953,
@@ -4213,7 +4057,7 @@
             ]
         },
         {
-            "name": "Static_Furniture_box_c",
+            "name": "StaticObj_Furniture_box_c",
             "pos": [
                 11275.5048828125,
                 192.53480529785157,
@@ -4226,37 +4070,37 @@
             ]
         },
         {
-            "name": "Static_Furniture_box_c_multi",
+            "name": "StaticObj_Furniture_box_c_multi",
             "pos": [
                 11276.7802734375,
                 192.23794555664063,
                 9429.16015625
             ],
             "ypr": [
-                118.89675903320313,
+                118.89677429199219,
                 -0.0,
                 -0.0
             ]
         },
         {
-            "name": "Static_Furniture_flowers_01",
+            "name": "StaticObj_Furniture_flowers_01",
             "pos": [
-                11274.5693359375,
-                184.197998046875,
-                9439.455078125
+                11274.599609375,
+                184.14544677734376,
+                9439.4599609375
             ],
             "ypr": [
                 0.0,
-                -0.0,
-                -0.0
+                0.0,
+                0.0
             ]
         },
         {
-            "name": "Static_Furniture_tools_racking_DZ",
+            "name": "StaticObj_Furniture_tools_racking_DZ",
             "pos": [
-                11273.638671875,
-                192.42599487304688,
-                9436.921875
+                11273.3310546875,
+                192.24331665039063,
+                9436.9716796875
             ],
             "ypr": [
                 -117.26700592041016,
@@ -4265,7 +4109,7 @@
             ]
         },
         {
-            "name": "Static_Furniture_rack_DZ",
+            "name": "StaticObj_Furniture_rack_DZ",
             "pos": [
                 11273.0,
                 192.3313446044922,
@@ -4278,7 +4122,7 @@
             ]
         },
         {
-            "name": "Static_Furniture_shelfs_small_broken",
+            "name": "StaticObj_Furniture_shelfs_small_broken",
             "pos": [
                 11273.5087890625,
                 192.7473907470703,
@@ -4304,19 +4148,6 @@
             ]
         },
         {
-            "name": "Static_Mil_CamoNet_Side_nato",
-            "pos": [
-                11278.69921875,
-                192.86300659179688,
-                9434.904296875
-            ],
-            "ypr": [
-                59.386600494384769,
-                -3.999999761581421,
-                0.0
-            ]
-        },
-        {
             "name": "CamoNetShelter",
             "pos": [
                 11314.9580078125,
@@ -4330,20 +4161,7 @@
             ]
         },
         {
-            "name": "Static_Furniture_flowers_02",
-            "pos": [
-                11303.2197265625,
-                191.4060516357422,
-                9357.302734375
-            ],
-            "ypr": [
-                0.0,
-                -0.0,
-                -0.0
-            ]
-        },
-        {
-            "name": "Static_Wall_Barricade1_10",
+            "name": "StaticObj_Wall_Barricade1_10",
             "pos": [
                 11296.314453125,
                 182.64158630371095,
@@ -4356,16 +4174,1147 @@
             ]
         },
         {
-            "name": "Static_Mil_CamoNet_Side_east",
+            "name": "StaticObj_Furniture_matress_white",
             "pos": [
-                11311.2998046875,
-                182.12600708007813,
-                9363.3095703125
+                11353.3544921875,
+                182.05386352539063,
+                9403.78515625
             ],
             "ypr": [
-                -100.9939956665039,
-                -70.29248809814453,
-                6.499869346618652
+                0.0,
+                -0.0,
+                -0.0
+            ]
+        },
+        {
+            "name": "StaticObj_Furniture_ch_mod_c",
+            "pos": [
+                11352.9609375,
+                182.79229736328126,
+                9403.4365234375
+            ],
+            "ypr": [
+                179.9998779296875,
+                0.0,
+                -0.0
+            ]
+        },
+        {
+            "name": "StaticObj_picture_e",
+            "pos": [
+                11282.7998046875,
+                190.05999755859376,
+                9539.150390625
+            ],
+            "ypr": [
+                -116.30489349365235,
+                -90.0,
+                -0.000005008955668017734
+            ]
+        },
+        {
+            "name": "StaticObj_picture_c",
+            "pos": [
+                11282.037109375,
+                190.12899780273438,
+                9530.71484375
+            ],
+            "ypr": [
+                154.28700256347657,
+                -90.0,
+                -180.0
+            ]
+        },
+        {
+            "name": "StaticObj_Furniture_case_d",
+            "pos": [
+                11281.1962890625,
+                188.58447265625,
+                9530.509765625
+            ],
+            "ypr": [
+                -24.86016273498535,
+                -0.0,
+                -0.0
+            ]
+        },
+        {
+            "name": "StaticObj_Furniture_picture_a_05",
+            "pos": [
+                11280.400390625,
+                188.82200622558595,
+                9536.169921875
+            ],
+            "ypr": [
+                66.56769561767578,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "name": "StaticObj_Furniture_flowers_01",
+            "pos": [
+                11280.1962890625,
+                188.5771026611328,
+                9538.125
+            ],
+            "ypr": [
+                0.0,
+                -0.0,
+                -0.0
+            ]
+        },
+        {
+            "name": "StaticObj_Furniture_carpet_2_DZ",
+            "pos": [
+                11282.7998046875,
+                188.6820068359375,
+                9535.9296875
+            ],
+            "ypr": [
+                -114.38099670410156,
+                0.0,
+                -0.4999999701976776
+            ]
+        },
+        {
+            "name": "Lockpick",
+            "pos": [
+                11294.0,
+                182.51747131347657,
+                9360.240234375
+            ],
+            "ypr": [
+                25.00000762939453,
+                -87.50001525878906,
+                0.4999999701976776
+            ]
+        },
+        {
+            "name": "BookCassidysRustlerRoundUp",
+            "pos": [
+                11294.232421875,
+                187.51632690429688,
+                9372.587890625
+            ],
+            "ypr": [
+                0.0,
+                -0.0,
+                -0.0
+            ]
+        },
+        {
+            "name": "Pen_Green",
+            "pos": [
+                11648.9521484375,
+                193.44168090820313,
+                9618.3515625
+            ],
+            "ypr": [
+                179.99989318847657,
+                90.0,
+                179.99989318847657
+            ]
+        },
+        {
+            "name": "Pen_Red",
+            "pos": [
+                11421.67578125,
+                183.26449584960938,
+                9374.646484375
+            ],
+            "ypr": [
+                -0.0000632929295534268,
+                -90.0,
+                -0.0000632929295534268
+            ]
+        },
+        {
+            "name": "Candle",
+            "pos": [
+                11421.44921875,
+                183.3199462890625,
+                9374.908203125
+            ],
+            "ypr": [
+                0.0,
+                -0.0,
+                -0.0
+            ]
+        },
+        {
+            "name": "Shovel",
+            "pos": [
+                11435.529296875,
+                181.75550842285157,
+                9389.7373046875
+            ],
+            "ypr": [
+                -164.88490295410157,
+                0.0,
+                -6.499969005584717
+            ]
+        },
+        {
+            "name": "FireExtinguisher",
+            "pos": [
+                11431.8203125,
+                183.13453674316407,
+                9384.31640625
+            ],
+            "ypr": [
+                0.0,
+                -0.0,
+                -0.0
+            ]
+        },
+        {
+            "name": "SledgeHammer",
+            "pos": [
+                11435.3701171875,
+                181.83299255371095,
+                9389.74609375
+            ],
+            "ypr": [
+                0.0,
+                7.5,
+                -0.9999996423721314
+            ]
+        },
+        {
+            "name": "Pickaxe",
+            "pos": [
+                11438.9072265625,
+                182.19900512695313,
+                9388.974609375
+            ],
+            "ypr": [
+                136.5,
+                -4.499998092651367,
+                174.99989318847657
+            ]
+        },
+        {
+            "name": "Hatchet",
+            "pos": [
+                11439.7001953125,
+                182.46800231933595,
+                9388.8046875
+            ],
+            "ypr": [
+                -6.500012397766113,
+                90.0,
+                179.9999237060547
+            ]
+        },
+        {
+            "name": "Paper",
+            "pos": [
+                11421.650390625,
+                183.26600646972657,
+                9374.7373046875
+            ],
+            "ypr": [
+                133.4999542236328,
+                90.0,
+                179.9999237060547
+            ]
+        },
+        {
+            "name": "Vodka",
+            "pos": [
+                11262.7177734375,
+                186.66888427734376,
+                9521.66015625
+            ],
+            "ypr": [
+                0.0,
+                -0.0,
+                -0.0
+            ]
+        },
+        {
+            "name": "SodaCan_Kvass",
+            "pos": [
+                11264.5654296875,
+                186.62643432617188,
+                9520.990234375
+            ],
+            "ypr": [
+                0.0,
+                -0.0,
+                -0.0
+            ]
+        },
+        {
+            "name": "WeldingMask",
+            "pos": [
+                11333.541015625,
+                184.0289306640625,
+                9478.8447265625
+            ],
+            "ypr": [
+                -125.4332504272461,
+                -0.0,
+                -0.0
+            ]
+        },
+        {
+            "name": "SodaCan_Spite",
+            "pos": [
+                11264.6025390625,
+                186.62557983398438,
+                9521.09765625
+            ],
+            "ypr": [
+                0.0,
+                -0.0,
+                -0.0
+            ]
+        },
+        {
+            "name": "DogFoodCan_Opened",
+            "pos": [
+                11295.3505859375,
+                183.31887817382813,
+                9360.2666015625
+            ],
+            "ypr": [
+                0.0,
+                -0.0,
+                -0.0
+            ]
+        },
+        {
+            "name": "BookTheWarOfTheWorlds",
+            "pos": [
+                11290.099609375,
+                187.2239990234375,
+                9376.6103515625
+            ],
+            "ypr": [
+                150.87693786621095,
+                -4.999989986419678,
+                0.0
+            ]
+        },
+        {
+            "name": "BookBettyZane",
+            "pos": [
+                11290.0634765625,
+                187.2229766845703,
+                9376.6923828125
+            ],
+            "ypr": [
+                -30.0,
+                19.999996185302736,
+                0.0
+            ]
+        },
+        {
+            "name": "BookTheLastTrail",
+            "pos": [
+                11289.599609375,
+                187.12338256835938,
+                9377.5
+            ],
+            "ypr": [
+                179.9999542236328,
+                90.0,
+                179.9999542236328
+            ]
+        },
+        {
+            "name": "Radio",
+            "pos": [
+                11289.646484375,
+                187.5749969482422,
+                9377.55078125
+            ],
+            "ypr": [
+                54.99999237060547,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "name": "PetrolLighter",
+            "pos": [
+                11292.8916015625,
+                186.63844299316407,
+                9375.3427734375
+            ],
+            "ypr": [
+                -97.99999237060547,
+                1.9999992847442628,
+                -89.49998474121094
+            ]
+        },
+        {
+            "name": "CigarettePack_Partyzanka",
+            "pos": [
+                11292.9619140625,
+                186.63499450683595,
+                9375.33984375
+            ],
+            "ypr": [
+                -157.99990844726563,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "name": "CourierBag",
+            "pos": [
+                11246.7998046875,
+                185.58599853515626,
+                9374.33984375
+            ],
+            "ypr": [
+                25.499990463256837,
+                10.999998092651368,
+                -100.4999771118164
+            ]
+        },
+        {
+            "name": "Spraycan_Black",
+            "pos": [
+                11335.322265625,
+                183.2417755126953,
+                9468.78125
+            ],
+            "ypr": [
+                0.0,
+                -0.0,
+                -0.0
+            ]
+        },
+        {
+            "name": "Spraycan_Green",
+            "pos": [
+                11335.2666015625,
+                183.2550048828125,
+                9468.697265625
+            ],
+            "ypr": [
+                -58.999996185302737,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "name": "ButaneCanister",
+            "pos": [
+                11332.0126953125,
+                183.22140502929688,
+                9467.0537109375
+            ],
+            "ypr": [
+                0.0,
+                -0.0,
+                -0.0
+            ]
+        },
+        {
+            "name": "Vodka",
+            "pos": [
+                11324.98046875,
+                183.05116271972657,
+                9464.0869140625
+            ],
+            "ypr": [
+                179.9999542236328,
+                90.0,
+                -154.9999542236328
+            ]
+        },
+        {
+            "name": "Engraved1911",
+            "pos": [
+                11248.0,
+                183.79400634765626,
+                9377.4501953125
+            ],
+            "ypr": [
+                0.0,
+                -89.00004577636719,
+                0.0
+            ]
+        },
+        {
+            "name": "Mag_1911_7Rnd",
+            "pos": [
+                11247.7001953125,
+                183.79400634765626,
+                9377.259765625
+            ],
+            "ypr": [
+                0.00003597217801143415,
+                90.0,
+                0.00003597217801143415
+            ]
+        },
+        {
+            "name": "Mag_M249_Box200Rnd",
+            "pos": [
+                11648.5390625,
+                193.212646484375,
+                9618.9375
+            ],
+            "ypr": [
+                0.0,
+                -0.0,
+                -0.0
+            ]
+        },
+        {
+            "name": "Thermometer",
+            "pos": [
+                11648.4912109375,
+                193.4375457763672,
+                9619.181640625
+            ],
+            "ypr": [
+                -1.5,
+                1.9999992847442628,
+                -88.49999237060547
+            ]
+        },
+        {
+            "name": "Cannabis",
+            "pos": [
+                11648.412109375,
+                193.43785095214845,
+                9619.0771484375
+            ],
+            "ypr": [
+                0.0,
+                -0.0,
+                -0.0
+            ]
+        },
+        {
+            "name": "Land_Misc_Well_Pump_Yellow",
+            "pos": [
+                11286.400390625,
+                184.13800048828126,
+                9374.7998046875
+            ],
+            "ypr": [
+                175.84896850585938,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "name": "RPG7",
+            "pos": [
+                11648.625,
+                193.65377807617188,
+                9619.51171875
+            ],
+            "ypr": [
+                106.0,
+                12.499981880187989,
+                92.99999237060547
+            ]
+        },
+        {
+            "name": "HescoBox",
+            "pos": [
+                11248.400390625,
+                182.8350067138672,
+                9372.1298828125
+            ],
+            "ypr": [
+                45.678794860839847,
+                1.5,
+                -19.99999237060547
+            ]
+        },
+        {
+            "name": "RecurveBow",
+            "pos": [
+                11651.421875,
+                194.1441192626953,
+                9619.3505859375
+            ],
+            "ypr": [
+                165.19996643066407,
+                20.499998092651368,
+                -19.500003814697267
+            ]
+        },
+        {
+            "name": "Shockpistol_Black",
+            "pos": [
+                11651.5078125,
+                193.46578979492188,
+                9620.0556640625
+            ],
+            "ypr": [
+                179.9999542236328,
+                90.0,
+                179.9999542236328
+            ]
+        },
+        {
+            "name": "Handcuffs",
+            "pos": [
+                11639.099609375,
+                190.08140563964845,
+                9619.330078125
+            ],
+            "ypr": [
+                179.9999542236328,
+                90.0,
+                179.9999542236328
+            ]
+        },
+        {
+            "name": "HandcuffKeys",
+            "pos": [
+                11638.7431640625,
+                190.08547973632813,
+                9619.4091796875
+            ],
+            "ypr": [
+                179.9999542236328,
+                -90.0,
+                179.9999542236328
+            ]
+        },
+        {
+            "name": "Pen_Blue",
+            "pos": [
+                11642.0576171875,
+                190.07708740234376,
+                9622.7802734375
+            ],
+            "ypr": [
+                -45.49998092651367,
+                90.0,
+                179.9999542236328
+            ]
+        },
+        {
+            "name": "Paper",
+            "pos": [
+                11642.2001953125,
+                190.07200622558595,
+                9622.7900390625
+            ],
+            "ypr": [
+                147.0,
+                89.97201538085938,
+                179.99990844726563
+            ]
+        },
+        {
+            "name": "Cannabis",
+            "pos": [
+                11649.00390625,
+                193.43560791015626,
+                9618.2880859375
+            ],
+            "ypr": [
+                0.0,
+                -0.0,
+                -0.0
+            ]
+        },
+        {
+            "name": "GrozaOptic",
+            "pos": [
+                11651.7001953125,
+                193.46249389648438,
+                9619.7490234375
+            ],
+            "ypr": [
+                29.618000030517579,
+                86.30000305175781,
+                179.99993896484376
+            ]
+        },
+        {
+            "name": "BurlapSackCover",
+            "pos": [
+                11280.08203125,
+                183.7701416015625,
+                9418.337890625
+            ],
+            "ypr": [
+                -107.49999237060547,
+                3.0,
+                179.9999542236328
+            ]
+        },
+        {
+            "name": "WomanSuit_Khaki",
+            "pos": [
+                11268.8662109375,
+                182.35089111328126,
+                9334.1337890625
+            ],
+            "ypr": [
+                0.0,
+                -0.0,
+                -0.0
+            ]
+        },
+        {
+            "name": "Groza",
+            "pos": [
+                11649.458984375,
+                193.4936065673828,
+                9617.798828125
+            ],
+            "ypr": [
+                0.0,
+                -88.00011444091797,
+                0.0
+            ]
+        },
+        {
+            "name": "Ammo_RPG7_AP",
+            "pos": [
+                11648.7880859375,
+                193.20143127441407,
+                9619.4482421875
+            ],
+            "ypr": [
+                141.5,
+                -73.48030853271485,
+                167.9989776611328
+            ]
+        },
+        {
+            "name": "PsilocybeMushroom",
+            "pos": [
+                11648.7802734375,
+                193.5140838623047,
+                9618.9111328125
+            ],
+            "ypr": [
+                104.9999771118164,
+                -85.00008392333985,
+                179.99996948242188
+            ]
+        },
+        {
+            "name": "Chips",
+            "pos": [
+                11644.9052734375,
+                193.67112731933595,
+                9610.1865234375
+            ],
+            "ypr": [
+                0.0,
+                82.4999771118164,
+                0.0
+            ]
+        },
+        {
+            "name": "Hatchback_02_Wheel",
+            "pos": [
+                11340.953125,
+                182.59652709960938,
+                9481.4892578125
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                90.0
+            ]
+        },
+        {
+            "name": "Truck_01_WheelDouble",
+            "pos": [
+                11340.9287109375,
+                183.0076446533203,
+                9479.8134765625
+            ],
+            "ypr": [
+                53.99998474121094,
+                -0.0,
+                -0.0
+            ]
+        },
+        {
+            "name": "Truck_01_WheelDouble",
+            "pos": [
+                11341.3642578125,
+                183.02003479003907,
+                9479.1787109375
+            ],
+            "ypr": [
+                54.0,
+                -1.9999998807907105,
+                0.0
+            ]
+        },
+        {
+            "name": "Hatchback_02_Wheel",
+            "pos": [
+                11340.927734375,
+                182.42605590820313,
+                9481.3486328125
+            ],
+            "ypr": [
+                172.55479431152345,
+                0.0,
+                90.0
+            ]
+        },
+        {
+            "name": "Sedan_02_Wheel",
+            "pos": [
+                11340.685546875,
+                182.60800170898438,
+                9480.3056640625
+            ],
+            "ypr": [
+                60.0,
+                15.99999713897705,
+                19.999996185302736
+            ]
+        },
+        {
+            "name": "CivSedanWheel",
+            "pos": [
+                11340.599609375,
+                182.46299743652345,
+                9482.0703125
+            ],
+            "ypr": [
+                62.007904052734378,
+                0.0,
+                90.0
+            ]
+        },
+        {
+            "name": "HatchbackWheel",
+            "pos": [
+                11337.7783203125,
+                182.66551208496095,
+                9480.4267578125
+            ],
+            "ypr": [
+                139.99998474121095,
+                -61.70000457763672,
+                -84.99998474121094
+            ]
+        },
+        {
+            "name": "HatchbackWheel",
+            "pos": [
+                11338.447265625,
+                182.75900268554688,
+                9481.259765625
+            ],
+            "ypr": [
+                149.0,
+                -1.5,
+                25.0
+            ]
+        },
+        {
+            "name": "PoliceBaton",
+            "pos": [
+                11642.5771484375,
+                190.07884216308595,
+                9622.9912109375
+            ],
+            "ypr": [
+                0.0,
+                -39.999996185302737,
+                -84.99998474121094
+            ]
+        },
+        {
+            "name": "SodaCan_Pipsi",
+            "pos": [
+                11264.7138671875,
+                186.61849975585938,
+                9520.69921875
+            ],
+            "ypr": [
+                0.0,
+                -0.0,
+                -0.0
+            ]
+        },
+        {
+            "name": "SodaCan_Pipsi",
+            "pos": [
+                11264.6220703125,
+                186.6321563720703,
+                9520.978515625
+            ],
+            "ypr": [
+                64.89830017089844,
+                -0.0,
+                -0.0
+            ]
+        },
+        {
+            "name": "SodaCan_Cola",
+            "pos": [
+                11264.74609375,
+                186.62342834472657,
+                9520.87109375
+            ],
+            "ypr": [
+                0.0,
+                -0.0,
+                -0.0
+            ]
+        },
+        {
+            "name": "SodaCan_Kvass",
+            "pos": [
+                11264.1103515625,
+                186.61993408203126,
+                9521.8583984375
+            ],
+            "ypr": [
+                0.0,
+                -0.0,
+                -0.0
+            ]
+        },
+        {
+            "name": "SodaCan_Fronta",
+            "pos": [
+                11260.5927734375,
+                186.5564422607422,
+                9521.2490234375
+            ],
+            "ypr": [
+                0.0,
+                -0.0,
+                -0.0
+            ]
+        },
+        {
+            "name": "ChernarusMap_Open",
+            "pos": [
+                11268.099609375,
+                184.8749237060547,
+                9423.41015625
+            ],
+            "ypr": [
+                -135.0599822998047,
+                -90.0,
+                3.5000159740448
+            ]
+        },
+        {
+            "name": "Crossbow_RedpointOptic",
+            "pos": [
+                11648.990234375,
+                193.84170532226563,
+                9618.306640625
+            ],
+            "ypr": [
+                164.99996948242188,
+                85.29996490478516,
+                169.99996948242188
+            ]
+        },
+        {
+            "name": "Cannabis",
+            "pos": [
+                11648.7021484375,
+                193.44781494140626,
+                9618.8564453125
+            ],
+            "ypr": [
+                0.0,
+                -0.0,
+                -0.0
+            ]
+        },
+        {
+            "name": "Mag_Arrows_Quiver",
+            "pos": [
+                11649.4150390625,
+                194.07106018066407,
+                9618.1259765625
+            ],
+            "ypr": [
+                159.99996948242188,
+                1.299999713897705,
+                162.99996948242188
+            ]
+        },
+        {
+            "name": "Ammo_ArrowComposite",
+            "pos": [
+                11651.53125,
+                194.22352600097657,
+                9619.591796875
+            ],
+            "ypr": [
+                -19.999996185302736,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "name": "Ammo_ArrowComposite",
+            "pos": [
+                11651.3232421875,
+                194.2123565673828,
+                9620.33203125
+            ],
+            "ypr": [
+                150.10714721679688,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "name": "SodaCan_Kvass",
+            "pos": [
+                11275.2421875,
+                192.8956756591797,
+                9432.060546875
+            ],
+            "ypr": [
+                0.0,
+                -0.0,
+                -0.0
+            ]
+        },
+        {
+            "name": "SodaCan_Kvass",
+            "pos": [
+                11275.5224609375,
+                192.89292907714845,
+                9431.7470703125
+            ],
+            "ypr": [
+                0.0,
+                -0.0,
+                -0.0
+            ]
+        },
+        {
+            "name": "StaticObj_Wall_CYel_5",
+            "pos": [
+                11274.400390625,
+                184.29800415039063,
+                9400.0400390625
+            ],
+            "ypr": [
+                -20.78069496154785,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "name": "StaticObj_Wall_CYel_5",
+            "pos": [
+                11286.66796875,
+                184.14678955078126,
+                9398.244140625
+            ],
+            "ypr": [
+                68.4000015258789,
+                -0.0,
+                -0.0
+            ]
+        },
+        {
+            "name": "StaticObj_Wall_CYel_5",
+            "pos": [
+                11289.2841796875,
+                184.15890502929688,
+                9394.2880859375
+            ],
+            "ypr": [
+                44.99993896484375,
+                -0.0,
+                -0.0
+            ]
+        },
+        {
+            "name": "StaticObj_Wall_CYel_5",
+            "pos": [
+                11291.9873046875,
+                184.1241912841797,
+                9390.2451171875
+            ],
+            "ypr": [
+                66.59989166259766,
+                -0.0,
+                -0.0
+            ]
+        },
+        {
+            "name": "StaticObj_Wall_CYel_5",
+            "pos": [
+                11293.9541015625,
+                184.0959930419922,
+                9385.7958984375
+            ],
+            "ypr": [
+                65.5715103149414,
+                -0.0,
+                -0.0
+            ]
+        },
+        {
+            "name": "StaticObj_Wall_CYel_5",
+            "pos": [
+                11278.58984375,
+                184.3167724609375,
+                9401.484375
+            ],
+            "ypr": [
+                -18.000064849853517,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "name": "StaticObj_Wall_FenG_Pole",
+            "pos": [
+                11271.87890625,
+                184.37277221679688,
+                9399.1884765625
+            ],
+            "ypr": [
+                -26.999990463256837,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "name": "StaticObj_Wall_FenG_Pole",
+            "pos": [
+                11271.9248046875,
+                184.3720703125,
+                9399.0927734375
+            ],
+            "ypr": [
+                76.781494140625,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "name": "Land_Misc_Through_Static",
+            "pos": [
+                11285.4619140625,
+                184.01901245117188,
+                9374.5146484375
+            ],
+            "ypr": [
+                -31.207698822021486,
+                0.0,
+                0.0
             ]
         }
     ]
