@@ -5,6 +5,12 @@
         <onconnect>1</onconnect>
         <text>Willkommen auf dem Server #name. Bitte nicht die Basis raiden. Wir sind am aufbauen.</text>
     </message>
+    
+    <message> 
+        <deadline>240</deadline> 
+        <shutdown>1</shutdown> 
+        <text>Serverneustart in #tmin Minuten.</text> 
+    </message>
 <!--
 See https://community.bistudio.com/wiki/DayZ:Server_Messages for more information
 
