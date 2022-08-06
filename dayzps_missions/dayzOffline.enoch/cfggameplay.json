@@ -15,7 +15,7 @@
 			"sprintStaminaModifierCro": 1.0,
 			"staminaWeightLimitThreshold": 6000.0,
 			"staminaMax": 100.0,
-			"staminaKgToStaminaPercentPenalty": 1.70,
+			"staminaKgToStaminaPercentPenalty": 1.80,
 			"staminaMinCap": 5.0
 		},
 		"ShockHandlingData":
@@ -33,7 +33,7 @@
 			"custom/junkyardlootdrop.json",
 			"custom/jbmodsitnikbackground.json",
 			"custom/staticloot.json",
-			"custom/hausamsee.json"
+			"custom/explosive.json"
 		],
 		"environmentMinTemps": [18.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9],
 		"environmentMaxTemps": [22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9]
