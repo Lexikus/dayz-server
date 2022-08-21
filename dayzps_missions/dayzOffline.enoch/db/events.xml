@@ -1042,7 +1042,7 @@
         </children>
     </event>
 
-    <!-- Item Customs -->
+    <!-- Custom Events (deaktiviert)
     <event name="ItemCustomSpawnBags">
         <nominal>135</nominal>
         <min>135</min>
@@ -1076,5 +1076,5 @@
         <children>
             <child lootmax="0" lootmin="0" max="3" min="3" type="PileOfWoodenPlanks"/>
         </children>
-    </event>
+    </event> -->
 </events>
