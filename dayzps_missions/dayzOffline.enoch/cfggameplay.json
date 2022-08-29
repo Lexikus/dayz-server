@@ -29,11 +29,10 @@
 	{
 		"lightingConfig": 1,
 		"objectSpawnersArr": [
-			"custom/moddedsitnik.json",
-			"custom/junkyardlootdrop.json",
+			"custom/huta.json",
 			"custom/jbmodsitnikbackground.json",
-			"custom/staticloot.json",
-			"custom/explosive.json"
+			"custom/hausamsee.json",
+			"custom/polana.json"
 		],
 		"environmentMinTemps": [18.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9],
 		"environmentMaxTemps": [22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9]
