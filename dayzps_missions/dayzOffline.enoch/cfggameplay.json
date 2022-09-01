@@ -11,12 +11,12 @@
 		"disablePersonalLight": 0,
 		"StaminaData":
 		{
-			"sprintStaminaModifierErc": 1.0,
-			"sprintStaminaModifierCro": 1.0,
+			"sprintStaminaModifierErc": 0.81,
+			"sprintStaminaModifierCro": 0.78,
 			"staminaWeightLimitThreshold": 6000.0,
 			"staminaMax": 100.0,
 			"staminaKgToStaminaPercentPenalty": 1.80,
-			"staminaMinCap": 5.0
+			"staminaMinCap": 15.0
 		},
 		"ShockHandlingData":
 		{
@@ -34,7 +34,7 @@
 			"custom/hausamsee.json",
 			"custom/polana.json"
 		],
-		"environmentMinTemps": [18.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9],
+		"environmentMinTemps": [22.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9],
 		"environmentMaxTemps": [22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9]
 	},
 	"BaseBuildingData":
