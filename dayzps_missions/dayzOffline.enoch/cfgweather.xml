@@ -37,7 +37,7 @@
     </rain>
     <wind>
         <!-- Maximum wind speed (in m/s) -->
-        <maxspeed>600</maxspeed>
+        <maxspeed>66600</maxspeed>
         <!-- Min and max (relative 0..1) for the wind speed range, frequency of the wind changes -->
         <params min="1" max="1.0" frequency="30" />
     </wind>
