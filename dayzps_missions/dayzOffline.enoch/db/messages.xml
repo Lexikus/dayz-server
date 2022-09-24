@@ -3,9 +3,20 @@
 
     <message>
         <onconnect>1</onconnect>
-        <text>Willkommen auf dem Server #name. Bitte nicht die Basis raiden. Wir sind am aufbauen.</text>
+        <text>GRENZLAND</text>
     </message>
-    
+     <message>
+        <onconnect>1</onconnect>
+        <text>BETA VER.1.0</text>
+    </message>
+            <text>realistischer Loot / realistische Location Modifizierung</text>
+    </message>
+     <message>
+        <onconnect>1</onconnect>
+        <text>benutzt IngameChat / erst reden dann schiessen</text>
+    </message>
+        <text>INFOS FOLGEN</text>
+    </message>
     <message> 
         <deadline>240</deadline> 
         <shutdown>1</shutdown> 
