@@ -8588,10 +8588,10 @@
         <usage name="Village"/>
     </type>
     <type name="JoggingShoes_Black">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -8601,10 +8601,10 @@
         <usage name="Village"/>
     </type>
     <type name="JoggingShoes_Blue">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -8614,10 +8614,10 @@
         <usage name="Village"/>
     </type>
     <type name="JoggingShoes_Red">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -8627,10 +8627,10 @@
         <usage name="Village"/>
     </type>
     <type name="JoggingShoes_Violet">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -8640,10 +8640,10 @@
         <usage name="Village"/>
     </type>
     <type name="JoggingShoes_White">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -8653,10 +8653,10 @@
         <usage name="Village"/>
     </type>
     <type name="JumpsuitJacket_Blue">
-        <nominal>8</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>4</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -8665,10 +8665,10 @@
         <usage name="Industrial"/>
     </type>
     <type name="JumpsuitJacket_Gray">
-        <nominal>8</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>4</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -8678,10 +8678,10 @@
         <usage name="Farm"/>
     </type>
     <type name="JumpsuitJacket_Green">
-        <nominal>8</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>4</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -8691,10 +8691,10 @@
         <usage name="Farm"/>
     </type>
     <type name="JumpsuitJacket_Red">
-        <nominal>8</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>4</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -8703,10 +8703,10 @@
         <usage name="Industrial"/>
     </type>
     <type name="JumpsuitPants_Blue">
-        <nominal>8</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>4</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -8715,10 +8715,10 @@
         <usage name="Industrial"/>
     </type>
     <type name="JumpsuitPants_Green">
-        <nominal>8</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>4</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -8728,10 +8728,10 @@
         <usage name="Farm"/>
     </type>
     <type name="JumpsuitPants_Grey">
-        <nominal>8</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>4</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -8741,10 +8741,10 @@
         <usage name="Farm"/>
     </type>
     <type name="JumpsuitPants_Red">
-        <nominal>8</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>4</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -8818,10 +8818,10 @@
         <usage name="Military"/>
     </type>
     <type name="KashtanOptic">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -8843,10 +8843,10 @@
         <usage name="ContaminatedArea"/>
     </type>
     <type name="KitchenKnife">
-        <nominal>35</nominal>
+        <nominal>20</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>25</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -8856,10 +8856,10 @@
         <usage name="Village"/>
     </type>
     <type name="KitchenTimer">
-        <nominal>15</nominal>
+        <nominal>8</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -8870,10 +8870,10 @@
         <usage name="Village"/>
     </type>
     <type name="KobraOptic">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
-        <min>8</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -8882,10 +8882,10 @@
         <usage name="Military"/>
     </type>
     <type name="KukriKnife">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -8894,10 +8894,10 @@
         <usage name="Village"/>
     </type>
     <type name="LabCoat">
-        <nominal>15</nominal>
+        <nominal>8</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -8906,10 +8906,10 @@
         <usage name="Medic"/>
     </type>
     <type name="LactariusMushroom">
-        <nominal>0</nominal>
+        <nominal>3</nominal>
         <lifetime>900</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -8917,10 +8917,10 @@
         <category name="clothes"/>
     </type>
     <type name="LandMineTrap">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>604800</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -8930,10 +8930,10 @@
         <value name="Tier3"/>
     </type>
     <type name="Land_Wreck_Volha_Police">
-        <nominal>0</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -9004,10 +9004,10 @@
         <usage name="Hunting"/>
     </type>
     <type name="LargeTent">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>3888000</lifetime>
         <restock>43200</restock>
-        <min>10</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -9449,10 +9449,10 @@
         <category name="tools"/>
     </type>
     <type name="Longhorn">
-        <nominal>10</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>7</min>
+        <nominal>5</nominal>
+        <lifetime>5760</lifetime>
+        <restock>1440</restock>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -9463,10 +9463,10 @@
         <value name="Tier3"/>
     </type>
     <type name="LugWrench">
-        <nominal>40</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>20</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -9503,10 +9503,10 @@
         <category name="food"/>
     </type>
     <type name="M16A2">
-        <nominal>8</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>5</min>
+        <nominal>5</nominal>
+        <lifetime>5760</lifetime>
+        <restock>1440</restock>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -9517,10 +9517,10 @@
         <value name="Tier3"/>
     </type>
     <type name="M18SmokeGrenade_Green">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -9529,7 +9529,7 @@
         <usage name="Military"/>
     </type>
     <type name="M18SmokeGrenade_Purple">
-        <nominal>10</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -9541,10 +9541,10 @@
         <usage name="Military"/>
     </type>
     <type name="M18SmokeGrenade_Red">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -9553,10 +9553,10 @@
         <usage name="Military"/>
     </type>
     <type name="M18SmokeGrenade_White">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -9565,10 +9565,10 @@
         <usage name="Military"/>
     </type>
     <type name="M18SmokeGrenade_Yellow">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -9578,8 +9578,8 @@
     </type>
     <type name="M4A1">
         <nominal>1</nominal>
-        <lifetime>28800</lifetime>
-        <restock>3600</restock>
+        <lifetime>5760</lifetime>
+        <restock>1440</restock>
         <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -9589,10 +9589,10 @@
         <usage name="ContaminatedArea"/>
     </type>
     <type name="M4A1_Black">
-        <nominal>0</nominal>
-        <lifetime>28800</lifetime>
-        <restock>1800</restock>
-        <min>0</min>
+        <nominal>1</nominal>
+        <lifetime>5760</lifetime>
+        <restock>1440</restock>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -9600,10 +9600,10 @@
         <category name="weapons"/>
     </type>
     <type name="M4A1_Green">
-        <nominal>0</nominal>
-        <lifetime>28800</lifetime>
-        <restock>1800</restock>
-        <min>0</min>
+        <nominal>1</nominal>
+        <lifetime>5760</lifetime>
+        <restock>1440</restock>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -9730,10 +9730,10 @@
         <usage name="ContaminatedArea"/>
     </type>
     <type name="M4_T3NRDSOptic">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -9768,7 +9768,7 @@
         <usage name="Military"/>
     </type>
     <type name="M65Jacket_Olive">
-        <nominal>8</nominal>
+        <nominal>5</nominal>
         <lifetime>28800</lifetime>
         <restock>600</restock>
         <min>3</min>
@@ -9780,7 +9780,7 @@
         <usage name="Military"/>
     </type>
     <type name="M65Jacket_Tan">
-        <nominal>8</nominal>
+        <nominal>5</nominal>
         <lifetime>28800</lifetime>
         <restock>600</restock>
         <min>3</min>
@@ -9792,7 +9792,7 @@
         <usage name="Military"/>
     </type>
     <type name="M67Grenade">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -9805,10 +9805,10 @@
         <value name="Tier3"/>
     </type>
     <type name="M68Optic">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
-        <min>8</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -9817,10 +9817,10 @@
         <usage name="Military"/>
     </type>
     <type name="M9A1_Bayonet">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -9831,10 +9831,10 @@
         <value name="Tier3"/>
     </type>
     <type name="MKII">
-        <nominal>40</nominal>
-        <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>20</min>
+        <nominal>20</nominal>
+        <lifetime>5760</lifetime>
+        <restock>1440</restock>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -9846,10 +9846,10 @@
         <value name="Tier2"/>
     </type>
     <type name="MP5K">
-        <nominal>15</nominal>
-        <lifetime>28800</lifetime>
-        <restock>1800</restock>
-        <min>10</min>
+        <nominal>10</nominal>
+        <lifetime>5760</lifetime>
+        <restock>1440</restock>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -9906,10 +9906,10 @@
         <usage name="Military"/>
     </type>
     <type name="Machete">
-        <nominal>25</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>20</min>
+        <min>8</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -9940,10 +9940,10 @@
         <category name="food"/>
     </type>
     <type name="MacrolepiotaMushroom">
-        <nominal>0</nominal>
+        <nominal3</nominal>
         <lifetime>900</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -9951,10 +9951,10 @@
         <category name="food"/>
     </type>
     <type name="Mag_1911_7Rnd">
-        <nominal>20</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>5</min>
         <quantmin>20</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -10134,10 +10134,10 @@
         <value name="Tier3"/>
     </type>
     <type name="Mag_CZ61_20Rnd">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>5</min>
         <quantmin>5</quantmin>
         <quantmax>70</quantmax>
         <cost>100</cost>
@@ -10146,10 +10146,10 @@
         <usage name="Police"/>
     </type>
     <type name="Mag_CZ75_15Rnd">
-        <nominal>20</nominal>
+        <nominal>10</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>15</min>
+        <min>5</min>
         <quantmin>10</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -10161,10 +10161,10 @@
         <value name="Tier3"/>
     </type>
     <type name="Mag_Deagle_9rnd">
-        <nominal>20</nominal>
+        <nominal>10</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>15</min>
+        <min>5</min>
         <quantmin>15</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -10199,10 +10199,10 @@
         <value name="Tier3"/>
     </type>
     <type name="Mag_FNX45_15Rnd">
-        <nominal>20</nominal>
+        <nominal>10</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>5</min>
         <quantmin>10</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -10213,10 +10213,10 @@
         <value name="Tier3"/>
     </type>
     <type name="Mag_Glock_15Rnd">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>5</min>
         <quantmin>10</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -10225,10 +10225,10 @@
         <usage name="Police"/>
     </type>
     <type name="Mag_IJ70_8Rnd">
-        <nominal>35</nominal>
+        <nominal>15</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>20</min>
+        <min>10</min>
         <quantmin>10</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -10237,10 +10237,10 @@
         <usage name="Village"/>
     </type>
     <type name="Mag_MKII_10Rnd">
-        <nominal>30</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>20</min>
+        <min>8</min>
         <quantmin>20</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -10273,10 +10273,10 @@
         <usage name="Military"/>
     </type>
     <type name="Mag_P1_8Rnd">
-        <nominal>25</nominal>
+        <nominal>13</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>15</min>
+        <min>8</min>
         <quantmin>25</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -10300,10 +10300,10 @@
         <usage name="Military"/>
     </type>
     <type name="Mag_Ruger1022_15Rnd">
-        <nominal>17</nominal>
+        <nominal>10</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>5</min>
         <quantmin>10</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -10313,10 +10313,10 @@
         <usage name="Village"/>
     </type>
     <type name="Mag_Ruger1022_30Rnd">
-        <nominal>17</nominal>
+        <nominal>10</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>5</min>
         <quantmin>5</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -10341,10 +10341,10 @@
         <value name="Tier3"/>
     </type>
     <type name="Mag_STANAG_60Rnd">
-        <nominal>4</nominal>
+        <nominal>2</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>5</quantmin>
         <quantmax>40</quantmax>
         <cost>100</cost>
@@ -10457,8 +10457,8 @@
     </type>
     <type name="Magnum">
         <nominal>10</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
+        <lifetime>5760</lifetime>
+        <restock>1440</restock>
         <min>5</min>
         <quantmin>0</quantmin>
         <quantmax>80</quantmax>
@@ -10468,10 +10468,10 @@
         <usage name="Village"/>
     </type>
     <type name="MakarovIJ70">
-        <nominal>50</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>30</min>
+        <nominal>25</nominal>
+        <lifetime>5760</lifetime>
+        <restock>1440</restock>
+        <min>15</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -10608,10 +10608,10 @@
         <usage name="Hunting"/>
     </type>
     <type name="MeatTenderizer">
-        <nominal>55</nominal>
+        <nominal>20</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>40</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -10743,10 +10743,10 @@
         <usage name="Hunting"/>
     </type>
     <type name="MediumTent">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>3888000</lifetime>
         <restock>43200</restock>
-        <min>10</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -10756,10 +10756,10 @@
         <usage name="Village"/>
     </type>
     <type name="MediumTent_Green">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>3888000</lifetime>
         <restock>43200</restock>
-        <min>10</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -10769,10 +10769,10 @@
         <usage name="Hunting"/>
     </type>
     <type name="MediumTent_Orange">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>3888000</lifetime>
         <restock>43200</restock>
-        <min>10</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -10782,10 +10782,10 @@
         <usage name="Village"/>
     </type>
     <type name="Megaphone">
-        <nominal>20</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -10798,11 +10798,11 @@
         <value name="Tier3"/>
     </type>
     <type name="MetalPlate">
-        <nominal>80</nominal>
+        <nominal>50</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>50</min>
-        <quantmin>10</quantmin>
+        <min>25</min>
+        <quantmin>40</quantmin>
         <quantmax>60</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
@@ -10811,10 +10811,10 @@
         <usage name="Industrial"/>
     </type>
     <type name="MetalWire">
-        <nominal>40</nominal>
+        <nominal>30</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>30</min>
+        <min>20</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -10974,10 +10974,10 @@
         <usage name="Town"/>
     </type>
     <type name="MiniDress_BlueChecker">
-        <nominal>5</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -10986,10 +10986,10 @@
         <usage name="Town"/>
     </type>
     <type name="MiniDress_BlueWithDots">
-        <nominal>5</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -10998,10 +10998,10 @@
         <usage name="Town"/>
     </type>
     <type name="MiniDress_BrownChecker">
-        <nominal>5</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11010,10 +11010,10 @@
         <usage name="Town"/>
     </type>
     <type name="MiniDress_GreenChecker">
-        <nominal>5</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11022,10 +11022,10 @@
         <usage name="Town"/>
     </type>
     <type name="MiniDress_Pink">
-        <nominal>5</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11034,10 +11034,10 @@
         <usage name="Town"/>
     </type>
     <type name="MiniDress_PinkChecker">
-        <nominal>5</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11046,10 +11046,10 @@
         <usage name="Town"/>
     </type>
     <type name="MiniDress_RedChecker">
-        <nominal>5</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11058,10 +11058,10 @@
         <usage name="Town"/>
     </type>
     <type name="MiniDress_WhiteChecker">
-        <nominal>5</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11083,10 +11083,10 @@
         <usage name="Medic"/>
     </type>
     <type name="Mosin9130">
-        <nominal>30</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>15</min>
+        <nominal>5</nominal>
+        <lifetime>5760</lifetime>
+        <restock>1440</restock>
+        <min>3</min>
         <quantmin>0</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -11098,10 +11098,10 @@
         <value name="Tier3"/>
     </type>
     <type name="Mosin9130_Black">
-        <nominal>0</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
+        <nominal>5</nominal>
+        <lifetime>5760</lifetime>
+        <restock>1440</restock>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11109,10 +11109,10 @@
         <category name="weapons"/>
     </type>
     <type name="Mosin9130_Camo">
-        <nominal>0</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
+        <nominal>5</nominal>
+        <lifetime>5760</lifetime>
+        <restock>1440</restock>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11120,10 +11120,10 @@
         <category name="weapons"/>
     </type>
     <type name="Mosin9130_Green">
-        <nominal>0</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
+        <nominal>5</nominal>
+        <lifetime>5760</lifetime>
+        <restock>1440</restock>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11158,10 +11158,10 @@
         <usage name="Hunting"/>
     </type>
     <type name="MotoHelmet_Black">
-        <nominal>8</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>4</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11174,10 +11174,10 @@
         <value name="Tier3"/>
     </type>
     <type name="MotoHelmet_Blue">
-        <nominal>8</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>4</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11188,10 +11188,10 @@
         <usage name="Village"/>
     </type>
     <type name="MotoHelmet_Green">
-        <nominal>8</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>4</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11204,10 +11204,10 @@
         <value name="Tier3"/>
     </type>
     <type name="MotoHelmet_Grey">
-        <nominal>8</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>4</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11220,10 +11220,10 @@
         <value name="Tier3"/>
     </type>
     <type name="MotoHelmet_Lime">
-        <nominal>8</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>4</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11234,10 +11234,10 @@
         <usage name="Village"/>
     </type>
     <type name="MotoHelmet_Red">
-        <nominal>8</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>4</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11248,10 +11248,10 @@
         <usage name="Village"/>
     </type>
     <type name="MotoHelmet_White">
-        <nominal>8</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>4</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11262,10 +11262,10 @@
         <usage name="Village"/>
     </type>
     <type name="MotoHelmet_Yellow">
-        <nominal>8</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>4</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11343,10 +11343,10 @@
         <category name="tools"/>
     </type>
     <type name="Mp133Shotgun">
-        <nominal>15</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>10</min>
+        <nominal>10</nominal>
+        <lifetime>5760</lifetime>
+        <restock>1440</restock>
+        <min>5</min>
         <quantmin>0</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -11491,10 +11491,10 @@
         <usage name="Firefighter"/>
     </type>
     <type name="NVGHeadstrap">
-        <nominal>10</nominal>
+        <nominal>8</nominal>
         <lifetime>28800</lifetime>
         <restock>3600</restock>
-        <min>5</min>
+        <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11505,10 +11505,10 @@
         <value name="Tier3"/>
     </type>
     <type name="NVGoggles">
-        <nominal>5</nominal>
+        <nominal>3</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11528,10 +11528,10 @@
         <category name="tools"/>
     </type>
     <type name="NailBox">
-        <nominal>70</nominal>
+        <nominal>40</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>50</min>
+        <min>25</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11579,10 +11579,10 @@
         <usage name="Industrial"/>
     </type>
     <type name="NurseDress_Blue">
-        <nominal>8</nominal>
+        <nominal>4</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>4</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11591,10 +11591,10 @@
         <usage name="Medic"/>
     </type>
     <type name="NurseDress_White">
-        <nominal>8</nominal>
+        <nominal>4</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>4</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11603,10 +11603,10 @@
         <usage name="Medic"/>
     </type>
     <type name="NylonKnifeSheath">
-        <nominal>20</nominal>
+        <nominal>15</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>8</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11615,10 +11615,10 @@
         <usage name="Hunting"/>
     </type>
     <type name="OMNOGloves_Brown">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11628,10 +11628,10 @@
         <usage name="Police"/>
     </type>
     <type name="OMNOGloves_Gray">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11684,10 +11684,10 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="OrientalMachete">
-        <nominal>2</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11697,7 +11697,7 @@
         <usage name="Village"/>
     </type>
     <type name="OrienteeringCompass">
-        <nominal>15</nominal>
+        <nominal>8</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -11721,10 +11721,10 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
     </type>
     <type name="P1">
-        <nominal>30</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>23</min>
+        <nominal>15</nominal>
+        <lifetime>5760</lifetime>
+        <restock>1440</restock>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11737,8 +11737,8 @@
     </type>
     <type name="PP19">
         <nominal>10</nominal>
-        <lifetime>28800</lifetime>
-        <restock>3600</restock>
+        <lifetime>5760</lifetime>
+        <restock>1440</restock>
         <min>7</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -11773,7 +11773,7 @@
         <value name="Tier3"/>
     </type>
     <type name="PSO1Optic">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
         <min>8</min>
@@ -11785,7 +11785,7 @@
         <usage name="Military"/>
     </type>
     <type name="PUScopeOptic">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
         <min>8</min>
@@ -11798,10 +11798,10 @@
         <usage name="Hunting"/>
     </type>
     <type name="PainkillerTablets">
-        <nominal>25</nominal>
+        <nominal>15</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>18</min>
+        <min>8</min>
         <quantmin>10</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -11850,10 +11850,10 @@
         <category name="tools"/>
     </type>
     <type name="ParamedicJacket_Blue">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11862,10 +11862,10 @@
         <usage name="Medic"/>
     </type>
     <type name="ParamedicJacket_Crimson">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11874,10 +11874,10 @@
         <usage name="Medic"/>
     </type>
     <type name="ParamedicJacket_Green">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11886,10 +11886,10 @@
         <usage name="Medic"/>
     </type>
     <type name="ParamedicPants_Blue">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11898,10 +11898,10 @@
         <usage name="Medic"/>
     </type>
     <type name="ParamedicPants_Crimson">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11910,10 +11910,10 @@
         <usage name="Medic"/>
     </type>
     <type name="ParamedicPants_Green">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11922,10 +11922,10 @@
         <usage name="Medic"/>
     </type>
     <type name="PartyTent">
-        <nominal>15</nominal>
+        <nominal>5</nominal>
         <lifetime>3888000</lifetime>
         <restock>43200</restock>
-        <min>15</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11934,10 +11934,10 @@
         <usage name="Town"/>
     </type>
     <type name="PartyTent_Blue">
-        <nominal>15</nominal>
+        <nominal>5</nominal>
         <lifetime>3888000</lifetime>
         <restock>43200</restock>
-        <min>15</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11946,10 +11946,10 @@
         <usage name="Town"/>
     </type>
     <type name="PartyTent_Brown">
-        <nominal>15</nominal>
+        <nominal>5</nominal>
         <lifetime>3888000</lifetime>
         <restock>43200</restock>
-        <min>15</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11958,10 +11958,10 @@
         <usage name="Town"/>
     </type>
     <type name="PartyTent_Lunapark">
-        <nominal>15</nominal>
+        <nominal>5</nominal>
         <lifetime>3888000</lifetime>
         <restock>43200</restock>
-        <min>15</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12026,10 +12026,10 @@
         <category name="food"/>
     </type>
     <type name="Pear">
-        <nominal>0</nominal>
+        <nominal>5</nominal>
         <lifetime>900</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12100,10 +12100,10 @@
         <category name="tools"/>
     </type>
     <type name="PepperSeedsPack">
-        <nominal>20</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>15</min>
+        <min>8</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12112,10 +12112,10 @@
         <usage name="Farm"/>
     </type>
     <type name="PersonalRadio">
-        <nominal>35</nominal>
+        <nominal>20</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>25</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12126,10 +12126,10 @@
         <usage name="Police"/>
     </type>
     <type name="PetrolLighter">
-        <nominal>20</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>12</min>
+        <min>8</min>
         <quantmin>20</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -12139,10 +12139,10 @@
         <usage name="Village"/>
     </type>
     <type name="Pickaxe">
-        <nominal>30</nominal>
+        <nominal>20</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>20</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12187,10 +12187,10 @@
         <usage name="Industrial"/>
     </type>
     <type name="PilotkaCap">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12199,10 +12199,10 @@
         <usage name="Military"/>
     </type>
     <type name="Pipe">
-        <nominal>50</nominal>
+        <nominal>20</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>30</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12211,10 +12211,10 @@
         <usage name="Industrial"/>
     </type>
     <type name="PipeWrench">
-        <nominal>40</nominal>
+        <nominal>20</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>25</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12239,10 +12239,10 @@
         <value name="Tier3"/>
     </type>
     <type name="PistolSuppressor">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12252,10 +12252,10 @@
         <usage name="Police"/>
     </type>
     <type name="Pitchfork">
-        <nominal>25</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>20</min>
+        <min>8</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12275,7 +12275,7 @@
         <category name="food"/>
     </type>
     <type name="Plant_Pepper">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>0</min>
@@ -12286,7 +12286,7 @@
         <category name="food"/>
     </type>
     <type name="Plant_Potato">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>0</min>
@@ -12297,7 +12297,7 @@
         <category name="food"/>
     </type>
     <type name="Plant_Pumpkin">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>0</min>
@@ -12308,7 +12308,7 @@
         <category name="food"/>
     </type>
     <type name="Plant_Tomato">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>0</min>
@@ -12319,7 +12319,7 @@
         <category name="food"/>
     </type>
     <type name="Plant_Zucchini">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>0</min>
@@ -12330,10 +12330,10 @@
         <category name="food"/>
     </type>
     <type name="PlateCarrierHolster">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12343,10 +12343,10 @@
         <usage name="Military"/>
     </type>
     <type name="PlateCarrierPouches">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12356,10 +12356,10 @@
         <usage name="Military"/>
     </type>
     <type name="PlateCarrierVest">
-        <nominal>0</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12368,10 +12368,10 @@
         <usage name="Military"/>
     </type>
     <type name="PleurotusMushroom">
-        <nominal>0</nominal>
+        <nominal>3</nominal>
         <lifetime>900</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12379,10 +12379,10 @@
         <category name="clothes"/>
     </type>
     <type name="Pliers">
-        <nominal>40</nominal>
+        <nominal>20</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>25</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12393,10 +12393,10 @@
         <usage name="Village"/>
     </type>
     <type name="Plum">
-        <nominal>0</nominal>
+        <nominal>3</nominal>
         <lifetime>900</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12404,10 +12404,10 @@
         <category name="food"/>
     </type>
     <type name="PoliceCap">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12417,10 +12417,10 @@
         <usage name="Police"/>
     </type>
     <type name="PoliceJacket">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12441,10 +12441,10 @@
         <usage name="Police"/>
     </type>
     <type name="PolicePants">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12465,10 +12465,10 @@
         <usage name="Police"/>
     </type>
     <type name="PoliceVest">
-        <nominal>15</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12517,10 +12517,10 @@
         <usage name="Hunting"/>
     </type>
     <type name="PortableGasStove">
-        <nominal>25</nominal>
+        <nominal>15</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>15</min>
+        <min>8</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12553,10 +12553,10 @@
         <category name="food"/>
     </type>
     <type name="PotatoSeed">
-        <nominal>35</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>25</min>
+        <min>8</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12586,10 +12586,10 @@
         <value name="Tier1"/>
     </type>
     <type name="PowerGenerator">
-        <nominal>80</nominal>
+        <nominal>10</nominal>
         <lifetime>604800</lifetime>
         <restock>0</restock>
-        <min>50</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12598,10 +12598,10 @@
         <usage name="Industrial"/>
     </type>
     <type name="PressVest_Blue">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12610,10 +12610,10 @@
         <usage name="Police"/>
     </type>
     <type name="PressVest_LightBlue">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12694,10 +12694,10 @@
         <category name="clothes"/>
     </type>
     <type name="PumpkinSeedsPack">
-        <nominal>20</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>15</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12706,10 +12706,10 @@
         <usage name="Farm"/>
     </type>
     <type name="PurificationTablets">
-        <nominal>50</nominal>
+        <nominal>20</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>35</min>
+        <min>10</min>
         <quantmin>10</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
