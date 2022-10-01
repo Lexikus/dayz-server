@@ -9940,7 +9940,7 @@
         <category name="food"/>
     </type>
     <type name="MacrolepiotaMushroom">
-        <nominal3</nominal>
+        <nominal>3</nominal>
         <lifetime>900</lifetime>
         <restock>0</restock>
         <min>1</min>
@@ -10961,7 +10961,7 @@
         <usage name="Military"/>
     </type>
     <type name="MilitaryBoots_Redpunk">
-        <nominal>4</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -12505,7 +12505,7 @@
         <category name="food"/>
     </type>
     <type name="PortableGasLamp">
-        <nominal>25</nominal>
+        <nominal>20</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>10</min>
@@ -12846,10 +12846,10 @@
         <usage name="Police"/>
     </type>
     <type name="RGD5Grenade">
-        <nominal>15</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12892,10 +12892,10 @@
         <category name="tools"/>
     </type>
     <type name="RadarCap_Black">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12906,10 +12906,10 @@
         <usage name="Farm"/>
     </type>
     <type name="RadarCap_Blue">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12920,10 +12920,10 @@
         <usage name="Farm"/>
     </type>
     <type name="RadarCap_Brown">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12934,10 +12934,10 @@
         <usage name="Farm"/>
     </type>
     <type name="RadarCap_Green">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12948,10 +12948,10 @@
         <usage name="Farm"/>
     </type>
     <type name="RadarCap_Red">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12973,7 +12973,7 @@
         <category name="clothes"/>
     </type>
     <type name="Raincoat_Black">
-        <nominal>8</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>3</min>
@@ -12985,7 +12985,7 @@
         <usage name="Coast"/>
     </type>
     <type name="Raincoat_Blue">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>3</min>
@@ -12997,7 +12997,7 @@
         <usage name="Coast"/>
     </type>
     <type name="Raincoat_Green">
-        <nominal>8</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>3</min>
@@ -13010,7 +13010,7 @@
         <usage name="Village"/>
     </type>
     <type name="Raincoat_Orange">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>3</min>
@@ -13022,7 +13022,7 @@
         <usage name="Coast"/>
     </type>
     <type name="Raincoat_Pink">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>3</min>
@@ -13034,7 +13034,7 @@
         <usage name="Coast"/>
     </type>
     <type name="Raincoat_Red">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>3</min>
@@ -13046,7 +13046,7 @@
         <usage name="Coast"/>
     </type>
     <type name="Raincoat_Yellow">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>3</min>
@@ -13058,10 +13058,10 @@
         <usage name="Coast"/>
     </type>
     <type name="Rangefinder">
-        <nominal>25</nominal>
+        <nominal>15</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>8</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -13074,10 +13074,10 @@
         <usage name="Hunting"/>
     </type>
     <type name="ReflexOptic">
-        <nominal>20</nominal>
+        <nominal>10</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
