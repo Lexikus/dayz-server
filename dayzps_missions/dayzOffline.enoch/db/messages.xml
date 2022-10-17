@@ -9,7 +9,8 @@
         <onconnect>1</onconnect>
         <text>BETA VER.1.0</text>
     </message>
-            <text>realistischer Loot / realistische Location Modifizierung</text>
+        <onconnect>1</onconnect>
+        <text>realistischer Loot / realistische Location Modifizierung</text>
     </message>
      <message>
         <onconnect>1</onconnect>
