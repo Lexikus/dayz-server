@@ -2,27 +2,81 @@
 <messages>
 
     <message>
-        <onconnect>1</onconnect>
-        <text>GRENZLAND</text>
+       <delay>2</delay>
+       <onconnect>1</onconnect>
+       <text>GRENZLAND</text>
     </message>
+
+    <message>
+       <delay>2</delay>
+       <onconnect>1</onconnect>
+       <text>------------------</text>
+    </message>
+
+    <message>
+       <delay>2</delay>
+       <onconnect>1</onconnect>
+       <text>ServerInfo: [Version_1.0]</text>
+    </message>
+
+    <message>
+       <delay>2</delay>
+       <onconnect>1</onconnect>
+       <text>Map-Modifizierung: realistische Locations</text>
      <message>
-        <onconnect>1</onconnect>
-        <text>BETA VER.1.0</text>
+       <delay>2</delay>
+       <onconnect>1</onconnect>
+       <text>Loot-Setup: realistisch [TestPhase]</text>
     </message>
-        <onconnect>1</onconnect>
-        <text>realistischer Loot / realistische Location Modifizierung</text>
+
+    <message>
+       <delay>2</delay>
+       <onconnect>1</onconnect>
+       <text>PvP/E: keine Regeln - spiel wie du willst</text>
     </message>
-     <message>
-        <onconnect>1</onconnect>
-        <text>benutzt IngameChat / erst reden dann schiessen</text>
+
+    <message>
+       <delay>2</delay>
+       <onconnect>1</onconnect>
+       <text>Temperatur: 28 Grad -  Freie Kleiderwahl</text>
     </message>
-        <text>INFOS FOLGEN</text>
+
+    <message>
+       <delay>10</delay>
+       <onconnect>1</onconnect>
+       <text>SozialeRichtlinen:</text>
     </message>
-    <message> 
-        <deadline>240</deadline> 
-        <shutdown>1</shutdown> 
-        <text>Serverneustart in #tmin Minuten.</text> 
+
+    <message>
+       <delay>10</delay>
+       <onconnect>1</onconnect>
+       <text>Egal ob Freund, Feind oder Fremder: Nutz bitte den IngameChat</text>
     </message>
+
+    <message>
+       <delay>10</delay>
+       <onconnect>1</onconnect>
+       <text>So bekommst du die beste DayZ Erfahrung</text>
+    </message>
+
+    <message>
+       <delay>10</delay>
+       <onconnect>1</onconnect>
+       <text>Werde gern Teil des Grenzland!</text>
+    </message>
+
+    <message>
+       <delay>10</delay>
+       <onconnect>1</onconnect>
+       <text>Spiele fuer dich oder nimm an Quests u. Events teil</text>
+    </message>
+
+    <message>
+       <delay>10</delay>
+       <onconnect>1</onconnect>
+       <text>Infos folgen</text>
+    </message>
+</messages>
 <!--
 See https://community.bistudio.com/wiki/DayZ:Server_Messages for more information
 
@@ -32,7 +86,7 @@ Example messages:
     and shuts down server in 10 hours from its start
 
     <message>
-        <deadline>600</deadline>
+        <deadline>240</deadline>
         <shutdown>1</shutdown>
         <text>#name will shutdown in #tmin minutes.</text>
     </message>
@@ -50,7 +104,7 @@ Example messages:
     and 10 minutes after player connect
 
     <message>
-        <delay>10</delay>
+        <delay>2</delay>
         <repeat>50</repeat>
         <onconnect>1</onconnect>
         <text>Check our web page at www.dayz.com</text>
@@ -67,4 +121,4 @@ Example messages:
     </message>
     -->
 
-</messages>
+
