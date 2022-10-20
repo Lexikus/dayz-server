@@ -8,7 +8,7 @@
 	},
     "PlayerData":
 	{
-		"disablePersonalLight": 0,
+		"disablePersonalLight": 1,
 		"StaminaData":
 		{
 			"sprintStaminaModifierErc": 0.75,
@@ -65,13 +65,13 @@
 		"use3DMap": 1,
 		"HitIndicationData":
 		{
-			"hitDirectionOverrideEnabled": 0,
+			"hitDirectionOverrideEnabled": 1,
 			"hitDirectionBehaviour": 1,
-			"hitDirectionStyle": 0,
+			"hitDirectionStyle": 1,
 			"hitDirectionIndicatorColorStr": "0xffbb0a1e",
-			"hitDirectionMaxDuration": 2.0,
+			"hitDirectionMaxDuration": 1.0,
 			"hitDirectionBreakPointRelative": 0.2,
-			"hitDirectionScatter": 10.0,
+			"hitDirectionScatter": 5.0,
 			"hitIndicationPostProcessEnabled": 1
 		}
 	}
