@@ -42,30 +42,36 @@
 	"WorldsData":
 	{
 		"lightingConfig": 1,
-		"objectSpawnersArr": [],
-		"environmentMinTemps": [-7, -7.4, -4.1, 1.5, 7, 11.3, 13.4, 13.1, 9.3, 5.3, 0.8, -3.6],
-		"environmentMaxTemps": [-2.5, -2.1, 2.3, 9, 15.5, 19.4, 20.9, 20.4, 16, 10.5, 4.2, 0.1]
+		"objectSpawnersArr": [
+			"custom/huta.json",
+			"custom/jbmodsitnikbackground.json",
+			"custom/base1.json",
+			"custom/hausamsee.json",
+			"custom/polana.json"
+		],
+		"environmentMinTemps": [22.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9],
+		"environmentMaxTemps": [26.9, 22.9, 22.9, 26.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9]
 	},
 	"BaseBuildingData":
 	{
 		"HologramData":
 		{
-			"disableIsCollidingBBoxCheck": 0,
-			"disableIsCollidingPlayerCheck": 0,
-			"disableIsClippingRoofCheck": 0,
-			"disableIsBaseViableCheck": 0,
-			"disableIsCollidingGPlotCheck": 0,
-			"disableIsCollidingAngleCheck": 0,
-			"disableIsPlacementPermittedCheck": 0,
-			"disableHeightPlacementCheck": 0,
-			"disableIsUnderwaterCheck": 0,
-			"disableIsInTerrainCheck": 0
+			"disableIsCollidingBBoxCheck": 1,
+			"disableIsCollidingPlayerCheck": 1,
+			"disableIsClippingRoofCheck": 1,
+			"disableIsBaseViableCheck": 1,
+			"disableIsCollidingGPlotCheck": 1,
+			"disableIsCollidingAngleCheck": 1,
+			"disableIsPlacementPermittedCheck": 1,
+			"disableHeightPlacementCheck": 1,
+			"disableIsUnderwaterCheck": 1,
+			"disableIsInTerrainCheck": 1
 		},
 		"ConstructionData":
 		{
-			"disablePerformRoofCheck": 0,
-			"disableIsCollidingCheck": 0,
-			"disableDistanceCheck": 0
+			"disablePerformRoofCheck": 1,
+			"disableIsCollidingCheck": 1,
+			"disableDistanceCheck": 1
 		}
 	},
 	"UIData":
@@ -73,13 +79,13 @@
 		"use3DMap": 0,
 		"HitIndicationData":
 		{
-			"hitDirectionOverrideEnabled": 0,
+			"hitDirectionOverrideEnabled": 1,
 			"hitDirectionBehaviour": 1,
-			"hitDirectionStyle": 0,
+			"hitDirectionStyle": 1,
 			"hitDirectionIndicatorColorStr": "0xffbb0a1e",
-			"hitDirectionMaxDuration": 2.0,
+			"hitDirectionMaxDuration": 1.0,
 			"hitDirectionBreakPointRelative": 0.2,
-			"hitDirectionScatter": 10.0,
+			"hitDirectionScatter": 5.0,
 			"hitIndicationPostProcessEnabled": 1
 		}
 	},
