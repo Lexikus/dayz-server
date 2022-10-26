@@ -8,10 +8,10 @@
 	},
     "PlayerData":
 	{
-		"disablePersonalLight": 0,
+		"disablePersonalLight": 1,
 		"StaminaData":
 		{
-			"sprintStaminaModifierErc": 1.0,
+			"sprintStaminaModifierErc": 0.75,
 			"sprintStaminaModifierCro": 1.0,
 			"staminaWeightLimitThreshold": 6000.0,
 			"staminaMax": 100.0,
@@ -26,11 +26,11 @@
 		},
 		"MovementData":
 		{
-			"timeToStrafeJog": 0.1,
-			"rotationSpeedJog": 0.3,
-			"timeToSprint": 0.45,
-			"timeToStrafeSprint": 0.3,
-			"rotationSpeedSprint": 0.15
+			"timeToStrafeJog": 0.2,
+			"rotationSpeedJog": 0.35,
+			"timeToSprint": 0.6,
+			"timeToStrafeSprint": 0.4,
+			"rotationSpeedSprint": 0.2
 		},
 		"DrowningData":
 		{
@@ -49,8 +49,8 @@
 			"custom/hausamsee.json",
 			"custom/polana.json"
 		],
-		"environmentMinTemps": [22.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9, 18.9],
-		"environmentMaxTemps": [26.9, 22.9, 22.9, 26.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9]
+		"environmentMinTemps": [22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9],
+		"environmentMaxTemps": [22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9]
 	},
 	"BaseBuildingData":
 	{
