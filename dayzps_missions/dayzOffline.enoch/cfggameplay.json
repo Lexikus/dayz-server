@@ -11,12 +11,12 @@
 		"disablePersonalLight": 1,
 		"StaminaData":
 		{
-			"sprintStaminaModifierErc": 0.75,
-			"sprintStaminaModifierCro": 1.0,
+			"sprintStaminaModifierErc": 0.6,
+			"sprintStaminaModifierCro": 0.9,
 			"staminaWeightLimitThreshold": 6000.0,
 			"staminaMax": 100.0,
 			"staminaKgToStaminaPercentPenalty": 1.75,
-			"staminaMinCap": 5.0
+			"staminaMinCap": 10.0
 		},
 		"ShockHandlingData":
 		{
@@ -47,7 +47,9 @@
 			"custom/jbmodsitnikbackground.json",
 			"custom/base1.json",
 			"custom/hausamsee.json",
-			"custom/polana.json"
+			"custom/polana.json",
+			"custom/scheune.json",
+			"custom/umgebung.json"
 		],
 		"environmentMinTemps": [22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9],
 		"environmentMaxTemps": [22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9]
@@ -84,7 +86,7 @@
 			"hitDirectionStyle": 1,
 			"hitDirectionIndicatorColorStr": "0xffbb0a1e",
 			"hitDirectionMaxDuration": 1.0,
-			"hitDirectionBreakPointRelative": 0.2,
+			"hitDirectionBreakPointRelative": 0.15,
 			"hitDirectionScatter": 5.0,
 			"hitIndicationPostProcessEnabled": 1
 		}
