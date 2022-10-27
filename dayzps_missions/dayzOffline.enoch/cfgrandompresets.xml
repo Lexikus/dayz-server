@@ -106,10 +106,11 @@
 				<item name="Battery9V" chance="0.1" />
 				<item name="PersonalRadio" chance="0.1" />
 				<item name="Flashlight" chance="0.15" />
-				<item name="Roadflare" chance="0.2" />
+				<item name="Roadflare" chance="0.1" />
 				<item name="CombatKnife" chance="0.05" />
 				<item name="Morphine" chance="0.05" />
 				<item name="BandageDressing" chance="0.05" />
+				<type name="PoliceBaton" chance="0.1>
 		</cargo>
 		<cargo chance="0.15" name="toolsHunter">
 				<item name="Paper" chance="0.1" />
