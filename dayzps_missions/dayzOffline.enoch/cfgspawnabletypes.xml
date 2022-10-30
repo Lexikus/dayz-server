@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 
 <spawnabletypes>
-	<damage min="0.3" max="0.7" />
 	<type name="Barrel_Blue">
 		<hoarder />
 	</type>
@@ -52,6 +51,78 @@
 	</type>
 	<type name="WoodenCrate">
 		<hoarder />
+	</type>
+	<type name="GiftWrapPaper">
+		<damage min="0.0" max="0.32" />
+	</type>
+	<type name="NVGoggles">
+		<damage min="0.0" max="0.32" />
+	</type>
+	
+	<type name="KazuarOptic">
+		<damage min="0.0" max="0.32" />
+	</type>
+	
+	<type name="StarlightOptic">
+		<damage min="0.0" max="0.32" />
+	</type>
+	
+	<type name="AugOptic">
+		<damage min="0.0" max="0.0" />
+	</type>
+	
+	<type name="SSG82Optic">
+		<damage min="0.0" max="0.0" />
+	</type>
+	
+	<type name="PlateCarrierVest">
+	</type>
+	<type name="PlateCarrierVest_Black">
+		<damage min="0.1" max="0.6" />
+		<attachments chance="0.85">
+			<item name="PlateCarrierHolster_Black" chance="1.00" />
+		</attachments>
+		<attachments chance="0.85">
+			<item name="PlateCarrierPouches_Black" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="PlateCarrierVest_Green">
+		<damage min="0.1" max="0.6" />
+		<attachments chance="0.85">
+			<item name="PlateCarrierHolster_Green" chance="1.00" />
+		</attachments>
+		<attachments chance="0.85">
+			<item name="PlateCarrierPouches_Green" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Mich2001Helmet">
+		<damage min="0.1" max="0.6" />
+		<attachments chance="0.85">
+			<item name="NVGoggles" chance="1.00" />
+			<item name="Battery9V" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="SparkPlug">
+	</type>
+	<type name="Glowplug">
+	</type>
+	<type name="CarRadiator">
+		<damage min="0.0" max="0.35" />
+	</type>
+	<type name="CarBattery">
+		<damage min="0.0" max="0.35" />
+	</type>
+	<type name="TruckBattery">
+		<damage min="0.0" max="0.35" />
+	</type>
+	<type name="SmallStone">
+		<damage min="0.0" max="0.0" />
+	</type>
+	<type name="Ammo_40mm_Explosive">
+		<damage min="0.0" max="0.35" />
+	</type>
+	<type name="Ammo_40mm_POX">
+		<damage min="0.0" max="0.35" />
 	</type>
 	<type name="AssaultBag_Ttsko">
 		<cargo preset="mixArmy" />
@@ -170,6 +241,9 @@
 			<item name="BloodTestKit" />
 		</cargo>
 	</type>
+	<type name="BandageDressing">
+		<damage min="0.0" max="0.0" />
+	</type>
 	<type name="AmmoBox">
 		<cargo chance="0.20"> <item name="AmmoBox_9x39_20Rnd" /> </cargo>			
 		<cargo chance="0.20"> <item name="AmmoBox_9x39_20Rnd" /> </cargo>			
@@ -201,16 +275,37 @@
 		<cargo chance="0.5"> <item name="AmmoBox_762x39_20Rnd" /> </cargo>		
 		<cargo chance="0.25"> <item name="AmmoBox_762x39Tracer_20Rnd" /> </cargo>			
 		<cargo chance="0.25"> <item name="AmmoBox_762x39Tracer_20Rnd" /> </cargo>
+		<cargo chance="0.01"> <item name="Ammo_40mm_ChemGas" /> </cargo>
+		<cargo chance="0.20"> <item name="Ammo_40mm_Smoke_Black" /> </cargo>
+		<cargo chance="0.20"> <item name="Ammo_40mm_Smoke_Red" /> </cargo>
+		<cargo chance="0.20"> <item name="Ammo_40mm_Smoke_White" /> </cargo>
+		<cargo chance="0.20"> <item name="Ammo_40mm_Smoke_Green" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_40mm_Explosive" /> </cargo>
+		<cargo chance="0.20"> <item name="Ammo_40mm_Explosive" /> </cargo>
+		<cargo chance="0.50"> <item name="Ammo_40mm_Explosive" /> </cargo>
+		<cargo chance="1.0"> <item name="Ammo_40mm_Explosive" /> </cargo>
+		<cargo chance="1.0"> <item name="Ammo_40mm_Explosive" /> </cargo>
+		<cargo chance="1.0"> <item name="Ammo_40mm_Explosive" /> </cargo>
+		<cargo chance="1.0"> <item name="Ammo_40mm_Explosive" /> </cargo>
+		<cargo chance="1.0"> <item name="Ammo_40mm_Explosive" /> </cargo>
+		<cargo chance="0.50"> <item name="Ammo_40mm_Explosive" /> </cargo>
+		<cargo chance="0.20"> <item name="Ammo_40mm_Explosive" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_40mm_Explosive" /> </cargo>
 	</type>
 	<type name="AirborneMask">
+		<damage min="0.0" max="0.35" />
 		<cargo chance="0.2">
 			<item name="GasMask_Filter" />
 		</cargo>
 	</type>
 	<type name="GP5GasMask">
+		<damage min="0.0" max="0.35" />
 		<cargo chance="0.2">
 			<item name="GasMask_Filter" />
 		</cargo>
+	</type>
+	<type name="GasMask">
+		<damage min="0.0" max="0.35" />
 	</type>
 	<type name="Bear_Beige">
 		<cargo chance="0.00">
@@ -454,13 +549,84 @@
 	<type name="BDUPants">
 		<cargo preset="mixArmy" />
 	</type>
-	<type name="NBCPantsGray">
-		<cargo preset="foodVillage" />
-		<cargo preset="toolsMedic" />
-		<cargo chance="0.20">
-			<item name="Mag_FNX45_15Rnd" chance="0.14" />
-			<item name="Ammo_762x54" chance="0.14" />
-			<item name="Ammo_762x39" chance="0.14" />
+	<type name="ManSuit_Black">
+		<cargo chance="0.02">
+			<item name="Derringer_Black" chance="1.00" />
+		</cargo>
+	</type>
+	<type name="ManSuit_Beige">
+		<cargo chance="0.02">
+			<item name="Derringer_Black" chance="1.00" />
+		</cargo>
+	</type>
+	<type name="ManSuit_Blue">
+		<cargo chance="0.02">
+			<item name="Derringer_Black" chance="1.00" />
+		</cargo>
+	</type>
+	<type name="ManSuit_Brown">
+		<cargo chance="0.02">
+			<item name="Derringer_Black" chance="1.00" />
+		</cargo>
+	</type>
+	<type name="ManSuit_DarkGrey">
+		<cargo chance="0.02">
+			<item name="Derringer_Black" chance="1.00" />
+		</cargo>
+	</type>
+	<type name="ManSuit_LightGrey">
+		<cargo chance="0.02">
+			<item name="Derringer_Black" chance="1.00" />
+		</cargo>
+	</type>
+	<type name="ManSuit_White">
+		<cargo chance="0.02">
+			<item name="Derringer_Black" chance="1.00" />
+		</cargo>
+	</type>
+	<type name="ManSuit_Khaki">
+		<cargo chance="0.02">
+			<item name="Derringer_Black" chance="1.00" />
+		</cargo>
+	</type>
+	<type name="WomanSuit_Beige">
+		<cargo chance="0.01">
+			<item name="Derringer_Pink" chance="1.00" />
+		</cargo>
+	</type>
+	<type name="WomanSuit_Black">
+		<cargo chance="0.01">
+			<item name="Derringer_Pink" chance="1.00" />
+		</cargo>
+	</type>
+	<type name="WomanSuit_Blue">
+		<cargo chance="0.01">
+			<item name="Derringer_Pink" chance="1.00" />
+		</cargo>
+	</type>
+	<type name="WomanSuit_Brown">
+		<cargo chance="0.01">
+			<item name="Derringer_Pink" chance="1.00" />
+		</cargo>
+	</type>
+	<type name="WomanSuit_DarkGrey">
+		<cargo chance="0.01">
+			<item name="Derringer_Pink" chance="1.00" />
+		</cargo>
+	</type>
+	<type name="WomanSuit_Khaki">
+		<cargo chance="0.01">
+			<item name="Derringer_Pink" chance="1.00" />
+		</cargo>
+	</type>
+	<type name="WomanSuit_LightGrey">
+		<cargo chance="0.01">
+			<item name="Derringer_Pink" chance="1.00" />
+		</cargo>
+	</type>
+	<type name="WomanSuit_White">
+		<cargo chance="0.01">
+			<item name="Derringer_Pink" chance="1.00" />
 		</cargo>
 	</type>
 	<type name="Sweater_Gray">
@@ -653,8 +819,8 @@
 		<cargo preset="toolsPolice" />
 	</type>
 	<type name="PoliceJacket">
-		<cargo preset="toolsPolice" />
 		<cargo preset="ammoPolice" />
+		<cargo preset="toolsPolice" />
 	</type>
 	<type name="PolicePants">
 		<cargo preset="ammoPolice" />
@@ -683,48 +849,56 @@
 			<item name="Ammo_9x19" chance="0.20" />
 			<item name="Ammo_380" chance="0.20" />
 		</cargo>
+		<cargo chance="0.01"> <item name="Derringer_Pink" /> </cargo>
 	</type>
 	<type name="MiniDress_PinkChecker">
 		<cargo chance="0.10">
 			<item name="Ammo_9x19" chance="0.20" />
 			<item name="Ammo_380" chance="0.20" />
 		</cargo>
+		<cargo chance="0.01"> <item name="Derringer_Pink" /> </cargo>
 	</type>
 	<type name="MiniDress_RedChecker">
 		<cargo chance="0.10">
 			<item name="Ammo_9x19" chance="0.20" />
 			<item name="Ammo_380" chance="0.20" />
 		</cargo>
+		<cargo chance="0.01"> <item name="Derringer_Pink" /> </cargo>
 	</type>
 	<type name="MiniDress_WhiteChecker">
 		<cargo chance="0.10">
 			<item name="Ammo_9x19" chance="0.20" />
 			<item name="Ammo_380" chance="0.20" />
 		</cargo>
+		<cargo chance="0.01"> <item name="Derringer_Pink" /> </cargo>
 	</type>
 	<type name="MiniDress_GreenChecker">
 		<cargo chance="0.10">
 			<item name="Ammo_9x19" chance="0.20" />
 			<item name="Ammo_380" chance="0.20" />
 		</cargo>
+		<cargo chance="0.01"> <item name="Derringer_Pink" /> </cargo>
 	</type>
 	<type name="MiniDress_BrownChecker">
 		<cargo chance="0.10">
 			<item name="Ammo_9x19" chance="0.20" />
 			<item name="Ammo_380" chance="0.20" />
 		</cargo>
+		<cargo chance="0.01"> <item name="Derringer_Pink" /> </cargo>
 	</type>
 	<type name="MiniDress_BlueChecker">
 		<cargo chance="0.10">
 			<item name="Ammo_9x19" chance="0.20" />
 			<item name="Ammo_380" chance="0.20" />
 		</cargo>
+		<cargo chance="0.01"> <item name="Derringer_Pink" /> </cargo>
 	</type>
 	<type name="MiniDress_BlueWithDots">
 		<cargo chance="0.10">
 			<item name="Ammo_9x19" chance="0.20" />
 			<item name="Ammo_380" chance="0.20" />
 		</cargo>
+		<cargo chance="0.01"> <item name="Derringer_Pink" /> </cargo>
 	</type>
 	<type name="QuiltedJacket_Black">
 		<cargo preset="mixVillage" />
@@ -813,9 +987,7 @@
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 	</type>
-	<type name="NBCJacketGray">
-	</type>
-		<type name="DirtBikeHelmet_Black">
+	<type name="DirtBikeHelmet_Black">
 		<attachments chance="0.20">
 			<item name="DirtBikeHelmet_Mouthguard" chance="1.00" />
 		</attachments>
@@ -871,25 +1043,22 @@
 			<item name="DirtBikeHelmet_Visor" chance="1.00" />
 		</attachments>
 	</type>
-	<!--START OF ZOMBIES  -->	
-	<!-- -----------------------------NBC------------------------------ -->
+	<!--START OF ZOMBIES  -->
+	<!--NBC-->
 	<type name="ZmbM_NBC_Grey">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="ContaminatedCargo" />
 		<cargo chance="0.03">
 			<item name="AntiChemInjector" chance="1.0" />
 		</cargo>
 	</type>
 	<type name="ZmbM_NBC_Yellow">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="ContaminatedCargo" />
 		<cargo chance="0.01">
 			<item name="AntiChemInjector" chance="1.0" />
 		</cargo>
 	</type>
-	<!-- -----------------------------ARMY----------------------------- -->
+	<!--ARMY-->
 	<type name="ZmbM_PatrolNormal_Autumn">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodArmy" />
 		<cargo preset="ammoArmy" />
 		<attachments preset="glassesArmy" />
@@ -898,7 +1067,6 @@
 		<attachments preset="vestsArmy" />
 	</type>
 	<type name="ZmbM_PatrolNormal_Flat">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodArmy" />
 		<cargo preset="ammoArmy" />
 		<attachments preset="glassesArmy" />
@@ -907,7 +1075,6 @@
 		<attachments preset="vestsArmy" />
 	</type>
 	<type name="ZmbM_PatrolNormal_PautRev">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodArmy" />
 		<cargo preset="ammoArmy" />
 		<attachments preset="glassesArmy" />
@@ -916,7 +1083,6 @@
 		<attachments preset="vestsArmy" />
 	</type>
 	<type name="ZmbM_PatrolNormal_Summer">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodArmy" />
 		<cargo preset="ammoArmy" />
 		<attachments preset="glassesArmy" />
@@ -925,7 +1091,6 @@
 		<attachments preset="vestsArmy" />
 	</type>
 	<type name="ZmbM_SoldierNormal">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodArmy" />
 		<cargo preset="ammoArmy" />
 		<attachments preset="glassesArmy" />
@@ -934,20 +1099,26 @@
 		<attachments preset="vestsArmy" />
 	</type>
 	<type name="ZmbM_usSoldier_Officer_Desert">
-		<attachments preset="HalloweeHats" />
-		<cargo preset="foodArmy" />		
+		<cargo preset="foodArmy" />
 		<attachments preset="OfficerHatArmy" />
 	</type>
+	<type name="ZmbM_usSoldier_Officer_Convoy">
+		<attachments chance="1.00">
+			<item name="MedicalScrubsHat_Green" chance="1.0" />
+		</attachments>
+		<cargo preset="foodArmy" />
+		<cargo chance="1.0">
+			<item name="PunchedCard" chance="0.4" />
+		</cargo>
+	</type>
 	<type name="ZmbM_usSoldier_Heavy_Woodland">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodArmy" />		
 		<attachments preset="HeavyArmorArmy" />
 		<attachments preset="HeavyHelmetArmy" />
 	</type>
 	
-	<!-- -----------------------------City----------------------------- -->
+	<!--City-->
 	<type name="ZmbF_Clerk_Normal_Blue">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<cargo preset="toolsCity" />
@@ -955,28 +1126,24 @@
 		<attachments preset="hatsCity" />
 	</type>
 	<type name="ZmbF_Clerk_Normal_Green">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
 	</type>
 	<type name="ZmbF_Clerk_Normal_Red">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
 	</type>
 	<type name="ZmbF_Clerk_Normal_White">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
 	</type>
 	<type name="ZmbF_CitizenANormal_Beige">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="glassesCity" />
@@ -984,7 +1151,6 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbF_CitizenANormal_Blue">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="glassesCity" />
@@ -992,7 +1158,6 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbF_CitizenANormal_Brown">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="glassesCity" />
@@ -1000,7 +1165,6 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbF_CitizenBSkinny">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="glassesCity" />
@@ -1008,35 +1172,30 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbF_JournalistNormal_Blue">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
 	</type>
 	<type name="ZmbF_JournalistNormal_Green">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
 	</type>
 	<type name="ZmbF_JournalistNormal_Red">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
 	</type>
 	<type name="ZmbF_JournalistNormal_White">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
 	</type>
 	<type name="ZmbF_ShortSkirt_beige">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="glassesCity" />
@@ -1044,7 +1203,6 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbF_ShortSkirt_black">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="glassesCity" />
@@ -1052,7 +1210,6 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbF_ShortSkirt_brown">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="glassesCity" />
@@ -1060,7 +1217,6 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbF_ShortSkirt_checks">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="glassesCity" />
@@ -1068,7 +1224,6 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbF_ShortSkirt_green">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="glassesCity" />
@@ -1076,7 +1231,6 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbF_ShortSkirt_grey">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="glassesCity" />
@@ -1084,7 +1238,6 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbF_ShortSkirt_red">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="glassesCity" />
@@ -1092,7 +1245,6 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbF_ShortSkirt_stripes">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="glassesCity" />
@@ -1100,7 +1252,6 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbF_ShortSkirt_white">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="glassesCity" />
@@ -1108,7 +1259,6 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbF_ShortSkirt_yellow">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="glassesCity" />
@@ -1116,7 +1266,6 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbF_SkaterYoung_Brown">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="hatsCitySkate" />
@@ -1124,7 +1273,6 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbF_SkaterYoung_Striped">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="hatsCitySkate" />
@@ -1132,7 +1280,6 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbF_SkaterYoung_Violet">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="hatsCitySkate" />
@@ -1140,7 +1287,6 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbF_SurvivorNormal_Blue">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="glassesCity" />
@@ -1148,7 +1294,6 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbF_SurvivorNormal_Orange">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="glassesCity" />
@@ -1156,7 +1301,6 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbF_SurvivorNormal_Red">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="glassesCity" />
@@ -1164,7 +1308,6 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbF_SurvivorNormal_White">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="glassesCity" />
@@ -1172,7 +1315,6 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_CitizenASkinny_Blue">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="glassesCity" />
@@ -1180,7 +1322,6 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_CitizenASkinny_Brown">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="glassesCity" />
@@ -1188,7 +1329,6 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_CitizenASkinny_Grey">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="glassesCity" />
@@ -1196,7 +1336,6 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_CitizenASkinny_Red">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="glassesCity" />
@@ -1204,7 +1343,6 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_CitizenBFat_Blue">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="glassesCity" />
@@ -1212,7 +1350,6 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_CitizenBFat_Green">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="glassesCity" />
@@ -1220,7 +1357,6 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_CitizenBFat_Red">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="glassesCity" />
@@ -1228,7 +1364,6 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_ClerkFat_Brown">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="glassesCity" />
@@ -1236,7 +1371,6 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_ClerkFat_Grey">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="glassesCity" />
@@ -1244,7 +1378,6 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_ClerkFat_Khaki">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="glassesCity" />
@@ -1252,7 +1385,6 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_ClerkFat_White">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="glassesCity" />
@@ -1260,34 +1392,29 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_CommercialPilotOld_Blue">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
 	</type>
 	<type name="ZmbM_CommercialPilotOld_Brown">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
 	</type>
 	<type name="ZmbM_CommercialPilotOld_Grey">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="hatsCity" />
 	</type>
 	<type name="ZmbM_CommercialPilotOld_Olive">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
 	</type>
 	<type name="ZmbM_Jacket_beige">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="glassesCity" />
@@ -1295,7 +1422,6 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_Jacket_black">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="glassesCity" />
@@ -1303,7 +1429,6 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_Jacket_blue">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="glassesCity" />
@@ -1311,7 +1436,6 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_Jacket_bluechecks">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="glassesCity" />
@@ -1319,7 +1443,6 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_Jacket_brown">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="glassesCity" />
@@ -1327,7 +1450,6 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_Jacket_greenchecks">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="glassesCity" />
@@ -1335,7 +1457,6 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_Jacket_grey">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="glassesCity" />
@@ -1343,7 +1464,6 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_Jacket_khaki">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="glassesCity" />
@@ -1351,7 +1471,6 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_Jacket_magenta">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="glassesCity" />
@@ -1359,7 +1478,6 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_Jacket_stripes">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="glassesCity" />
@@ -1367,59 +1485,50 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_JournalistSkinny">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 	</type>
 	<type name="ZmbM_MotobikerFat_Beige">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="hatsMotorbike" />
 	</type>
 	<type name="ZmbM_MotobikerFat_Black">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="hatsMotorbike" />
 	</type>
 	<type name="ZmbM_MotobikerFat_Blue">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="hatsMotorbike" />
 	</type>
 	<type name="ZmbM_SkaterYoung_Blue">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="hatsCitySkate" />
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_SkaterYoung_Brown">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="hatsCitySkate" />
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_SkaterYoung_Green">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="hatsCitySkate" />
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_SkaterYoung_Grey">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="hatsCitySkate" />
 		<attachments preset="bagsCity" />
 	</type>
-	<!-- -----------------------------Industrial----------------------------- -->
+	<!--Industrial-->
 	<type name="ZmbF_BlueCollarFat_Blue">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
 		<attachments preset="glassesVillage" />
@@ -1428,7 +1537,6 @@
 		<attachments preset="vestsIndustrial" />
 	</type>
 	<type name="ZmbF_BlueCollarFat_Green">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
 		<attachments preset="glassesVillage" />
@@ -1437,7 +1545,6 @@
 		<attachments preset="vestsIndustrial" />
 	</type>
 	<type name="ZmbF_BlueCollarFat_Red">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
 		<attachments preset="glassesVillage" />
@@ -1446,7 +1553,6 @@
 		<attachments preset="vestsIndustrial" />
 	</type>
 	<type name="ZmbF_BlueCollarFat_White">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
 		<attachments preset="glassesVillage" />
@@ -1455,7 +1561,6 @@
 		<attachments preset="vestsIndustrial" />
 	</type>
 	<type name="ZmbF_MechanicNormal_Beige">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
 		<attachments preset="glassesVillage" />
@@ -1464,7 +1569,6 @@
 		<attachments preset="vestsIndustrial" />
 	</type>
 	<type name="ZmbF_MechanicNormal_Green">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
 		<attachments preset="glassesVillage" />
@@ -1473,7 +1577,6 @@
 		<attachments preset="vestsIndustrial" />
 	</type>
 	<type name="ZmbF_MechanicNormal_Grey">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
 		<attachments preset="glassesVillage" />
@@ -1482,7 +1585,6 @@
 		<attachments preset="vestsIndustrial" />
 	</type>
 	<type name="ZmbF_MechanicNormal_Orange">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
 		<attachments preset="glassesVillage" />
@@ -1491,7 +1593,6 @@
 		<attachments preset="vestsIndustrial" />
 	</type>
 	<type name="ZmbM_ConstrWorkerNormal_Beige">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
 		<attachments preset="glassesVillage" />
@@ -1500,7 +1601,6 @@
 		<attachments preset="vestsIndustrial" />
 	</type>
 	<type name="ZmbM_ConstrWorkerNormal_Black">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
 		<attachments preset="glassesVillage" />
@@ -1509,7 +1609,6 @@
 		<attachments preset="vestsIndustrial" />
 	</type>
 	<type name="ZmbM_ConstrWorkerNormal_Green">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
 		<attachments preset="glassesVillage" />
@@ -1526,7 +1625,6 @@
 		<attachments preset="vestsIndustrial" />
 	</type>
 	<type name="ZmbM_HandymanNormal_Beige">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
 		<attachments preset="glassesVillage" />
@@ -1535,7 +1633,6 @@
 		<attachments preset="vestsIndustrial" />
 	</type>
 	<type name="ZmbM_HandymanNormal_Blue">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
 		<attachments preset="glassesVillage" />
@@ -1544,7 +1641,6 @@
 		<attachments preset="vestsIndustrial" />
 	</type>
 	<type name="ZmbM_HandymanNormal_Green">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
 		<attachments preset="glassesVillage" />
@@ -1553,12 +1649,14 @@
 		<attachments preset="vestsIndustrial" />
 	</type>
 	<type name="ZmbM_HandymanNormal_Grey">
-		<attachments chance="1.00">
-			<item name="PumpkinHelmet" chance="1.00" />
-		</attachments>
+		<cargo preset="foodCity" />
+		<cargo preset="toolsIndustrial" />
+		<attachments preset="glassesVillage" />
+		<attachments preset="hatsIndustrial" />
+		<attachments preset="bagsIndustrial" />
+		<attachments preset="vestsIndustrial" />
 	</type>
 	<type name="ZmbM_HandymanNormal_White">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
 		<attachments preset="glassesVillage" />
@@ -1567,7 +1665,6 @@
 		<attachments preset="vestsIndustrial" />
 	</type>
 	<type name="ZmbM_HeavyIndustryWorker">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
 		<attachments preset="glassesVillage" />
@@ -1576,7 +1673,6 @@
 		<attachments preset="vestsIndustrial" />
 	</type>
 	<type name="ZmbM_MechanicSkinny_Blue">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
 		<attachments preset="glassesVillage" />
@@ -1585,7 +1681,6 @@
 		<attachments preset="vestsIndustrial" />
 	</type>
 	<type name="ZmbM_MechanicSkinny_Green">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
 		<attachments preset="glassesVillage" />
@@ -1594,7 +1689,6 @@
 		<attachments preset="vestsIndustrial" />
 	</type>
 	<type name="ZmbM_MechanicSkinny_Grey">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
 		<attachments preset="glassesVillage" />
@@ -1603,7 +1697,6 @@
 		<attachments preset="vestsIndustrial" />
 	</type>
 	<type name="ZmbM_MechanicSkinny_Red">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
 		<attachments preset="glassesVillage" />
@@ -1612,7 +1705,6 @@
 		<attachments preset="vestsIndustrial" />
 	</type>
 	<type name="ZmbM_OffshoreWorker_Green">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
 		<attachments preset="glassesVillage" />
@@ -1621,7 +1713,6 @@
 		<attachments preset="vestsIndustrial" />
 	</type>
 	<type name="ZmbM_OffshoreWorker_Orange">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
 		<attachments preset="glassesVillage" />
@@ -1630,7 +1721,6 @@
 		<attachments preset="vestsIndustrial" />
 	</type>
 	<type name="ZmbM_OffshoreWorker_Red">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
 		<attachments preset="glassesVillage" />
@@ -1639,7 +1729,6 @@
 		<attachments preset="vestsIndustrial" />
 	</type>
 	<type name="ZmbM_OffshoreWorker_Yellow">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
 		<attachments preset="glassesVillage" />
@@ -1647,206 +1736,176 @@
 		<attachments preset="bagsIndustrial" />
 		<attachments preset="vestsIndustrial" />
 	</type>
-	<!-- -----------------------------FireFighter----------------------------- -->
+	<!--FireFighter-->
 	<type name="ZmbM_FirefighterNormal">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="toolsCity" />
 		<attachments preset="hatsFirefighter" />
 	</type>
-	<!-- -----------------------------Medic----------------------------- -->
+	<!--Medic-->
 	<type name="ZmbF_DoctorSkinny">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="toolsMedic" />
 		<attachments preset="hatsMedic" />
 	</type>
 	<type name="ZmbF_NurseFat">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="toolsMedic" />
 	</type>
 	<type name="ZmbF_ParamedicNormal_Blue">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="toolsMedic" />
 	</type>
 	<type name="ZmbF_ParamedicNormal_Green">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="toolsMedic" />
 	</type>
 	<type name="ZmbF_ParamedicNormal_Red">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="toolsMedic" />
 	</type>
 	<type name="ZmbF_PatientOld">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="toolsMedic" />
 	</type>
 	<type name="ZmbM_DoctorFat">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="toolsMedic" />
 		<attachments preset="hatsMedic" />
 	</type>
 	<type name="ZmbM_ParamedicNormal_Black">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="toolsMedic" />
 	</type>
 	<type name="ZmbM_ParamedicNormal_Blue">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="toolsMedic" />
 	</type>
 	<type name="ZmbM_ParamedicNormal_Green">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="toolsMedic" />
 	</type>
 	<type name="ZmbM_ParamedicNormal_Red">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="toolsMedic" />
 	</type>
 	<type name="ZmbM_PatientSkinny">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="toolsMedic" />
 	</type>
-	<!-- -----------------------------Police----------------------------- -->
-		<type name="ZmbF_PoliceWomanNormal">
-		<attachments preset="HalloweeHats" />
+	<!--Police-->
+	<type name="ZmbF_PoliceWomanNormal">
 		<cargo preset="toolsPolice" />
 		<cargo preset="ammoPolice" />
+		<cargo chance="0.10">
+			<item name="Mag_SSG82_5rnd" chance="1.0" />	
+		</cargo>
 		<attachments preset="hatsPolice" />
 	</type>
 	<type name="ZmbM_PolicemanFat">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="toolsPolice" />
 		<cargo preset="ammoPolice" />
+		<cargo chance="0.10">
+			<item name="Mag_SSG82_5rnd" chance="1.0" />		
+		</cargo>
 		<attachments preset="hatsPolice" />
 	</type>
 	<type name="ZmbM_PolicemanSpecForce">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="toolsPolice" />
 		<cargo preset="ammoPolice" />
-		<cargo chance="0.1">
-			<item name="Mag_Scout_5Rnd" chance="1.0" />
+		<cargo chance="0.30">
+			<item name="Mag_SSG82_5rnd" chance="0.50" />
+			<item name="Mag_Scout_5Rnd" chance="0.50" />			
 		</cargo>
 		<attachments preset="hatsPolice" />
 	</type>
 	<type name="ZmbM_PolicemanSpecForce_Heavy">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="toolsPolice" />
 		<cargo preset="ammoPolice" />
-		<cargo chance="0.1">
-			<item name="Mag_Scout_5Rnd" chance="1.0" />
+		<cargo chance="0.30">
+			<item name="Mag_SSG82_5rnd" chance="0.50" />
+			<item name="Mag_Scout_5Rnd" chance="0.50" />
 		</cargo>
 		<attachments preset="hatsPolice" />
 		<attachments preset="vestsPolice" />
 	</type>
 	
-	<!-- -----------------------------Prisoner----------------------------- -->
+	<!--Prisoner-->
 	<type name="ZmbM_PrisonerSkinny">
-		<attachments preset="HalloweeHats" />
 		<cargo chance="0.10">
 			<item name="Rope" chance="0.14" />
 		</cargo>
 		<attachments preset="glassesVillage" />
 		<attachments preset="hatsPrisoner" />
 	</type>
-	<!-- -----------------------------Religious----------------------------- -->
+	<!--Religious-->
 	<type name="ZmbM_priestPopSkinny">
-		<attachments chance="1.00">
-			<item name="WitchHood_Red" chance="0.20" />
-			<item name="WitchHood_Black" chance="0.40" />
-			<item name="WitchHood_Brown" chance="1.0" />
-		</attachments>
+		<cargo preset="foodHermit" />
 	</type>
-	<!-- -----------------------------Solitude----------------------------- -->
+	<!--Solitude-->
 	<type name="ZmbF_HikerSkinny_Blue">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
 		<attachments preset="hatsFarm" />
 	</type>
 	<type name="ZmbF_HikerSkinny_Grey">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
 		<attachments preset="hatsFarm" />
 	</type>
 	<type name="ZmbF_HikerSkinny_Green">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
 		<attachments preset="hatsFarm" />
 	</type>
 	<type name="ZmbF_HikerSkinny_Red">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
 		<attachments preset="hatsFarm" />
 	</type>
 	<type name="ZmbM_FishermanOld_Blue">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
 		<attachments preset="hatsFarm" />
 	</type>
 	<type name="ZmbM_FishermanOld_Green">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
 		<attachments preset="hatsFarm" />
 	</type>
 	<type name="ZmbM_FishermanOld_Grey">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
 		<attachments preset="hatsFarm" />
 	</type>
 	<type name="ZmbM_FishermanOld_Red">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
 		<attachments preset="hatsFarm" />
 	</type>
 	<type name="ZmbM_HermitSkinny_Beige">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
 		<attachments preset="hatsFarm" />
 	</type>
 	<type name="ZmbM_HermitSkinny_Black">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
 		<attachments preset="hatsFarm" />
 	</type>
 	<type name="ZmbM_HermitSkinny_Green">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
 		<attachments preset="hatsFarm" />
 	</type>
 	<type name="ZmbM_HermitSkinny_Red">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
 		<attachments preset="hatsFarm" />
 	</type>
 	<type name="ZmbM_HikerSkinny_Blue">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
 		<attachments preset="hatsFarm" />
 	</type>
 	<type name="ZmbM_HikerSkinny_Green">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
 		<attachments preset="hatsFarm" />
 	</type>
 	<type name="ZmbM_HikerSkinny_Yellow">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
 		<attachments preset="hatsFarm" />
 	</type>
 	<type name="ZmbM_HunterOld_Autumn">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
 		<attachments preset="hatsFarm" />
@@ -1855,7 +1914,6 @@
 		<attachments preset="vestsHunter" />
 	</type>
 	<type name="ZmbM_HunterOld_Spring">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
 		<attachments preset="hatsFarm" />
@@ -1864,7 +1922,6 @@
 		<attachments preset="vestsHunter" />
 	</type>
 	<type name="ZmbM_HunterOld_Summer">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
 		<attachments preset="hatsFarm" />
@@ -1873,7 +1930,6 @@
 		<attachments preset="vestsHunter" />
 	</type>
 	<type name="ZmbM_HunterOld_Winter">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
 		<attachments preset="glassesVillage" />
@@ -1881,29 +1937,24 @@
 		<attachments preset="bagsHunter" />
 		<attachments preset="vestsHunter" />
 	</type>
-	<!-- -----------------------------Village----------------------------- -->
+	<!--Village-->
 	<type name="ZmbF_MilkMaidOld_Beige">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodVillage" />
 		<cargo preset="toolsVillage" />
 	</type>
 	<type name="ZmbF_MilkMaidOld_Black">
-		<attachments chance="1.00">
-			<item name="WitchHat" chance="1.00" />
-		</attachments>
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsVillage" />
 	</type>
 	<type name="ZmbF_MilkMaidOld_Green">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodVillage" />
 		<cargo preset="toolsVillage" />
 	</type>
 	<type name="ZmbF_MilkMaidOld_Grey">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodVillage" />
 		<cargo preset="toolsVillage" />
 	</type>
 	<type name="ZmbF_VillagerOld_Blue">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodVillage" />
 		<cargo preset="toolsVillage" />
 		<attachments preset="glassesVillage" />
@@ -1911,7 +1962,6 @@
 		<attachments preset="bagsVillage" />
 	</type>
 	<type name="ZmbF_VillagerOld_Green">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodVillage" />
 		<cargo preset="toolsVillage" />
 		<attachments preset="glassesVillage" />
@@ -1919,7 +1969,6 @@
 		<attachments preset="bagsVillage" />
 	</type>
 	<type name="ZmbF_VillagerOld_Red">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodVillage" />
 		<cargo preset="toolsVillage" />
 		<attachments preset="glassesVillage" />
@@ -1927,7 +1976,6 @@
 		<attachments preset="bagsVillage" />
 	</type>
 	<type name="ZmbF_VillagerOld_White">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodVillage" />
 		<cargo preset="toolsVillage" />
 		<attachments preset="glassesVillage" />
@@ -1935,7 +1983,6 @@
 		<attachments preset="bagsVillage" />
 	</type>
 	<type name="ZmbF_JoggerSkinny_Blue">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodVillage" />
 		<cargo preset="toolsVillage" />
 		<attachments preset="glassesVillage" />
@@ -1943,7 +1990,6 @@
 		<attachments preset="bagsVillage" />
 	</type>
 	<type name="ZmbF_JoggerSkinny_Brown">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodVillage" />
 		<cargo preset="toolsVillage" />
 		<attachments preset="glassesVillage" />
@@ -1951,7 +1997,6 @@
 		<attachments preset="bagsVillage" />
 	</type>
 	<type name="ZmbF_JoggerSkinny_Green">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodVillage" />
 		<cargo preset="toolsVillage" />
 		<attachments preset="glassesVillage" />
@@ -1959,7 +2004,6 @@
 		<attachments preset="bagsVillage" />
 	</type>
 	<type name="ZmbF_JoggerSkinny_Red">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodVillage" />
 		<cargo preset="toolsVillage" />
 		<attachments preset="glassesVillage" />
@@ -1967,32 +2011,27 @@
 		<attachments preset="bagsVillage" />
 	</type>
 	<type name="ZmbM_FarmerFat_Beige">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodVillage" />
 		<cargo preset="toolsVillage" />
 		<attachments preset="glassesVillage" />
 		<attachments preset="bagsVillage" />
 	</type>
 	<type name="ZmbM_FarmerFat_Blue">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodVillage" />
 		<cargo preset="toolsVillage" />
 		<attachments preset="glassesVillage" />
 	</type>
 	<type name="ZmbM_FarmerFat_Brown">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodVillage" />
 		<cargo preset="toolsVillage" />
 		<attachments preset="glassesVillage" />
 	</type>
 	<type name="ZmbM_FarmerFat_Green">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodVillage" />
 		<cargo preset="toolsVillage" />
 		<attachments preset="glassesVillage" />
 	</type>
 	<type name="ZmbM_JoggerSkinny_Blue">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodVillage" />
 		<cargo preset="toolsVillage" />
 		<attachments preset="glassesVillage" />
@@ -2000,7 +2039,6 @@
 		<attachments preset="bagsVillage" />
 	</type>
 	<type name="ZmbM_JoggerSkinny_Green">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodVillage" />
 		<cargo preset="toolsVillage" />
 		<attachments preset="glassesVillage" />
@@ -2008,7 +2046,6 @@
 		<attachments preset="bagsVillage" />
 	</type>
 	<type name="ZmbM_JoggerSkinny_Red">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodVillage" />
 		<cargo preset="toolsVillage" />
 		<attachments preset="glassesVillage" />
@@ -2016,7 +2053,6 @@
 		<attachments preset="bagsVillage" />
 	</type>
 	<type name="ZmbM_VillagerOld_Blue">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodVillage" />
 		<cargo preset="toolsVillage" />
 		<attachments preset="glassesVillage" />
@@ -2024,7 +2060,6 @@
 		<attachments preset="bagsVillage" />
 	</type>
 	<type name="ZmbM_VillagerOld_Green">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodVillage" />
 		<cargo preset="toolsVillage" />
 		<attachments preset="glassesVillage" />
@@ -2032,12 +2067,15 @@
 		<attachments preset="bagsVillage" />
 	</type>
 	<type name="ZmbM_VillagerOld_White">
-		<attachments preset="HalloweeHats" />
 		<cargo preset="foodVillage" />
 		<cargo preset="toolsVillage" />
 		<attachments preset="glassesVillage" />
 		<attachments preset="hatsFarm" />
 		<attachments preset="bagsVillage" />
+	</type>
+	<!--Special-->
+	<type name="ZmbM_Santa">
+		<attachments preset="SantaHat" />
 	</type>
 	<!--END OF ZOMBIES  -->
 	<!--  WEAPONS  -->
@@ -2177,24 +2215,28 @@
 		</attachments>
 	</type>
 	<type name="Winchester70">
+		<damage min="0.3" max="0.7" />
 		<attachments chance="0.10">
 			<item name="HuntingOptic" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="Mosin9130">
+		<damage min="0.3" max="0.7" />
 		<attachments chance="0.10">
 			<item name="Mosin_Compensator" chance="1.00" />
 		</attachments>
-		<attachments chance=".05">
+		<attachments chance="0.05">
 			<item name="PUScopeOptic" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SKS">
+		<damage min="0.3" max="0.7" />
 		<attachments chance="0.10">
 			<item name="PUScopeOptic" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="AKM">
+		<damage min="0.45" max="0.85" />
 		<attachments chance="1.00">
 			<item name="AK_PlasticBttstck" chance="1.00" />
 		</attachments>
@@ -2237,6 +2279,7 @@
 		</attachments>
 	</type>
 	<type name="AK101">
+		<damage min="0.3" max="0.7" />
 		<attachments chance="1.00">
 			<item name="AK_PlasticBttstck" chance="1.00" />
 		</attachments>
@@ -2247,11 +2290,12 @@
 			<item name="KashtanOptic" chance="0.50" />
 			<item name="PSO11Optic" chance="0.30" />
 		</attachments>
-		<attachments chance="0.30">
+		<attachments chance="0.85">
 			<item name="Mag_AK101_30Rnd" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="M4A1">
+		<damage min="0.45" max="0.85" />
 		<attachments chance="1.00">
 			<item name="M4_OEBttstck" chance="1.00" />
 		</attachments>
@@ -2270,6 +2314,7 @@
 		</attachments>
 	</type>
 	<type name="M16A2">
+		<damage min="0.3" max="0.7" />
 		<attachments chance="0.30">
 			<item name="Mag_CMAG_40Rnd" chance="0.15" />
 			<item name="Mag_CMAG_10Rnd" chance="0.50" />
@@ -2278,11 +2323,36 @@
 		</attachments>
 	</type>
 	<type name="FAMAS">
+		<damage min="0.3" max="0.7" />
 		<attachments chance="0.75">
 			<item name="Mag_FAMAS_25Rnd" chance="1.0" />
 		</attachments>
 	</type>
+	<type name="Aug">
+		<damage min="0.1" max="0.4" />
+		<attachments chance="0.85">
+			<item name="Mag_Aug_30Rnd" chance="0.33" />
+			<item name="Mag_CMAG_40Rnd" chance="0.33" />
+			<item name="Mag_STANAG_60Rnd" chance="0.33" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="BUISOptic" chance="0.15" />
+			<item name="M4_T3NRDSOptic" chance="0.15" />
+			<item name="ReflexOptic" chance="0.15" />
+			<item name="ACOGOptic" chance="0.15" />
+		</attachments>	
+		<attachments chance="0.10">
+			<item name="TLRLight" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="AugShort">
+		<damage min="0.3" max="0.7" />
+		<attachments chance="0.85">
+			<item name="Mag_Aug_30Rnd" chance="1.0" />
+		</attachments>
+	</type>
 	<type name="FAL">
+		<damage min="0.45" max="0.85" />
 		<attachments chance="1.00">
 			<item name="Fal_FoldingBttstck" chance="0.50" />
 			<item name="Fal_OeBttstck" chance="1.00" />
@@ -2299,6 +2369,7 @@
 		</attachments>
 	</type>
 	<type name="SVD">
+		<damage min="0.3" max="0.7" />
 		<attachments chance="0.10">
 			<item name="Mag_SVD_10Rnd" chance="1.00" />
 		</attachments>
@@ -2324,6 +2395,7 @@
 		</attachments>
 	</type>
 	<type name="B95">
+		<damage min="0.3" max="0.7" />
 		<attachments chance="0.10">
 			<item name="HuntingOptic" chance="1.00" />
 		</attachments>
@@ -2338,6 +2410,7 @@
 		</attachments>
 	</type>
 	<type name="Ruger1022">
+		<damage min="0.0" max="0.32" />
 		<attachments chance="0.10">
 			<item name="HuntingOptic" chance="1.00" />
 		</attachments>
@@ -2356,7 +2429,7 @@
 			<item name="Mag_Deagle_9rnd" chance="1.00" />
 		</attachments>
 	</type>
-		<type name="Scout">
+	<type name="Scout">
 		<attachments chance="0.75">
 			<item name="Mag_Scout_5Rnd" chance="1.00" />
 		</attachments>
@@ -2392,19 +2465,100 @@
 			<item name="M4_Suppressor" chance="0.25" />
 		</attachments>
 	</type>
-<!-- FUTURE
-	<type name="AugSteyr">
+	<type name="CZ550">
+		<damage min="0.3" max="0.7" />
 		<attachments chance="0.10">
-			<item name="M4_Suppressor" chance="1.00" />
+			<item name="HuntingOptic" chance="1.00" />
 		</attachments>
 		<attachments chance="0.30">
-			<item name="Mag_STANAG_30Rnd" chance="0.20" />
-			<item name="Mag_CMAG_10Rnd" chance="0.20" />
-			<item name="Mag_CMAG_20Rnd" chance="0.20" />
-			<item name="Mag_CMAG_30Rnd" chance="0.20" />
-			<item name="Mag_CMAG_40Rnd" chance="0.20" />
+			<item name="Mag_CZ550_10rnd" chance="1.00" />
 		</attachments>
 	</type>
+	<type name="PP19">
+		<attachments chance="0.05">
+			<item name="PistolSuppressor" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="PP19_Bttstck" chance="1.00" />
+		</attachments>
+		<attachments chance="0.25">
+			<item name="PSO11Optic" chance="0.30" />
+			<item name="PSO1Optic" chance="0.30" />
+			<item name="KobraOptic" chance="0.40" />
+		</attachments>
+		<attachments chance="0.20">
+			<item name="Mag_PP19_64Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="LongHorn">
+		<attachments chance="1.00">
+			<item name="PistolOptic" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="P1">
+		<attachments chance="0.05">
+			<item name="PistolSuppressor" chance="1.00" />
+		</attachments>
+		<attachments chance="0.60">
+			<item name="Mag_P1_8Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="SSG82">
+		<attachments chance="0.1">
+			<item name="Mag_SSG82_5rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="MP133Shotgun">
+		<damage min="0.0" max="0.32" />
+		<attachments chance="0.30">
+			<item name="FNP45_MRDSOptic" chance="0.30" />
+		</attachments>
+	</type>
+	<type name="M4_Suppressor">
+		<damage min="0.0" max="0.32" />
+	</type>
+	<type name="PistolSuppressor">
+		<damage min="0.0" max="0.32" />
+	</type>
+	<type name="AK_Suppressor">
+		<damage min="0.0" max="0.32" />
+	</type>
+	<type name="NBCBootsGray">
+		<damage min="0.0" max="0.35" />
+	</type>
+	<type name="NBCBootsYellow">
+		<damage min="0.0" max="0.35" />
+	</type>
+	<type name="NBCGlovesGray">
+		<damage min="0.0" max="0.35" />
+	</type>
+	<type name="NBCGlovesYellow">
+		<damage min="0.0" max="0.35" />
+	</type>
+	<type name="NBCHoodGray">
+		<damage min="0.0" max="0.35" />
+	</type>
+	<type name="NBCHoodYellow">
+		<damage min="0.0" max="0.35" />
+	</type>
+	<type name="NBCJacketGray">
+		<damage min="0.0" max="0.35" />
+	</type>
+	<type name="NBCJacketYellow">
+		<damage min="0.0" max="0.35" />
+	</type>
+	<type name="NBCPantsGray">
+		<damage min="0.0" max="0.35" />
+	</type>
+	<type name="NBCPantsYellow">
+		<damage min="0.0" max="0.35" />
+	</type>
+	<type name="WaterBottle">
+	</type>
+	<type name="Canteen">
+	</type>
+	
+<!-- FUTURE
 	<type name="M249">
 		<attachments chance="1.00">
 			<item name="M249_Hndgrd" chance="1.00" />
@@ -2489,683 +2643,230 @@
 			<item name="Battery9V" chance="1.00" />
 		</attachments>
 	</type>
+	<type name="GPSReceiver">
+		<attachments chance="0.30">
+			<item name="Battery9V" chance="1.00" />
+		</attachments>
+	</type>
+	
 	<!-- XMAS -->
 	<type name="GiftBox_Small_1">
-		<cargo chance="0.35">
-			<item name="TLRLight" chance="0.50" />
-			<item name="UniversalLight" chance="0.50" />
-		</cargo>
-		<cargo chance="0.80">
-			<item name="AmmoBox_00buck_10rnd" chance="0.10" />
-			<item name="AmmoBox_12gaSlug_10Rnd" chance="0.10" />
-			<item name="AmmoBox_380_35rnd" chance="0.10" />
-			<item name="AmmoBox_9x19_25rnd" chance="0.10" />
-			<item name="AmmoBox_45ACP_25rnd" chance="0.10" />
-			<item name="AmmoBox_556x45_20Rnd" chance="0.10" />
-			<item name="AmmoBox_762x39_20Rnd" chance="0.10" />
-			<item name="AmmoBox_762x54_20Rnd" chance="0.10" />
-		</cargo>
-		<cargo chance="0.70">
-			<item name="Battery9V" chance="0.50" />
-			<item name="NailBox" chance="0.50" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Chemlight_Blue" chance="0.20" />
-			<item name="Chemlight_Green" chance="0.20" />
-			<item name="Chemlight_Red" chance="0.20" />
-			<item name="Chemlight_Yellow" chance="0.20" />
-			<item name="Chemlight_White" chance="0.20" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Headtorch_Grey" chance="0.50" />
-			<item name="Headtorch_Black" chance="0.50" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Mag_FNX45_15Rnd" chance="0.25" />
-			<item name="Mag_Glock_15Rnd" chance="0.25" />
-			<item name="Mag_MKII_10Rnd" chance="0.35" />
-			<item name="Mag_1911_7Rnd" chance="0.35" />
-			<item name="Mag_CZ75_15Rnd" chance="0.35" />
-			<item name="Mag_IJ70_8Rnd" chance="0.35" />
-			<item name="Mag_SVD_10Rnd" chance="0.10" />
-		</cargo>
+		<cargo preset="Xmas_Clothes_Small" />
+		<cargo preset="Xmas_Lights_Small" />
+		<cargo preset="Xmas_Weapons_Small" />
+		<cargo preset="Xmas_Fillers_Small" />
+		<cargo preset="Xmas_AmmoBoxes_Small" />
+		<cargo preset="Xmas_Mags_Small" />
+		<cargo preset="Xmas_Ammo_Small" />
+		<cargo preset="Xmas_Repairs_Small" />
+		<cargo preset="Xmas_Food_Small" />
+		<cargo preset="Xmas_Chemlights_Small" />
 	</type>
 	<type name="GiftBox_Small_2">
-		<cargo chance="0.35">
-			<item name="TLRLight" chance="0.50" />
-			<item name="UniversalLight" chance="0.50" />
-		</cargo>
-		<cargo chance="0.80">
-			<item name="AmmoBox_00buck_10rnd" chance="0.10" />
-			<item name="AmmoBox_12gaSlug_10Rnd" chance="0.10" />
-			<item name="AmmoBox_380_35rnd" chance="0.10" />
-			<item name="AmmoBox_9x19_25rnd" chance="0.10" />
-			<item name="AmmoBox_45ACP_25rnd" chance="0.10" />
-			<item name="AmmoBox_556x45_20Rnd" chance="0.10" />
-			<item name="AmmoBox_762x39_20Rnd" chance="0.10" />
-			<item name="AmmoBox_762x54_20Rnd" chance="0.10" />
-		</cargo>
-		<cargo chance="0.70">
-			<item name="Battery9V" chance="0.50" />
-			<item name="NailBox" chance="0.50" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Chemlight_Blue" chance="0.20" />
-			<item name="Chemlight_Green" chance="0.20" />
-			<item name="Chemlight_Red" chance="0.20" />
-			<item name="Chemlight_Yellow" chance="0.20" />
-			<item name="Chemlight_White" chance="0.20" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Headtorch_Grey" chance="0.50" />
-			<item name="Headtorch_Black" chance="0.50" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Mag_FNX45_15Rnd" chance="0.25" />
-			<item name="Mag_Glock_15Rnd" chance="0.25" />
-			<item name="Mag_MKII_10Rnd" chance="0.35" />
-			<item name="Mag_1911_7Rnd" chance="0.35" />
-			<item name="Mag_CZ75_15Rnd" chance="0.35" />
-			<item name="Mag_IJ70_8Rnd" chance="0.35" />
-			<item name="Mag_SVD_10Rnd" chance="0.10" />
-		</cargo>
+		<cargo preset="Xmas_Clothes_Small" />
+		<cargo preset="Xmas_Lights_Small" />
+		<cargo preset="Xmas_Weapons_Small" />
+		<cargo preset="Xmas_Fillers_Small" />
+		<cargo preset="Xmas_AmmoBoxes_Small" />
+		<cargo preset="Xmas_Mags_Small" />
+		<cargo preset="Xmas_Ammo_Small" />
+		<cargo preset="Xmas_Repairs_Small" />
+		<cargo preset="Xmas_Food_Small" />
+		<cargo preset="Xmas_Chemlights_Small" />
 	</type>
 	<type name="GiftBox_Small_3">
-		<cargo chance="0.35">
-			<item name="TLRLight" chance="0.50" />
-			<item name="UniversalLight" chance="0.50" />
-		</cargo>
-		<cargo chance="0.80">
-			<item name="AmmoBox_00buck_10rnd" chance="0.10" />
-			<item name="AmmoBox_12gaSlug_10Rnd" chance="0.10" />
-			<item name="AmmoBox_380_35rnd" chance="0.10" />
-			<item name="AmmoBox_9x19_25rnd" chance="0.10" />
-			<item name="AmmoBox_45ACP_25rnd" chance="0.10" />
-			<item name="AmmoBox_556x45_20Rnd" chance="0.10" />
-			<item name="AmmoBox_762x39_20Rnd" chance="0.10" />
-			<item name="AmmoBox_762x54_20Rnd" chance="0.10" />
-		</cargo>
-		<cargo chance="0.70">
-			<item name="Battery9V" chance="0.50" />
-			<item name="NailBox" chance="0.50" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Chemlight_Blue" chance="0.20" />
-			<item name="Chemlight_Green" chance="0.20" />
-			<item name="Chemlight_Red" chance="0.20" />
-			<item name="Chemlight_Yellow" chance="0.20" />
-			<item name="Chemlight_White" chance="0.20" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Headtorch_Grey" chance="0.50" />
-			<item name="Headtorch_Black" chance="0.50" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Mag_FNX45_15Rnd" chance="0.25" />
-			<item name="Mag_Glock_15Rnd" chance="0.25" />
-			<item name="Mag_MKII_10Rnd" chance="0.35" />
-			<item name="Mag_1911_7Rnd" chance="0.35" />
-			<item name="Mag_CZ75_15Rnd" chance="0.35" />
-			<item name="Mag_IJ70_8Rnd" chance="0.35" />
-			<item name="Mag_SVD_10Rnd" chance="0.10" />
-		</cargo>
+		<cargo preset="Xmas_Clothes_Small" />
+		<cargo preset="Xmas_Lights_Small" />
+		<cargo preset="Xmas_Weapons_Small" />
+		<cargo preset="Xmas_Fillers_Small" />
+		<cargo preset="Xmas_AmmoBoxes_Small" />
+		<cargo preset="Xmas_Mags_Small" />
+		<cargo preset="Xmas_Ammo_Small" />
+		<cargo preset="Xmas_Repairs_Small" />
+		<cargo preset="Xmas_Food_Small" />
+		<cargo preset="Xmas_Chemlights_Small" />
 	</type>
 	<type name="GiftBox_Small_4">
-		<cargo chance="0.35">
-			<item name="TLRLight" chance="0.50" />
-			<item name="UniversalLight" chance="0.50" />
-		</cargo>
-		<cargo chance="0.80">
-			<item name="AmmoBox_00buck_10rnd" chance="0.10" />
-			<item name="AmmoBox_12gaSlug_10Rnd" chance="0.10" />
-			<item name="AmmoBox_380_35rnd" chance="0.10" />
-			<item name="AmmoBox_9x19_25rnd" chance="0.10" />
-			<item name="AmmoBox_45ACP_25rnd" chance="0.10" />
-			<item name="AmmoBox_556x45_20Rnd" chance="0.10" />
-			<item name="AmmoBox_762x39_20Rnd" chance="0.10" />
-			<item name="AmmoBox_762x54_20Rnd" chance="0.10" />
-		</cargo>
-		<cargo chance="0.70">
-			<item name="Battery9V" chance="0.50" />
-			<item name="NailBox" chance="0.50" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Chemlight_Blue" chance="0.20" />
-			<item name="Chemlight_Green" chance="0.20" />
-			<item name="Chemlight_Red" chance="0.20" />
-			<item name="Chemlight_Yellow" chance="0.20" />
-			<item name="Chemlight_White" chance="0.20" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Headtorch_Grey" chance="0.50" />
-			<item name="Headtorch_Black" chance="0.50" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Mag_FNX45_15Rnd" chance="0.25" />
-			<item name="Mag_Glock_15Rnd" chance="0.25" />
-			<item name="Mag_MKII_10Rnd" chance="0.35" />
-			<item name="Mag_1911_7Rnd" chance="0.35" />
-			<item name="Mag_CZ75_15Rnd" chance="0.35" />
-			<item name="Mag_IJ70_8Rnd" chance="0.35" />
-			<item name="Mag_SVD_10Rnd" chance="0.10" />
-		</cargo>
+		<cargo preset="Xmas_Clothes_Small" />
+		<cargo preset="Xmas_Lights_Small" />
+		<cargo preset="Xmas_Weapons_Small" />
+		<cargo preset="Xmas_Fillers_Small" />
+		<cargo preset="Xmas_AmmoBoxes_Small" />
+		<cargo preset="Xmas_Mags_Small" />
+		<cargo preset="Xmas_Ammo_Small" />
+		<cargo preset="Xmas_Repairs_Small" />
+		<cargo preset="Xmas_Food_Small" />
+		<cargo preset="Xmas_Chemlights_Small" />
 	</type>
 	<type name="GiftBox_Medium_1">
-		<cargo chance="0.10">
-			<item name="CombinationLock" chance="1.00" />
-		</cargo>
-		<cargo chance="0.50">
-			<item name="PersonalRadio" chance="1.00" />
-		</cargo>
-		<cargo chance="0.30">
-			<item name="Netting" chance="1.00" />
-		</cargo>
-		<cargo chance="0.30">
-			<item name="KazuarOptic" chance="0.05" />
-			<item name="PUScopeOptic" chance="0.20" />
-			<item name="PSO1Optic" chance="0.20" />
-			<item name="ACOGOptic" chance="0.15" />
-			<item name="M68Optic" chance="0.15" />
-			<item name="KobraOptic" chance="0.15" />
-			<item name="M4_CarryHandleOptic" chance="0.10" />
-		</cargo>
-		<cargo chance="0.90">
-			<item name="AmmoBox_00buck_10rnd" chance="0.10" />
-			<item name="AmmoBox_12gaSlug_10Rnd" chance="0.10" />
-			<item name="AmmoBox_380_35rnd" chance="0.10" />
-			<item name="AmmoBox_9x19_25rnd" chance="0.10" />
-			<item name="AmmoBox_45ACP_25rnd" chance="0.10" />
-			<item name="AmmoBox_556x45_20Rnd" chance="0.10" />
-			<item name="AmmoBox_762x39_20Rnd" chance="0.10" />
-			<item name="AmmoBox_762x54_20Rnd" chance="0.10" />
-		</cargo>
-		<cargo chance="0.70">
-			<item name="Battery9V" chance="0.50" />
-			<item name="NailBox" chance="0.50" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Chemlight_Blue" chance="0.20" />
-			<item name="Chemlight_Green" chance="0.20" />
-			<item name="Chemlight_Red" chance="0.20" />
-			<item name="Chemlight_Yellow" chance="0.20" />
-			<item name="Chemlight_White" chance="0.20" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Headtorch_Grey" chance="0.50" />
-			<item name="Headtorch_Black" chance="0.50" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Mag_CZ61_20Rnd" chance="0.20" />
-			<item name="Mag_MP5_30Rnd" chance="0.20" />
-			<item name="Mag_FNX45_15Rnd" chance="0.25" />
-			<item name="Mag_Glock_15Rnd" chance="0.25" />
-			<item name="Mag_MKII_10Rnd" chance="0.15" />
-			<item name="Mag_1911_7Rnd" chance="0.15" />
-			<item name="Mag_CZ75_15Rnd" chance="0.15" />
-			<item name="Mag_IJ70_8Rnd" chance="0.15" />
-			<item name="Mag_SVD_10Rnd" chance="0.15" />
-		</cargo>
+		<cargo preset="Xmas_Clothes_Medium" />
+		<cargo preset="Xmas_Weapons_Medium" />
+		<cargo preset="Xmas_Optics_Medium" />
+		<cargo preset="Xmas_Fillers_Medium" />
+		<cargo preset="Xmas_Repairs_Medium" />
+		<cargo preset="Xmas_Food_Medium" />
+		<cargo preset="Xmas_Clothes_Small" />
+		<cargo preset="Xmas_Lights_Small" />
+		<cargo preset="Xmas_Weapons_Small" />
+		<cargo preset="Xmas_Fillers_Small" />
+		<cargo preset="Xmas_AmmoBoxes_Small" />
+		<cargo preset="Xmas_Mags_Small" />
+		<cargo preset="Xmas_Ammo_Small" />
+		<cargo preset="Xmas_Repairs_Small" />
+		<cargo preset="Xmas_Food_Small" />
+		<cargo preset="Xmas_Chemlights_Small" />
 	</type>
 	<type name="GiftBox_Medium_2">
-		<cargo chance="0.10">
-			<item name="CombinationLock" chance="1.00" />
-		</cargo>
-		<cargo chance="0.50">
-			<item name="PersonalRadio" chance="1.00" />
-		</cargo>
-		<cargo chance="0.30">
-			<item name="Netting" chance="1.00" />
-		</cargo>
-		<cargo chance="0.30">
-			<item name="KazuarOptic" chance="0.05" />
-			<item name="PUScopeOptic" chance="0.20" />
-			<item name="PSO1Optic" chance="0.20" />
-			<item name="ACOGOptic" chance="0.15" />
-			<item name="M68Optic" chance="0.15" />
-			<item name="KobraOptic" chance="0.15" />
-			<item name="M4_CarryHandleOptic" chance="0.10" />
-		</cargo>
-		<cargo chance="0.90">
-			<item name="AmmoBox_00buck_10rnd" chance="0.10" />
-			<item name="AmmoBox_12gaSlug_10Rnd" chance="0.10" />
-			<item name="AmmoBox_380_35rnd" chance="0.10" />
-			<item name="AmmoBox_9x19_25rnd" chance="0.10" />
-			<item name="AmmoBox_45ACP_25rnd" chance="0.10" />
-			<item name="AmmoBox_556x45_20Rnd" chance="0.10" />
-			<item name="AmmoBox_762x39_20Rnd" chance="0.10" />
-			<item name="AmmoBox_762x54_20Rnd" chance="0.10" />
-		</cargo>
-		<cargo chance="0.70">
-			<item name="Battery9V" chance="0.50" />
-			<item name="NailBox" chance="0.50" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Chemlight_Blue" chance="0.20" />
-			<item name="Chemlight_Green" chance="0.20" />
-			<item name="Chemlight_Red" chance="0.20" />
-			<item name="Chemlight_Yellow" chance="0.20" />
-			<item name="Chemlight_White" chance="0.20" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Headtorch_Grey" chance="0.50" />
-			<item name="Headtorch_Black" chance="0.50" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Mag_CZ61_20Rnd" chance="0.20" />
-			<item name="Mag_MP5_30Rnd" chance="0.20" />
-			<item name="Mag_FNX45_15Rnd" chance="0.25" />
-			<item name="Mag_Glock_15Rnd" chance="0.25" />
-			<item name="Mag_MKII_10Rnd" chance="0.15" />
-			<item name="Mag_1911_7Rnd" chance="0.15" />
-			<item name="Mag_CZ75_15Rnd" chance="0.15" />
-			<item name="Mag_IJ70_8Rnd" chance="0.15" />
-			<item name="Mag_SVD_10Rnd" chance="0.15" />
-		</cargo>
+		<cargo preset="Xmas_Clothes_Medium" />
+		<cargo preset="Xmas_Weapons_Medium" />
+		<cargo preset="Xmas_Optics_Medium" />
+		<cargo preset="Xmas_Fillers_Medium" />
+		<cargo preset="Xmas_Repairs_Medium" />
+		<cargo preset="Xmas_Food_Medium" />
+		<cargo preset="Xmas_Clothes_Small" />
+		<cargo preset="Xmas_Lights_Small" />
+		<cargo preset="Xmas_Weapons_Small" />
+		<cargo preset="Xmas_Fillers_Small" />
+		<cargo preset="Xmas_AmmoBoxes_Small" />
+		<cargo preset="Xmas_Mags_Small" />
+		<cargo preset="Xmas_Ammo_Small" />
+		<cargo preset="Xmas_Repairs_Small" />
+		<cargo preset="Xmas_Food_Small" />
+		<cargo preset="Xmas_Chemlights_Small" />
 	</type>
 	<type name="GiftBox_Medium_3">
-		<cargo chance="0.10">
-			<item name="CombinationLock" chance="1.00" />
-		</cargo>
-		<cargo chance="0.50">
-			<item name="PersonalRadio" chance="1.00" />
-		</cargo>
-		<cargo chance="0.30">
-			<item name="Netting" chance="1.00" />
-		</cargo>
-		<cargo chance="0.30">
-			<item name="KazuarOptic" chance="0.05" />
-			<item name="PUScopeOptic" chance="0.20" />
-			<item name="PSO1Optic" chance="0.20" />
-			<item name="ACOGOptic" chance="0.15" />
-			<item name="M68Optic" chance="0.15" />
-			<item name="KobraOptic" chance="0.15" />
-			<item name="M4_CarryHandleOptic" chance="0.10" />
-		</cargo>
-		<cargo chance="0.90">
-			<item name="AmmoBox_00buck_10rnd" chance="0.10" />
-			<item name="AmmoBox_12gaSlug_10Rnd" chance="0.10" />
-			<item name="AmmoBox_380_35rnd" chance="0.10" />
-			<item name="AmmoBox_9x19_25rnd" chance="0.10" />
-			<item name="AmmoBox_45ACP_25rnd" chance="0.10" />
-			<item name="AmmoBox_556x45_20Rnd" chance="0.10" />
-			<item name="AmmoBox_762x39_20Rnd" chance="0.10" />
-			<item name="AmmoBox_762x54_20Rnd" chance="0.10" />
-		</cargo>
-		<cargo chance="0.70">
-			<item name="Battery9V" chance="0.50" />
-			<item name="NailBox" chance="0.50" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Chemlight_Blue" chance="0.20" />
-			<item name="Chemlight_Green" chance="0.20" />
-			<item name="Chemlight_Red" chance="0.20" />
-			<item name="Chemlight_Yellow" chance="0.20" />
-			<item name="Chemlight_White" chance="0.20" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Headtorch_Grey" chance="0.50" />
-			<item name="Headtorch_Black" chance="0.50" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Mag_CZ61_20Rnd" chance="0.20" />
-			<item name="Mag_MP5_30Rnd" chance="0.20" />
-			<item name="Mag_FNX45_15Rnd" chance="0.25" />
-			<item name="Mag_Glock_15Rnd" chance="0.25" />
-			<item name="Mag_MKII_10Rnd" chance="0.15" />
-			<item name="Mag_1911_7Rnd" chance="0.15" />
-			<item name="Mag_CZ75_15Rnd" chance="0.15" />
-			<item name="Mag_IJ70_8Rnd" chance="0.15" />
-			<item name="Mag_SVD_10Rnd" chance="0.15" />
-		</cargo>
+		<cargo preset="Xmas_Clothes_Medium" />
+		<cargo preset="Xmas_Weapons_Medium" />
+		<cargo preset="Xmas_Optics_Medium" />
+		<cargo preset="Xmas_Fillers_Medium" />
+		<cargo preset="Xmas_Repairs_Medium" />
+		<cargo preset="Xmas_Food_Medium" />
+		<cargo preset="Xmas_Clothes_Small" />
+		<cargo preset="Xmas_Lights_Small" />
+		<cargo preset="Xmas_Weapons_Small" />
+		<cargo preset="Xmas_Fillers_Small" />
+		<cargo preset="Xmas_AmmoBoxes_Small" />
+		<cargo preset="Xmas_Mags_Small" />
+		<cargo preset="Xmas_Ammo_Small" />
+		<cargo preset="Xmas_Repairs_Small" />
+		<cargo preset="Xmas_Food_Small" />
+		<cargo preset="Xmas_Chemlights_Small" />
 	</type>
 	<type name="GiftBox_Medium_4">
-		<cargo chance="0.10">
-			<item name="CombinationLock" chance="1.00" />
-		</cargo>
-		<cargo chance="0.50">
-			<item name="PersonalRadio" chance="1.00" />
-		</cargo>
-		<cargo chance="0.30">
-			<item name="Netting" chance="1.00" />
-		</cargo>
-		<cargo chance="0.30">
-			<item name="KazuarOptic" chance="0.05" />
-			<item name="PUScopeOptic" chance="0.20" />
-			<item name="PSO1Optic" chance="0.20" />
-			<item name="ACOGOptic" chance="0.15" />
-			<item name="M68Optic" chance="0.15" />
-			<item name="KobraOptic" chance="0.15" />
-			<item name="M4_CarryHandleOptic" chance="0.10" />
-		</cargo>
-		<cargo chance="0.90">
-			<item name="AmmoBox_00buck_10rnd" chance="0.10" />
-			<item name="AmmoBox_12gaSlug_10Rnd" chance="0.10" />
-			<item name="AmmoBox_380_35rnd" chance="0.10" />
-			<item name="AmmoBox_9x19_25rnd" chance="0.10" />
-			<item name="AmmoBox_45ACP_25rnd" chance="0.10" />
-			<item name="AmmoBox_556x45_20Rnd" chance="0.10" />
-			<item name="AmmoBox_762x39_20Rnd" chance="0.10" />
-			<item name="AmmoBox_762x54_20Rnd" chance="0.10" />
-		</cargo>
-		<cargo chance="0.70">
-			<item name="Battery9V" chance="0.50" />
-			<item name="NailBox" chance="0.50" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Chemlight_Blue" chance="0.20" />
-			<item name="Chemlight_Green" chance="0.20" />
-			<item name="Chemlight_Red" chance="0.20" />
-			<item name="Chemlight_Yellow" chance="0.20" />
-			<item name="Chemlight_White" chance="0.20" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Headtorch_Grey" chance="0.50" />
-			<item name="Headtorch_Black" chance="0.50" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Mag_CZ61_20Rnd" chance="0.20" />
-			<item name="Mag_MP5_30Rnd" chance="0.20" />
-			<item name="Mag_FNX45_15Rnd" chance="0.25" />
-			<item name="Mag_Glock_15Rnd" chance="0.25" />
-			<item name="Mag_MKII_10Rnd" chance="0.15" />
-			<item name="Mag_1911_7Rnd" chance="0.15" />
-			<item name="Mag_CZ75_15Rnd" chance="0.15" />
-			<item name="Mag_IJ70_8Rnd" chance="0.15" />
-			<item name="Mag_SVD_10Rnd" chance="0.15" />
-		</cargo>
+		<cargo preset="Xmas_Clothes_Medium" />
+		<cargo preset="Xmas_Weapons_Medium" />
+		<cargo preset="Xmas_Optics_Medium" />
+		<cargo preset="Xmas_Fillers_Medium" />
+		<cargo preset="Xmas_Repairs_Medium" />
+		<cargo preset="Xmas_Food_Medium" />
+		<cargo preset="Xmas_Clothes_Small" />
+		<cargo preset="Xmas_Lights_Small" />
+		<cargo preset="Xmas_Weapons_Small" />
+		<cargo preset="Xmas_Fillers_Small" />
+		<cargo preset="Xmas_AmmoBoxes_Small" />
+		<cargo preset="Xmas_Mags_Small" />
+		<cargo preset="Xmas_Ammo_Small" />
+		<cargo preset="Xmas_Repairs_Small" />
+		<cargo preset="Xmas_Food_Small" />
+		<cargo preset="Xmas_Chemlights_Small" />
 	</type>
 	<type name="GiftBox_Large_1">
-		<cargo chance="0.35">
-			<item name="MP5K" chance="0.40" />
-			<item name="CZ61" chance="0.40" />
-		</cargo>
-		<cargo chance="0.10">
-			<item name="CombinationLock" chance="1.00" />
-		</cargo>
-		<cargo chance="0.50">
-			<item name="PersonalRadio" chance="1.00" />
-		</cargo>
-		<cargo chance="0.30">
-			<item name="Netting" chance="1.00" />
-		</cargo>
-		<cargo chance="0.30">
-			<item name="KazuarOptic" chance="0.05" />
-			<item name="PUScopeOptic" chance="0.20" />
-			<item name="PSO1Optic" chance="0.20" />
-			<item name="ACOGOptic" chance="0.15" />
-			<item name="M68Optic" chance="0.15" />
-			<item name="KobraOptic" chance="0.15" />
-			<item name="M4_CarryHandleOptic" chance="0.10" />
-		</cargo>
-		<cargo chance="0.90">
-			<item name="AmmoBox_00buck_10rnd" chance="0.10" />
-			<item name="AmmoBox_12gaSlug_10Rnd" chance="0.10" />
-			<item name="AmmoBox_380_35rnd" chance="0.10" />
-			<item name="AmmoBox_9x19_25rnd" chance="0.10" />
-			<item name="AmmoBox_45ACP_25rnd" chance="0.10" />
-			<item name="AmmoBox_556x45_20Rnd" chance="0.10" />
-			<item name="AmmoBox_762x39_20Rnd" chance="0.10" />
-			<item name="AmmoBox_762x54_20Rnd" chance="0.10" />
-		</cargo>
-		<cargo chance="0.70">
-			<item name="Battery9V" chance="0.50" />
-			<item name="NailBox" chance="0.50" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Chemlight_Blue" chance="0.20" />
-			<item name="Chemlight_Green" chance="0.20" />
-			<item name="Chemlight_Red" chance="0.20" />
-			<item name="Chemlight_Yellow" chance="0.20" />
-			<item name="Chemlight_White" chance="0.20" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Headtorch_Grey" chance="0.50" />
-			<item name="Headtorch_Black" chance="0.50" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Mag_CZ61_20Rnd" chance="0.20" />
-			<item name="Mag_MP5_30Rnd" chance="0.20" />
-			<item name="Mag_FNX45_15Rnd" chance="0.25" />
-			<item name="Mag_Glock_15Rnd" chance="0.25" />
-			<item name="Mag_MKII_10Rnd" chance="0.15" />
-			<item name="Mag_1911_7Rnd" chance="0.15" />
-			<item name="Mag_CZ75_15Rnd" chance="0.15" />
-			<item name="Mag_IJ70_8Rnd" chance="0.15" />
-			<item name="Mag_SVD_10Rnd" chance="0.15" />
-			<item name="Mag_CMAG_10Rnd" chance="0.15" />
-			<item name="Mag_CMAG_20Rnd" chance="0.15" />
-			<item name="Mag_CZ527_5rnd" chance="0.20" />
-			<item name="Mag_Saiga_5Rnd" chance="0.15" />
-		</cargo>
-		<cargo chance="0.03">
-			<item name="Mag_Saiga_Drum20Rnd" chance="0.10" />
-			<item name="Mag_STANAGCoupled_30Rnd" chance="0.10" />
-			<item name="Mag_AKM_Drum75Rnd" chance="0.10" />
-		</cargo>
+		<cargo preset="Xmas_Mags_Large" />
+		<cargo preset="Xmas_Weapons_Large" />
+		<cargo preset="Xmas_Clothes_Medium" />
+		<cargo preset="Xmas_Weapons_Medium" />
+		<cargo preset="Xmas_Optics_Medium" />
+		<cargo preset="Xmas_Fillers_Medium" />
+		<cargo preset="Xmas_Repairs_Medium" />
+		<cargo preset="Xmas_Food_Medium" />
+		<cargo preset="Xmas_Clothes_Small" />
+		<cargo preset="Xmas_Lights_Small" />
+		<cargo preset="Xmas_Weapons_Small" />
+		<cargo preset="Xmas_Fillers_Small" />
+		<cargo preset="Xmas_AmmoBoxes_Small" />
+		<cargo preset="Xmas_Mags_Small" />
+		<cargo preset="Xmas_Ammo_Small" />
+		<cargo preset="Xmas_Repairs_Small" />
+		<cargo preset="Xmas_Food_Small" />
+		<cargo preset="Xmas_Chemlights_Small" />
 	</type>
 	<type name="GiftBox_Large_2">
-		<cargo chance="0.35">
-			<item name="MP5K" chance="0.40" />
-			<item name="CZ61" chance="0.40" />
-		</cargo>
-		<cargo chance="0.10">
-			<item name="CombinationLock" chance="1.00" />
-		</cargo>
-		<cargo chance="0.50">
-			<item name="PersonalRadio" chance="1.00" />
-		</cargo>
-		<cargo chance="0.30">
-			<item name="Netting" chance="1.00" />
-		</cargo>
-		<cargo chance="0.30">
-			<item name="KazuarOptic" chance="0.05" />
-			<item name="PUScopeOptic" chance="0.20" />
-			<item name="PSO1Optic" chance="0.20" />
-			<item name="ACOGOptic" chance="0.15" />
-			<item name="M68Optic" chance="0.15" />
-			<item name="KobraOptic" chance="0.15" />
-			<item name="M4_CarryHandleOptic" chance="0.10" />
-		</cargo>
-		<cargo chance="0.90">
-			<item name="AmmoBox_00buck_10rnd" chance="0.10" />
-			<item name="AmmoBox_12gaSlug_10Rnd" chance="0.10" />
-			<item name="AmmoBox_380_35rnd" chance="0.10" />
-			<item name="AmmoBox_9x19_25rnd" chance="0.10" />
-			<item name="AmmoBox_45ACP_25rnd" chance="0.10" />
-			<item name="AmmoBox_556x45_20Rnd" chance="0.10" />
-			<item name="AmmoBox_762x39_20Rnd" chance="0.10" />
-			<item name="AmmoBox_762x54_20Rnd" chance="0.10" />
-		</cargo>
-		<cargo chance="0.70">
-			<item name="Battery9V" chance="0.50" />
-			<item name="NailBox" chance="0.50" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Chemlight_Blue" chance="0.20" />
-			<item name="Chemlight_Green" chance="0.20" />
-			<item name="Chemlight_Red" chance="0.20" />
-			<item name="Chemlight_Yellow" chance="0.20" />
-			<item name="Chemlight_White" chance="0.20" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Headtorch_Grey" chance="0.50" />
-			<item name="Headtorch_Black" chance="0.50" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Mag_CZ61_20Rnd" chance="0.20" />
-			<item name="Mag_MP5_30Rnd" chance="0.20" />
-			<item name="Mag_FNX45_15Rnd" chance="0.25" />
-			<item name="Mag_Glock_15Rnd" chance="0.25" />
-			<item name="Mag_MKII_10Rnd" chance="0.15" />
-			<item name="Mag_1911_7Rnd" chance="0.15" />
-			<item name="Mag_CZ75_15Rnd" chance="0.15" />
-			<item name="Mag_IJ70_8Rnd" chance="0.15" />
-			<item name="Mag_SVD_10Rnd" chance="0.15" />
-			<item name="Mag_CMAG_10Rnd" chance="0.15" />
-			<item name="Mag_CMAG_20Rnd" chance="0.15" />
-			<item name="Mag_CZ527_5rnd" chance="0.20" />
-			<item name="Mag_Saiga_5Rnd" chance="0.15" />
-		</cargo>
-		<cargo chance="0.03">
-			<item name="Mag_Saiga_Drum20Rnd" chance="0.10" />
-			<item name="Mag_STANAGCoupled_30Rnd" chance="0.10" />
-			<item name="Mag_AKM_Drum75Rnd" chance="0.10" />
-		</cargo>
+		<cargo preset="Xmas_Mags_Large" />
+		<cargo preset="Xmas_Weapons_Large" />
+		<cargo preset="Xmas_Clothes_Medium" />
+		<cargo preset="Xmas_Weapons_Medium" />
+		<cargo preset="Xmas_Optics_Medium" />
+		<cargo preset="Xmas_Fillers_Medium" />
+		<cargo preset="Xmas_Repairs_Medium" />
+		<cargo preset="Xmas_Food_Medium" />
+		<cargo preset="Xmas_Clothes_Small" />
+		<cargo preset="Xmas_Lights_Small" />
+		<cargo preset="Xmas_Weapons_Small" />
+		<cargo preset="Xmas_Fillers_Small" />
+		<cargo preset="Xmas_AmmoBoxes_Small" />
+		<cargo preset="Xmas_Mags_Small" />
+		<cargo preset="Xmas_Ammo_Small" />
+		<cargo preset="Xmas_Repairs_Small" />
+		<cargo preset="Xmas_Food_Small" />
+		<cargo preset="Xmas_Chemlights_Small" />
 	</type>
 	<type name="GiftBox_Large_3">
-		<cargo chance="0.35">
-			<item name="MP5K" chance="0.40" />
-			<item name="CZ61" chance="0.40" />
-		</cargo>
-		<cargo chance="0.10">
-			<item name="CombinationLock" chance="1.00" />
-		</cargo>
-		<cargo chance="0.50">
-			<item name="PersonalRadio" chance="1.00" />
-		</cargo>
-		<cargo chance="0.30">
-			<item name="Netting" chance="1.00" />
-		</cargo>
-		<cargo chance="0.30">
-			<item name="KazuarOptic" chance="0.05" />
-			<item name="PUScopeOptic" chance="0.20" />
-			<item name="PSO1Optic" chance="0.20" />
-			<item name="ACOGOptic" chance="0.15" />
-			<item name="M68Optic" chance="0.15" />
-			<item name="KobraOptic" chance="0.15" />
-			<item name="M4_CarryHandleOptic" chance="0.10" />
-		</cargo>
-		<cargo chance="0.90">
-			<item name="AmmoBox_00buck_10rnd" chance="0.10" />
-			<item name="AmmoBox_12gaSlug_10Rnd" chance="0.10" />
-			<item name="AmmoBox_380_35rnd" chance="0.10" />
-			<item name="AmmoBox_9x19_25rnd" chance="0.10" />
-			<item name="AmmoBox_45ACP_25rnd" chance="0.10" />
-			<item name="AmmoBox_556x45_20Rnd" chance="0.10" />
-			<item name="AmmoBox_762x39_20Rnd" chance="0.10" />
-			<item name="AmmoBox_762x54_20Rnd" chance="0.10" />
-		</cargo>
-		<cargo chance="0.70">
-			<item name="Battery9V" chance="0.50" />
-			<item name="NailBox" chance="0.50" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Chemlight_Blue" chance="0.20" />
-			<item name="Chemlight_Green" chance="0.20" />
-			<item name="Chemlight_Red" chance="0.20" />
-			<item name="Chemlight_Yellow" chance="0.20" />
-			<item name="Chemlight_White" chance="0.20" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Headtorch_Grey" chance="0.50" />
-			<item name="Headtorch_Black" chance="0.50" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Mag_CZ61_20Rnd" chance="0.20" />
-			<item name="Mag_MP5_30Rnd" chance="0.20" />
-			<item name="Mag_FNX45_15Rnd" chance="0.25" />
-			<item name="Mag_Glock_15Rnd" chance="0.25" />
-			<item name="Mag_MKII_10Rnd" chance="0.15" />
-			<item name="Mag_1911_7Rnd" chance="0.15" />
-			<item name="Mag_CZ75_15Rnd" chance="0.15" />
-			<item name="Mag_IJ70_8Rnd" chance="0.15" />
-			<item name="Mag_SVD_10Rnd" chance="0.15" />
-			<item name="Mag_CMAG_10Rnd" chance="0.15" />
-			<item name="Mag_CMAG_20Rnd" chance="0.15" />
-			<item name="Mag_CZ527_5rnd" chance="0.20" />
-			<item name="Mag_Saiga_5Rnd" chance="0.15" />
-		</cargo>
-		<cargo chance="0.03">
-			<item name="Mag_Saiga_Drum20Rnd" chance="0.10" />
-			<item name="Mag_STANAGCoupled_30Rnd" chance="0.10" />
-			<item name="Mag_AKM_Drum75Rnd" chance="0.10" />
-		</cargo>
+		<cargo preset="Xmas_Mags_Large" />
+		<cargo preset="Xmas_Weapons_Large" />
+		<cargo preset="Xmas_Clothes_Medium" />
+		<cargo preset="Xmas_Weapons_Medium" />
+		<cargo preset="Xmas_Optics_Medium" />
+		<cargo preset="Xmas_Fillers_Medium" />
+		<cargo preset="Xmas_Repairs_Medium" />
+		<cargo preset="Xmas_Food_Medium" />
+		<cargo preset="Xmas_Clothes_Small" />
+		<cargo preset="Xmas_Lights_Small" />
+		<cargo preset="Xmas_Weapons_Small" />
+		<cargo preset="Xmas_Fillers_Small" />
+		<cargo preset="Xmas_AmmoBoxes_Small" />
+		<cargo preset="Xmas_Mags_Small" />
+		<cargo preset="Xmas_Ammo_Small" />
+		<cargo preset="Xmas_Repairs_Small" />
+		<cargo preset="Xmas_Food_Small" />
+		<cargo preset="Xmas_Chemlights_Small" />
 	</type>
 	<type name="GiftBox_Large_4">
-		<cargo chance="0.35">
-			<item name="MP5K" chance="0.40" />
-			<item name="CZ61" chance="0.40" />
-		</cargo>
-		<cargo chance="0.10">
-			<item name="CombinationLock" chance="1.00" />
-		</cargo>
-		<cargo chance="0.50">
-			<item name="PersonalRadio" chance="1.00" />
-		</cargo>
-		<cargo chance="0.30">
-			<item name="Netting" chance="1.00" />
-		</cargo>
-		<cargo chance="0.30">
-			<item name="KazuarOptic" chance="0.05" />
-			<item name="PUScopeOptic" chance="0.20" />
-			<item name="PSO1Optic" chance="0.20" />
-			<item name="ACOGOptic" chance="0.15" />
-			<item name="M68Optic" chance="0.15" />
-			<item name="KobraOptic" chance="0.15" />
-			<item name="M4_CarryHandleOptic" chance="0.10" />
-		</cargo>
-		<cargo chance="0.90">
-			<item name="AmmoBox_00buck_10rnd" chance="0.10" />
-			<item name="AmmoBox_12gaSlug_10Rnd" chance="0.10" />
-			<item name="AmmoBox_380_35rnd" chance="0.10" />
-			<item name="AmmoBox_9x19_25rnd" chance="0.10" />
-			<item name="AmmoBox_45ACP_25rnd" chance="0.10" />
-			<item name="AmmoBox_556x45_20Rnd" chance="0.10" />
-			<item name="AmmoBox_762x39_20Rnd" chance="0.10" />
-			<item name="AmmoBox_762x54_20Rnd" chance="0.10" />
-		</cargo>
-		<cargo chance="0.70">
-			<item name="Battery9V" chance="0.50" />
-			<item name="NailBox" chance="0.50" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Chemlight_Blue" chance="0.20" />
-			<item name="Chemlight_Green" chance="0.20" />
-			<item name="Chemlight_Red" chance="0.20" />
-			<item name="Chemlight_Yellow" chance="0.20" />
-			<item name="Chemlight_White" chance="0.20" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Headtorch_Grey" chance="0.50" />
-			<item name="Headtorch_Black" chance="0.50" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Mag_CZ61_20Rnd" chance="0.20" />
-			<item name="Mag_MP5_30Rnd" chance="0.20" />
-			<item name="Mag_FNX45_15Rnd" chance="0.25" />
-			<item name="Mag_Glock_15Rnd" chance="0.25" />
-			<item name="Mag_MKII_10Rnd" chance="0.15" />
-			<item name="Mag_1911_7Rnd" chance="0.15" />
-			<item name="Mag_CZ75_15Rnd" chance="0.15" />
-			<item name="Mag_IJ70_8Rnd" chance="0.15" />
-			<item name="Mag_SVD_10Rnd" chance="0.15" />
-			<item name="Mag_CMAG_10Rnd" chance="0.15" />
-			<item name="Mag_CMAG_20Rnd" chance="0.15" />
-			<item name="Mag_CZ527_5rnd" chance="0.20" />
-			<item name="Mag_Saiga_5Rnd" chance="0.15" />
-		</cargo>
-		<cargo chance="0.03">
-			<item name="Mag_Saiga_Drum20Rnd" chance="0.10" />
-			<item name="Mag_STANAGCoupled_30Rnd" chance="0.10" />
-			<item name="Mag_AKM_Drum75Rnd" chance="0.10" />
-		</cargo>
+		<cargo preset="Xmas_Mags_Large" />
+		<cargo preset="Xmas_Weapons_Large" />
+		<cargo preset="Xmas_Clothes_Medium" />
+		<cargo preset="Xmas_Weapons_Medium" />
+		<cargo preset="Xmas_Optics_Medium" />
+		<cargo preset="Xmas_Fillers_Medium" />
+		<cargo preset="Xmas_Repairs_Medium" />
+		<cargo preset="Xmas_Food_Medium" />
+		<cargo preset="Xmas_Clothes_Small" />
+		<cargo preset="Xmas_Lights_Small" />
+		<cargo preset="Xmas_Weapons_Small" />
+		<cargo preset="Xmas_Fillers_Small" />
+		<cargo preset="Xmas_AmmoBoxes_Small" />
+		<cargo preset="Xmas_Mags_Small" />
+		<cargo preset="Xmas_Ammo_Small" />
+		<cargo preset="Xmas_Repairs_Small" />
+		<cargo preset="Xmas_Food_Small" />
+		<cargo preset="Xmas_Chemlights_Small" />
 	</type>
+	
 	<!-- VEHICLES -->
 	<type name="OffroadHatchback">
 		<attachments chance="1.00">
-			<item name="HatchbackWheel" chance="0.80" />
+			<item name="HatchbackWheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="HatchbackWheel" chance="0.80" />
+			<item name="HatchbackWheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="HatchbackWheel" chance="0.80" />
+			<item name="HatchbackWheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="HatchbackWheel" chance="0.80" />
+			<item name="HatchbackWheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="HatchbackWheel" chance="0.20" />
+			<item name="HatchbackWheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="CarRadiator" chance="0.60" />
@@ -3194,22 +2895,72 @@
 		<attachments chance="1.00">
 			<item name="HatchbackTrunk" chance="0.20" />
 		</attachments>
+	</type>	
+	<type name="Offroad_02">
+		<attachments chance="1.00">
+			<item name="Offroad_02_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Offroad_02_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Offroad_02_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Offroad_02_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Offroad_02_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Offroad_02_Trunk" chance="0.5" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Offroad_02_Hood" chance="1.0" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Offroad_02_Door_1_1" chance="0.3" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Offroad_02_Door_1_2" chance="0.3" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Offroad_02_Door_2_1" chance="0.3" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Offroad_02_Door_2_2" chance="0.3" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="GlowPlug" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.30" />
+		</attachments>
+		<cargo chance="0.10">
+			<item name="JerryCan" chance="1.0" />
+		</cargo>
 	</type>
 	<type name="OffroadHatchback_Blue">
 		<attachments chance="1.00">
-			<item name="HatchbackWheel" chance="0.80" />
+			<item name="HatchbackWheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="HatchbackWheel" chance="0.80" />
+			<item name="HatchbackWheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="HatchbackWheel" chance="0.80" />
+			<item name="HatchbackWheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="HatchbackWheel" chance="0.80" />
+			<item name="HatchbackWheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="HatchbackWheel" chance="0.20" />
+			<item name="HatchbackWheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="CarRadiator" chance="0.60" />
@@ -3241,19 +2992,19 @@
 	</type>
 	<type name="OffroadHatchback_White">
 		<attachments chance="1.00">
-			<item name="HatchbackWheel" chance="0.80" />
+			<item name="HatchbackWheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="HatchbackWheel" chance="0.80" />
+			<item name="HatchbackWheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="HatchbackWheel" chance="0.80" />
+			<item name="HatchbackWheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="HatchbackWheel" chance="0.80" />
+			<item name="HatchbackWheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="HatchbackWheel" chance="0.20" />
+			<item name="HatchbackWheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="CarRadiator" chance="0.60" />
@@ -3286,16 +3037,19 @@
 	<!-- -->
 	<type name="CivilianSedan">
 		<attachments chance="1.00">
-			<item name="CivSedanWheel" chance="0.80" />
+			<item name="CivSedanWheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="CivSedanWheel" chance="0.80" />
+			<item name="CivSedanWheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="CivSedanWheel" chance="0.80" />
+			<item name="CivSedanWheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="CivSedanWheel" chance="0.80" />
+			<item name="CivSedanWheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CivSedanWheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="CarRadiator" chance="0.60" />
@@ -3333,16 +3087,19 @@
 	</type>
 	<type name="CivilianSedan_Wine">
 		<attachments chance="1.00">
-			<item name="CivSedanWheel" chance="0.80" />
+			<item name="CivSedanWheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="CivSedanWheel" chance="0.80" />
+			<item name="CivSedanWheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="CivSedanWheel" chance="0.80" />
+			<item name="CivSedanWheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="CivSedanWheel" chance="0.80" />
+			<item name="CivSedanWheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CivSedanWheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="CarRadiator" chance="0.60" />
@@ -3380,16 +3137,19 @@
 	</type>
 	<type name="CivilianSedan_Black">
 		<attachments chance="1.00">
-			<item name="CivSedanWheel" chance="0.80" />
+			<item name="CivSedanWheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="CivSedanWheel" chance="0.80" />
+			<item name="CivSedanWheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="CivSedanWheel" chance="0.80" />
+			<item name="CivSedanWheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="CivSedanWheel" chance="0.80" />
+			<item name="CivSedanWheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CivSedanWheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="CarRadiator" chance="0.60" />
@@ -3428,16 +3188,19 @@
 	<!-- -->
 	<type name="Hatchback_02">
 		<attachments chance="1.00">
-			<item name="Hatchback_02_Wheel" chance="0.80" />
+			<item name="Hatchback_02_Wheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Hatchback_02_Wheel" chance="0.80" />
+			<item name="Hatchback_02_Wheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Hatchback_02_Wheel" chance="0.80" />
+			<item name="Hatchback_02_Wheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Hatchback_02_Wheel" chance="0.80" />
+			<item name="Hatchback_02_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Hatchback_02_Wheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="CarRadiator" chance="0.60" />
@@ -3475,16 +3238,19 @@
 	</type>
 	<type name="Hatchback_02_Black">
 		<attachments chance="1.00">
-			<item name="Hatchback_02_Wheel" chance="0.80" />
+			<item name="Hatchback_02_Wheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Hatchback_02_Wheel" chance="0.80" />
+			<item name="Hatchback_02_Wheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Hatchback_02_Wheel" chance="0.80" />
+			<item name="Hatchback_02_Wheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Hatchback_02_Wheel" chance="0.80" />
+			<item name="Hatchback_02_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Hatchback_02_Wheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="CarRadiator" chance="0.60" />
@@ -3522,16 +3288,19 @@
 	</type>
 	<type name="Hatchback_02_Blue">
 		<attachments chance="1.00">
-			<item name="Hatchback_02_Wheel" chance="0.80" />
+			<item name="Hatchback_02_Wheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Hatchback_02_Wheel" chance="0.80" />
+			<item name="Hatchback_02_Wheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Hatchback_02_Wheel" chance="0.80" />
+			<item name="Hatchback_02_Wheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Hatchback_02_Wheel" chance="0.80" />
+			<item name="Hatchback_02_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Hatchback_02_Wheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="CarRadiator" chance="0.60" />
@@ -3570,16 +3339,19 @@
 	<!-- -->
 	<type name="Sedan_02">
 		<attachments chance="1.00">
-			<item name="Sedan_02_Wheel" chance="0.80" />
+			<item name="Sedan_02_Wheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Sedan_02_Wheel" chance="0.80" />
+			<item name="Sedan_02_Wheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Sedan_02_Wheel" chance="0.80" />
+			<item name="Sedan_02_Wheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Sedan_02_Wheel" chance="0.80" />
+			<item name="Sedan_02_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Sedan_02_Wheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="CarRadiator" chance="0.60" />
@@ -3617,16 +3389,19 @@
 	</type>
 	<type name="Sedan_02_Red">
 		<attachments chance="1.00">
-			<item name="Sedan_02_Wheel" chance="0.80" />
+			<item name="Sedan_02_Wheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Sedan_02_Wheel" chance="0.80" />
+			<item name="Sedan_02_Wheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Sedan_02_Wheel" chance="0.80" />
+			<item name="Sedan_02_Wheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Sedan_02_Wheel" chance="0.80" />
+			<item name="Sedan_02_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Sedan_02_Wheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="CarRadiator" chance="0.60" />
@@ -3664,16 +3439,19 @@
 	</type>
 	<type name="Sedan_02_Grey">
 		<attachments chance="1.00">
-			<item name="Sedan_02_Wheel" chance="0.80" />
+			<item name="Sedan_02_Wheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Sedan_02_Wheel" chance="0.80" />
+			<item name="Sedan_02_Wheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Sedan_02_Wheel" chance="0.80" />
+			<item name="Sedan_02_Wheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Sedan_02_Wheel" chance="0.80" />
+			<item name="Sedan_02_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Sedan_02_Wheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="CarRadiator" chance="0.60" />
@@ -3711,28 +3489,28 @@
 	</type>
 	<type name="Truck_01_Covered">
 		<attachments chance="1.00">
-			<item name="Truck_01_Wheel" chance="0.60" />
+			<item name="Truck_01_Wheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Truck_01_Wheel" chance="0.60" />
+			<item name="Truck_01_Wheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Truck_01_Wheel" chance="0.40" />
+			<item name="Truck_01_Wheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Truck_01_Wheel" chance="0.40" />
+			<item name="Truck_01_Wheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Truck_01_WheelDouble" chance="0.40" />
+			<item name="Truck_01_WheelDouble" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Truck_01_WheelDouble" chance="0.40" />
+			<item name="Truck_01_WheelDouble" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Truck_01_WheelDouble" chance="0.40" />
+			<item name="Truck_01_WheelDouble" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Truck_01_WheelDouble" chance="0.40" />
+			<item name="Truck_01_WheelDouble" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="TruckBattery" chance="0.25" />
@@ -3755,28 +3533,28 @@
 	</type>
 	<type name="Truck_01_Covered_Blue">
 		<attachments chance="1.00">
-			<item name="Truck_01_Wheel" chance="0.60" />
+			<item name="Truck_01_Wheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Truck_01_Wheel" chance="0.60" />
+			<item name="Truck_01_Wheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Truck_01_Wheel" chance="0.40" />
+			<item name="Truck_01_Wheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Truck_01_Wheel" chance="0.40" />
+			<item name="Truck_01_Wheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Truck_01_WheelDouble" chance="0.40" />
+			<item name="Truck_01_WheelDouble" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Truck_01_WheelDouble" chance="0.40" />
+			<item name="Truck_01_WheelDouble" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Truck_01_WheelDouble" chance="0.40" />
+			<item name="Truck_01_WheelDouble" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Truck_01_WheelDouble" chance="0.40" />
+			<item name="Truck_01_WheelDouble" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="TruckBattery" chance="0.25" />
@@ -3799,28 +3577,28 @@
 	</type>
 	<type name="Truck_01_Covered_Orange">
 		<attachments chance="1.00">
-			<item name="Truck_01_Wheel" chance="0.60" />
+			<item name="Truck_01_Wheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Truck_01_Wheel" chance="0.60" />
+			<item name="Truck_01_Wheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Truck_01_Wheel" chance="0.40" />
+			<item name="Truck_01_Wheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Truck_01_Wheel" chance="0.40" />
+			<item name="Truck_01_Wheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Truck_01_WheelDouble" chance="0.40" />
+			<item name="Truck_01_WheelDouble" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Truck_01_WheelDouble" chance="0.40" />
+			<item name="Truck_01_WheelDouble" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Truck_01_WheelDouble" chance="0.40" />
+			<item name="Truck_01_WheelDouble" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Truck_01_WheelDouble" chance="0.40" />
+			<item name="Truck_01_WheelDouble" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="TruckBattery" chance="0.25" />
@@ -3844,14 +3622,14 @@
 <!--
 	<type name="V3S_Chassis">
 		<attachments chance="1.00">
-			<item name="V3SWheel" chance="0.60" />
-			<item name="V3SWheel" chance="0.60" />
-			<item name="V3SWheel" chance="0.40" />
-			<item name="V3SWheel" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="V3SWheel" chance="1.00" />
+			<item name="V3SWheel" chance="1.00" />
+			<item name="V3SWheel" chance="1.00" />
+			<item name="V3SWheel" chance="1.00" />
+			<item name="V3SWheelDouble" chance="1.00" />
+			<item name="V3SWheelDouble" chance="1.00" />
+			<item name="V3SWheelDouble" chance="1.00" />
+			<item name="V3SWheelDouble" chance="1.00" />
 			<item name="TruckBattery" chance="0.30" />
 			<item name="HeadlightH7" chance="0.10" />
 			<item name="HeadlightH7" chance="0.10" />
@@ -3862,14 +3640,14 @@
 	</type>
 	<type name="V3S_Cargo">
 		<attachments chance="1.00">
-			<item name="V3SWheel" chance="0.60" />
-			<item name="V3SWheel" chance="0.60" />
-			<item name="V3SWheel" chance="0.40" />
-			<item name="V3SWheel" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="V3SWheel" chance="1.00" />
+			<item name="V3SWheel" chance="1.00" />
+			<item name="V3SWheel" chance="1.00" />
+			<item name="V3SWheel" chance="1.00" />
+			<item name="V3SWheelDouble" chance="1.00" />
+			<item name="V3SWheelDouble" chance="1.00" />
+			<item name="V3SWheelDouble" chance="1.00" />
+			<item name="V3SWheelDouble" chance="1.00" />
 			<item name="TruckBattery" chance="0.30" />
 			<item name="HeadlightH7" chance="0.10" />
 			<item name="HeadlightH7" chance="0.10" />
@@ -3880,14 +3658,14 @@
 	</type>
 	<type name="V3S_Chassis_Blue">
 		<attachments chance="1.00">
-			<item name="V3SWheel" chance="0.60" />
-			<item name="V3SWheel" chance="0.60" />
-			<item name="V3SWheel" chance="0.40" />
-			<item name="V3SWheel" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="V3SWheel" chance="1.00" />
+			<item name="V3SWheel" chance="1.00" />
+			<item name="V3SWheel" chance="1.00" />
+			<item name="V3SWheel" chance="1.00" />
+			<item name="V3SWheelDouble" chance="1.00" />
+			<item name="V3SWheelDouble" chance="1.00" />
+			<item name="V3SWheelDouble" chance="1.00" />
+			<item name="V3SWheelDouble" chance="1.00" />
 			<item name="TruckBattery" chance="0.30" />
 			<item name="HeadlightH7" chance="0.10" />
 			<item name="HeadlightH7" chance="0.10" />
@@ -3898,14 +3676,14 @@
 	</type>
 	<type name="V3S_Chassis_Orange">
 		<attachments chance="1.00">
-			<item name="V3SWheel" chance="0.60" />
-			<item name="V3SWheel" chance="0.60" />
-			<item name="V3SWheel" chance="0.40" />
-			<item name="V3SWheel" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="V3SWheel" chance="1.00" />
+			<item name="V3SWheel" chance="1.00" />
+			<item name="V3SWheel" chance="1.00" />
+			<item name="V3SWheel" chance="1.00" />
+			<item name="V3SWheelDouble" chance="1.00" />
+			<item name="V3SWheelDouble" chance="1.00" />
+			<item name="V3SWheelDouble" chance="1.00" />
+			<item name="V3SWheelDouble" chance="1.00" />
 			<item name="TruckBattery" chance="0.30" />
 			<item name="HeadlightH7" chance="0.10" />
 			<item name="HeadlightH7" chance="0.10" />
@@ -3916,14 +3694,14 @@
 	</type>
 	<type name="V3S_Chassis_Grey">
 		<attachments chance="1.00">
-			<item name="V3SWheel" chance="0.60" />
-			<item name="V3SWheel" chance="0.60" />
-			<item name="V3SWheel" chance="0.40" />
-			<item name="V3SWheel" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="V3SWheel" chance="1.00" />
+			<item name="V3SWheel" chance="1.00" />
+			<item name="V3SWheel" chance="1.00" />
+			<item name="V3SWheel" chance="1.00" />
+			<item name="V3SWheelDouble" chance="1.00" />
+			<item name="V3SWheelDouble" chance="1.00" />
+			<item name="V3SWheelDouble" chance="1.00" />
+			<item name="V3SWheelDouble" chance="1.00" />
 			<item name="TruckBattery" chance="0.30" />
 			<item name="HeadlightH7" chance="0.10" />
 			<item name="HeadlightH7" chance="0.10" />
@@ -3934,14 +3712,14 @@
 	</type>
 	<type name="V3S_Cargo_Blue">
 		<attachments chance="1.00">
-			<item name="V3SWheel" chance="0.60" />
-			<item name="V3SWheel" chance="0.60" />
-			<item name="V3SWheel" chance="0.40" />
-			<item name="V3SWheel" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="V3SWheel" chance="1.00" />
+			<item name="V3SWheel" chance="1.00" />
+			<item name="V3SWheel" chance="1.00" />
+			<item name="V3SWheel" chance="1.00" />
+			<item name="V3SWheelDouble" chance="1.00" />
+			<item name="V3SWheelDouble" chance="1.00" />
+			<item name="V3SWheelDouble" chance="1.00" />
+			<item name="V3SWheelDouble" chance="1.00" />
 			<item name="TruckBattery" chance="0.30" />
 			<item name="HeadlightH7" chance="0.10" />
 			<item name="HeadlightH7" chance="0.10" />
@@ -3952,14 +3730,14 @@
 	</type>
 	<type name="V3S_Cargo_Orange">
 		<attachments chance="1.00">
-			<item name="V3SWheel" chance="0.60" />
-			<item name="V3SWheel" chance="0.60" />
-			<item name="V3SWheel" chance="0.40" />
-			<item name="V3SWheel" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="V3SWheel" chance="1.00" />
+			<item name="V3SWheel" chance="1.00" />
+			<item name="V3SWheel" chance="1.00" />
+			<item name="V3SWheel" chance="1.00" />
+			<item name="V3SWheelDouble" chance="1.00" />
+			<item name="V3SWheelDouble" chance="1.00" />
+			<item name="V3SWheelDouble" chance="1.00" />
+			<item name="V3SWheelDouble" chance="1.00" />
 			<item name="TruckBattery" chance="0.30" />
 			<item name="HeadlightH7" chance="0.10" />
 			<item name="HeadlightH7" chance="0.10" />
@@ -3970,14 +3748,14 @@
 	</type>
 	<type name="V3S_Cargo_Grey">
 		<attachments chance="1.00">
-			<item name="V3SWheel" chance="0.60" />
-			<item name="V3SWheel" chance="0.60" />
-			<item name="V3SWheel" chance="0.40" />
-			<item name="V3SWheel" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="V3SWheel" chance="1.00" />
+			<item name="V3SWheel" chance="1.00" />
+			<item name="V3SWheel" chance="1.00" />
+			<item name="V3SWheel" chance="1.00" />
+			<item name="V3SWheelDouble" chance="1.00" />
+			<item name="V3SWheelDouble" chance="1.00" />
+			<item name="V3SWheelDouble" chance="1.00" />
+			<item name="V3SWheelDouble" chance="1.00" />
 			<item name="TruckBattery" chance="0.30" />
 			<item name="HeadlightH7" chance="0.10" />
 			<item name="HeadlightH7" chance="0.10" />
