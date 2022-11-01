@@ -8,7 +8,7 @@
 	},
     "PlayerData":
 	{
-		"disablePersonalLight": 1,
+		"disablePersonalLight": 0,
 		"StaminaData":
 		{
 			"sprintStaminaModifierErc": 0.6,
@@ -41,7 +41,7 @@
 	},
 	"WorldsData":
 	{
-		"lightingConfig": 1,
+		"lightingConfig": 0,
 		"objectSpawnersArr": [
 			"custom/huta.json",
 			"custom/jbmodsitnikbackground.json",
