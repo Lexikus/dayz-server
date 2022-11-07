@@ -102,10 +102,10 @@
         <usage name="Police"/>
     </type>
     <type name="Cannabis">
-        <nominal>8</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -7182,7 +7182,7 @@
         <usage name="Town"/>
     </type>
     <type name="FlatCap_BlackCheck">
-        <nominal>6</nominal>
+        <nominal>4</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -7195,7 +7195,7 @@
         <usage name="Town"/>
     </type>
     <type name="FlatCap_Blue">
-        <nominal>7</nominal>
+        <nominal>6</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -7208,7 +7208,7 @@
         <usage name="Town"/>
     </type>
     <type name="FlatCap_Brown">
-        <nominal>5</nominal>
+        <nominal>4</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -7221,7 +7221,7 @@
         <usage name="Town"/>
     </type>
     <type name="FlatCap_BrownCheck">
-        <nominal>7</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -7247,19 +7247,6 @@
         <usage name="Town"/>
     </type>
     <type name="FlatCap_GreyCheck">
-        <nominal>5</nominal>
-        <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>2</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
-        <tag name="shelves"/>
-        <usage name="Town"/>
-    </type>
-    <type name="FlatCap_Red">
         <nominal>4</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
@@ -7272,8 +7259,21 @@
         <tag name="shelves"/>
         <usage name="Town"/>
     </type>
+    <type name="FlatCap_Red">
+        <nominal>3</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="clothes"/>
+        <tag name="shelves"/>
+        <usage name="Town"/>
+    </type>
     <type name="FryingPan">
-        <nominal>16</nominal>
+        <nominal>9</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>8</min>
@@ -7307,7 +7307,7 @@
         <category name="containers"/>
     </type>
     <type name="GP5GasMask">
-        <nominal>13</nominal>
+        <nominal>8</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>8</min>
@@ -7321,10 +7321,10 @@
         <value name="Tier3"/>
     </type>
     <type name="GPSReceiver">
-        <nominal>14</nominal>
+        <nominal>10</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>9</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -18057,7 +18057,7 @@
         <usage name="Village"/>
     </type>
     <type name="Wellies_Brown">
-        <nominal>8</nominal>
+        <nominal>6</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>4</min>
@@ -18071,7 +18071,7 @@
         <usage name="Village"/>
     </type>
     <type name="Wellies_Green">
-        <nominal>9</nominal>
+        <nominal>4</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>4</min>
@@ -18085,7 +18085,7 @@
         <usage name="Village"/>
     </type>
     <type name="Wellies_Grey">
-        <nominal>8</nominal>
+        <nominal>4</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>4</min>

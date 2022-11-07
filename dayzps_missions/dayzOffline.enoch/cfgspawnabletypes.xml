@@ -79,19 +79,19 @@
 	</type>
 	<type name="PlateCarrierVest_Black">
 		<damage min="0.1" max="0.6" />
-		<attachments chance="0.85">
+		<attachments chance="0.50">
 			<item name="PlateCarrierHolster_Black" chance="1.00" />
 		</attachments>
-		<attachments chance="0.85">
+		<attachments chance="0.50">
 			<item name="PlateCarrierPouches_Black" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="PlateCarrierVest_Green">
 		<damage min="0.1" max="0.6" />
-		<attachments chance="0.85">
+		<attachments chance="0.50">
 			<item name="PlateCarrierHolster_Green" chance="1.00" />
 		</attachments>
-		<attachments chance="0.85">
+		<attachments chance="0.50">
 			<item name="PlateCarrierPouches_Green" chance="1.00" />
 		</attachments>
 	</type>
@@ -2138,10 +2138,10 @@
 		<attachments chance="0.05">
 			<item name="MP5_RailHndgrd" chance="1.00" />
 		</attachments>
-		<attachments chance="1.00">
+    <attachments chance="0.60">
 			<item name="MP5_PlasticHndgrd" chance="1.00" />
 		</attachments>
-		<attachments chance="1.00">
+    <attachments chance="0.60">
 			<item name="MP5k_StockBttstck" chance="1.00" />
 		</attachments>
 		<attachments chance="0.30">
@@ -2185,7 +2185,7 @@
 			<item name="KashtanOptic" chance="0.40" />
 			<item name="PSO1Optic" chance="0.40" />
 		</attachments>
-		<attachments chance="1.0">
+    <attachments chance="0.60">
 			<item name="PSO11Optic" chance="1.00" />
 		</attachments>
 		<attachments chance="0.10">
@@ -2237,10 +2237,10 @@
 	</type>
 	<type name="AKM">
 		<damage min="0.45" max="0.85" />
-		<attachments chance="1.00">
+    <attachments chance="0.60">
 			<item name="AK_PlasticBttstck" chance="1.00" />
 		</attachments>
-		<attachments chance="1.00">
+    <attachments chance="0.60">
 			<item name="AK_PlasticHndgrd" chance="1.00" />
 		</attachments>
 		<attachments chance="0.50">
@@ -2255,10 +2255,10 @@
 		</attachments>
 	</type>
 	<type name="AK74">
-		<attachments chance="1.00">
+		<attachments chance="0.60">
 			<item name="AK74_WoodBttstck" chance="1.00" />
 		</attachments>
-		<attachments chance="1.00">
+    <attachments chance="0.60">
 			<item name="AK74_Hndgrd" chance="1.00" />
 		</attachments>
 		<attachments chance="0.30">
@@ -2271,7 +2271,7 @@
 		</attachments>
 	</type>
 	<type name="AKS74U">
-		<attachments chance="1.00">
+    <attachments chance="0.60">
 			<item name="AKS74U_Bttstck" chance="1.00" />
 		</attachments>
 		<attachments chance="0.30">
@@ -2280,10 +2280,10 @@
 	</type>
 	<type name="AK101">
 		<damage min="0.3" max="0.7" />
-		<attachments chance="1.00">
+    <attachments chance="0.60">
 			<item name="AK_PlasticBttstck" chance="1.00" />
 		</attachments>
-		<attachments chance="1.00">
+    <attachments chance="0.60">
 			<item name="AK_PlasticHndgrd" chance="1.00" />
 		</attachments>
 		<attachments chance="0.30">
@@ -2299,10 +2299,10 @@
 		<attachments chance="1.00">
 			<item name="M4_OEBttstck" chance="1.00" />
 		</attachments>
-		<attachments chance="1.00">
+    <attachments chance="0.60">
 			<item name="M4_PlasticHndgrd" chance="1.00" />
 		</attachments>
-		<attachments chance="1.00">
+    <attachments chance="0.60">
 			<item name="BUISOptic" chance="0.50" />
 			<item name="M4_CarryHandleOptic" chance="1.00" />
 		</attachments>
@@ -2948,19 +2948,19 @@
 	</type>
 	<type name="OffroadHatchback_Blue">
 		<attachments chance="1.00">
-			<item name="HatchbackWheel" chance="1.00" />
+			<item name="HatchbackWheel" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HatchbackWheel" chance="0.60" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="HatchbackWheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="HatchbackWheel" chance="1.00" />
+			<item name="HatchbackWheel" chance="0.60" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="HatchbackWheel" chance="1.00" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="HatchbackWheel" chance="1.00" />
+			<item name="HatchbackWheel" chance="0.60" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="CarRadiator" chance="0.60" />
@@ -2980,7 +2980,7 @@
 		<attachments chance="1.00">
 			<item name="HatchbackDoors_Driver_Blue" chance="0.30" />
 		</attachments>
-		<attachments chance="1.00">
+    <attachments chance="0.60">
 			<item name="HatchbackDoors_CoDriver_Blue" chance="0.30" />
 		</attachments>
 		<attachments chance="1.00">
@@ -2992,19 +2992,19 @@
 	</type>
 	<type name="OffroadHatchback_White">
 		<attachments chance="1.00">
-			<item name="HatchbackWheel" chance="1.00" />
+			<item name="HatchbackWheel" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HatchbackWheel" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HatchbackWheel" chance="0.60" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="HatchbackWheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="HatchbackWheel" chance="1.00" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="HatchbackWheel" chance="1.00" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="HatchbackWheel" chance="1.00" />
+			<item name="HatchbackWheel" chance="0.60" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="CarRadiator" chance="0.60" />
@@ -3037,7 +3037,7 @@
 	<!-- -->
 	<type name="CivilianSedan">
 		<attachments chance="1.00">
-			<item name="CivSedanWheel" chance="1.00" />
+			<item name="CivSedanWheel" chance="0.60" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="CivSedanWheel" chance="1.00" />
@@ -3049,7 +3049,7 @@
 			<item name="CivSedanWheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="CivSedanWheel" chance="1.00" />
+			<item name="CivSedanWheel" chance="0.60" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="CarRadiator" chance="0.60" />
@@ -3087,19 +3087,19 @@
 	</type>
 	<type name="CivilianSedan_Wine">
 		<attachments chance="1.00">
-			<item name="CivSedanWheel" chance="1.00" />
+			<item name="CivSedanWheel" chance="0.60" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="CivSedanWheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="CivSedanWheel" chance="1.00" />
+			<item name="CivSedanWheel" chance="0.60" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="CivSedanWheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="CivSedanWheel" chance="1.00" />
+			<item name="CivSedanWheel" chance="0.60" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="CarRadiator" chance="0.60" />
@@ -3339,19 +3339,19 @@
 	<!-- -->
 	<type name="Sedan_02">
 		<attachments chance="1.00">
-			<item name="Sedan_02_Wheel" chance="1.00" />
+			<item name="Sedan_02_Wheel" chance="0.90" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Sedan_02_Wheel" chance="1.00" />
+			<item name="Sedan_02_Wheel" chance="0.90" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Sedan_02_Wheel" chance="1.00" />
+			<item name="Sedan_02_Wheel" chance="0.90" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Sedan_02_Wheel" chance="1.00" />
+      <item name="Sedan_02_Wheel" chance="0.90" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Sedan_02_Wheel" chance="1.00" />
+			<item name="Sedan_02_Wheel" chance="0.90" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="CarRadiator" chance="0.60" />
@@ -3404,13 +3404,13 @@
 			<item name="Sedan_02_Wheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="CarRadiator" chance="0.60" />
+			<item name="CarRadiator" chance="0.50" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="CarBattery" chance="0.60" />
+			<item name="CarBattery" chance="0.50" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="SparkPlug" chance="0.60" />
+			<item name="SparkPlug" chance="0.50" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="HeadlightH7" chance="0.40" />
