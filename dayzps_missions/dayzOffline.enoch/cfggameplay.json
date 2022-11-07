@@ -26,11 +26,11 @@
 		},
 		"MovementData":
 		{
-			"timeToStrafeJog": 0.2,
-			"rotationSpeedJog": 0.35,
-			"timeToSprint": 0.6,
-			"timeToStrafeSprint": 0.4,
-			"rotationSpeedSprint": 0.2
+			"timeToStrafeJog": 0.1,
+			"rotationSpeedJog": 0.3,
+			"timeToSprint": 0.45,
+			"timeToStrafeSprint": 0.3,
+			"rotationSpeedSprint": 0.15
 		},
 		"DrowningData":
 		{
@@ -47,7 +47,6 @@
 			"custom/jbmodsitnikbackground.json",
 			"custom/ronin.json",
 			"custom/henri.json",
-			"custom/cheat.json",
 			"custom/bunker.json",
 			"custom/fulco.json",
 			"custom/scheune.json",
