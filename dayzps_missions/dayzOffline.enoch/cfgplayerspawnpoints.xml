@@ -21,18 +21,18 @@
     </generator_params>
 
     <generator_posbubbles>
-      <pos x="9512.50" z="4375.00" />
+      <pos x="9837.79" z="8503.53" />
     </generator_posbubbles>
   </fresh>
 
   <hop>
     <generator_posbubbles>
-      <pos x="9512.50" z="4375.00" />
+      <pos x="9837.79" z="8503.53" />
     </generator_posbubbles>
   </hop>
 
   <travel>
     <generator_posbubbles>
-      <pos x="9512.50" z="4375.00" />
+      <pos x="9837.79" z="8503.53" />
     </generator_posbubbles>
   </travel>
