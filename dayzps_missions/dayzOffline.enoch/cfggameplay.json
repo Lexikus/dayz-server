@@ -52,8 +52,8 @@
 			"custom/scheune.json",
 			"custom/umgebung.json"
 		],
-		"environmentMinTemps": [22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9],
-		"environmentMaxTemps": [22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9, 22.9]
+		"environmentMinTemps": [19.0, 19.9, 19.0, 19.0, 19.0, 19.0, 19.0, 19.0, 19.0, 19.0, 19.0, 19.0],
+		"environmentMaxTemps": [19.0, 19.9, 19.0, 19.0, 19.0, 19.0, 19.0, 19.0, 19.0, 19.0, 19.0, 19.0]
 	},
 	"BaseBuildingData":
 	{
