@@ -6,7 +6,7 @@
         <text>Willkommen im Grenzland</text>
     </message>
     <message>
-        <deadline>6</deadline>
+        <deadline>240</deadline>
         <shutdown>1</shutdown>
         <text>#name startet in #tmin neu.</text>
     </message>
