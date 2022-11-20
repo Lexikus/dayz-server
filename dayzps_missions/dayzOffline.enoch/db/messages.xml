@@ -5,6 +5,11 @@
         <onconnect>1</onconnect>
         <text>Willkommen im Grenzland</text>
     </message>
+    <message>
+        <deadline>6</deadline>
+        <shutdown>1</shutdown>
+        <text>#name startet in #tmin neu.</text>
+    </message>
 <!--
 See https://community.bistudio.com/wiki/DayZ:Server_Messages for more information
 
