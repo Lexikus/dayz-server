@@ -127,12 +127,12 @@
 		</cargo>
 		<cargo chance="0.35" name="toolsIndustrial">
 				<item name="Pipe" chance="0.07" />
-				<item name="Hatchet" chance="0.07" />
+				<item name="Hatchet" chance="0.1" />
 				<item name="Crowbar" chance="0.07" />
 				<item name="Rope" chance="0.1" />
 				<item name="DuctTape" chance="0.1" />
 				<item name="Battery9V" chance="0.2" />
-				<item name="Flashlight" chance="0.2" />
+				<item name="Nailbox" chance="0.2" />
 		</cargo>
 		<cargo chance="0.15" name="ammoCivil">
 				<item name="Ammo_380" chance="0.22" />
@@ -170,7 +170,6 @@
 				<item name="KitchenKnife" chance="0.05" />
 				<item name="CanOpener" chance="0.05" />
 				<item name="BandageDressing" chance="0.05" />
-				<item name="Ammo_380" chance="0.12" />
 				<item name="AmmoBox_380_35Rnd" chance="0.08" />
 				<item name="Ammo_9x19" chance="0.12" />
 				<item name="AmmoBox_9x19_25Rnd" chance="0.08" />
