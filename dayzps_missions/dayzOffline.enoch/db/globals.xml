@@ -27,7 +27,7 @@
     <var name="TimeLogin" type="0" value="7"/>
     <var name="TimeLogout" type="0" value="7"/>
     <var name="TimePenalty" type="0" value="10"/>
-    <var name="WorldWetTempUpdate" type="0" value="1"/>
+    <var name="WorldWetTempUpdate" type="0" value="0"/>
     <var name="ZombieMaxCount" type="0" value="600"/>
     <var name="ZoneSpawnDist" type="0" value="600"/>
 </variables>
