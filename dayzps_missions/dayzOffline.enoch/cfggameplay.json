@@ -43,7 +43,7 @@
 	{
 		"lightingConfig": 0,
 		"objectSpawnersArr": [
-			"custom/huta.json",
+			"custom/hutabase.json",
 			"custom/jbmodsitnikbackground.json",
 			"custom/ronin.json",
 			"custom/henri.json",
