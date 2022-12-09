@@ -892,9 +892,7 @@
         <limit>mixed</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="OffroadHatchback"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="OffroadHatchback_Blue"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="OffroadHatchback_White"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="Offroad_02"/>
         </children>
     </event>
     <event name="VehicleSedan02">
