@@ -72,8 +72,8 @@
 		<cargo chance="0.2" name="toolsVillage">
 				<item name="DuctTape" chance="0.07" />
 				<item name="Battery9V" chance="0.07" />
-				<item name="Matchbox" chance="0.07" />
-				<item name="SewingKit" chance="0.07" />
+				<item name="Matchbox" chance="0.06" />
+				<item name="SewingKit" chance="0.09" />
 				<item name="CanOpener" chance="0.05" />
 				<item name="Rope" chance="0.07" />
 				<item name="Rag" chance="0.07" />
