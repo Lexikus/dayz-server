@@ -11,7 +11,7 @@
 				<item name="SodaCan_Spite" chance="0.02" />
 				<item name="SodaCan_Kvass" chance="0.02" />
 				<item name="SodaCan_Fronta" chance="0.02" />
-				<item name="WaterBottle" chance="0.02" />
+				<item name="WaterBottle" chance="0.01" />
 				<item name="TunaCan" chance="0.05" />
 				<item name="SardinesCan" chance="0.05" />
 				<item name="PeachesCan" chance="0.05" />
