@@ -26,8 +26,8 @@
 		},
 		"MovementData":
 		{
-			"timeToStrafeJog": 0.1,
-			"rotationSpeedJog": 0.3,
+			"timeToStrafeJog": 0.01,
+			"rotationSpeedJog": 0.03,
 			"timeToSprint": 0.45,
 			"timeToStrafeSprint": 0.3,
 			"rotationSpeedSprint": 0.15
