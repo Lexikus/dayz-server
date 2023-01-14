@@ -26,11 +26,11 @@
 		},
 		"MovementData":
 		{
-			"timeToStrafeJog": 0.5,
-			"rotationSpeedJog": 0.5,
-			"timeToSprint": 0.45,
-			"timeToStrafeSprint": 0.3,
-			"rotationSpeedSprint": 0.3
+			"timeToStrafeJog": 0.1,
+			"rotationSpeedJog": 0.1,
+			"timeToSprint": 0.1,
+			"timeToStrafeSprint": 0.1,
+			"rotationSpeedSprint": 0.1
 		},
 		"DrowningData":
 		{
