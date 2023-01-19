@@ -52,6 +52,7 @@
 			"custom/scheune.json",
 			"custom/cheat.json",
 			"custom/milbase1.json",
+			"custom/milbase2.json",
 			"custom/umgebung.json"
 		],
 		"environmentMinTemps": [19.0, 19.9, 19.0, 19.0, 19.0, 19.0, 19.0, 19.0, 19.0, 19.0, 19.0, 19.0],
