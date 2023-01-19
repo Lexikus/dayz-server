@@ -198,6 +198,7 @@
         <tag name="shelves"/>
         <usage name="Industrial"/>
         <usage name="Village"/>
+        <usage name="Hunting"/>
     </type>
     <type name="BookAlicelnWonderland">
         <nominal>3</nominal>
@@ -306,9 +307,9 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
+        <category name="food"/>
         <tag name="shelves"/>
-        <usage name="Village"/>
+        <usage name="Hunting"/>
     </type>
     <type name="EngineOil">
         <nominal>8</nominal>
@@ -5688,7 +5689,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="food"/>
         <usage name="Town"/>
-        <usage name="Village"/>
         <usage name="School"/>
         <usage name="Lunapark"/>
         <value name="Tier1"/>
@@ -5703,6 +5703,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
         <category name="tools"/>
+        <usage name="Village"/>
     </type>
     <type name="Crowbar">
         <nominal>26</nominal>
@@ -5939,6 +5940,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
         <category name="food"/>
+        <usage name="Town"/>
     </type>
     <type name="DenimJacket">
         <nominal>11</nominal>
