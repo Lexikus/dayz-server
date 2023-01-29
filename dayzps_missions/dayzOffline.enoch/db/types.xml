@@ -2,7 +2,7 @@
 <types>
 <!-- START CUSTOM LOOT-->
     <type name="Radio">
-        <nominal>5</nominal>
+        <nominal>4</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
         <min>1</min>
