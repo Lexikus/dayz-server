@@ -55,7 +55,7 @@
 			"custom/milbase2.json",
 			"custom/umgebung.json"
 		],
-		"environmentMinTemps": [19.0, 19.9, 19.0, 19.0, 19.0, 19.0, 19.0, 19.0, 19.0, 19.0, 19.0, 19.0],
+		"environmentMinTemps": [20.0, 19.9, 19.0, 19.0, 19.0, 19.0, 19.0, 19.0, 19.0, 19.0, 19.0, 19.0],
 		"environmentMaxTemps": [20.0, 19.9, 19.0, 19.0, 19.0, 19.0, 19.0, 19.0, 19.0, 19.0, 19.0, 19.0]
 	},
 	"BaseBuildingData":
