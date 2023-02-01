@@ -51,7 +51,7 @@
 			"custom/fulco.json",
 			"custom/scheune.json",
 			"custom/cheat.json",
-			"custom/milbase1.json",
+			"custom/map_junkyard.json",
 			"custom/milbase2.json",
 			"custom/umgebung.json"
 		],
@@ -90,7 +90,7 @@
 			"hitDirectionStyle": 1,
 			"hitDirectionIndicatorColorStr": "0xffbb0a1e",
 			"hitDirectionMaxDuration": 1.0,
-			"hitDirectionBreakPointRelative": 0.15,
+			"hitDirectionBreakPointRelative": 0.05,
 			"hitDirectionScatter": 5.0,
 			"hitIndicationPostProcessEnabled": 1
 		}
